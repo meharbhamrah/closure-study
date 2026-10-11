@@ -23,6 +23,8 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
+          set -o pipefail
+          mkdir -p logs
           case "${{ inputs.command }}" in
             setup) python run.py probe && python stimuli.py gen --n 150 && python stimuli.py screen ;;
             probe) python run.py probe ;;
@@ -30,8 +32,9 @@ jobs:
             stimuli-screen) python stimuli.py screen ;;
             dry-run) python run.py init --split dry && python run.py run --split dry --once && python run.py export --split dry && python run.py status ;;
             status) python run.py status ;;
-          esac
+          esac 2>&1 | tee "logs/${{ inputs.command }}.log"
       - name: Commit outputs
+        if: always()
         run: |
           git config user.name "experiment-bot"; git config user.email "bot@users.noreply.github.com"
           git add -A

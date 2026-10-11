@@ -14,7 +14,7 @@ import time
 
 import config
 import providers
-from providers import QuotaBlocked
+from providers import QuotaBlocked, Transient, Fatal, Abort
 from prompts import templates as T
 
 HINTS = {
@@ -50,6 +50,18 @@ def cmd_gen(a):
         used = route
         try:
             r = providers.call(route["provider"], route, prompt, 1200, temperature=1.0)
+        except Abort as e:
+            print("ABORT (configuration/key problem):", e)
+            return
+        except (Fatal, Transient) as e:
+            errs = globals().setdefault("_errs", [])
+            errs.append(str(e))
+            print(f"error from {route['provider']}: {str(e)[:300]}")
+            if len(errs) >= 5:
+                print("5 errors in a row; stopping. Progress is saved.")
+                return
+            time.sleep(3)
+            continue
         except QuotaBlocked as q:
             fb = config.STIM_FALLBACK
             print(f"{route['provider']} blocked ({q.reason[:60]}); using fallback {fb['model_id']}")
@@ -59,6 +71,9 @@ def cmd_gen(a):
                 r = providers.call(fb["provider"], fb, prompt, 1200, temperature=1.0)
             except QuotaBlocked as q2:
                 print("fallback blocked too:", q2.reason[:100], "- rerun later; progress is saved")
+                return
+            except (Abort, Fatal, Transient) as e:
+                print("fallback error:", str(e)[:300])
                 return
         m = re.search(r"\{.*\}", r["text"], flags=re.S)
         try:
