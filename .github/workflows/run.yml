@@ -7,15 +7,19 @@ concurrency: { group: experiment, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
   run:
-    # Only runs after prompts are frozen: commit a file named FROZEN and stimuli/stimuli_final.jsonl
-    if: ${{ hashFiles('FROZEN') != '' && hashFiles('stimuli/stimuli_final.jsonl') != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Gate (only run once prompts are frozen)
+        id: gate
+        run: |
+          if [ -f FROZEN ] && [ -f stimuli/stimuli_final.jsonl ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; echo "Not frozen yet: skipping"; fi
+      - if: steps.gate.outputs.go == 'true'
+        uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Run until quotas are exhausted
+        if: steps.gate.outputs.go == 'true'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
@@ -25,9 +29,10 @@ jobs:
           python run.py run --split main --once || true
           python run.py status
       - name: Commit state
+        if: steps.gate.outputs.go == 'true'
         run: |
           git config user.name "experiment-bot"; git config user.email "bot@users.noreply.github.com"
-          git add jobs.db results config/evidence || true
+          git add -A
           git commit -m "experiment state $(date -u +%FT%TZ)" || echo "nothing to commit"
           git pull --rebase -X ours || true
           git push || true
