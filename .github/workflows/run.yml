@@ -7,6 +7,8 @@ concurrency: { group: experiment, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
   run:
+    # Only runs after prompts are frozen: commit a file named FROZEN and stimuli/stimuli_final.jsonl
+    if: ${{ hashFiles('FROZEN') != '' && hashFiles('stimuli/stimuli_final.jsonl') != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 330
     steps:
@@ -16,12 +18,11 @@ jobs:
       - name: Run until quotas are exhausted
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python run.py init
-          python run.py run --once || true
+          python run.py init --split main
+          python run.py run --split main --once || true
           python run.py status
       - name: Commit state
         run: |

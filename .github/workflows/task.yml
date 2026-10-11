@@ -1,0 +1,39 @@
+name: task
+on:
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "What to run"
+        type: choice
+        default: probe
+        options: [probe, stimuli-gen, stimuli-screen, dry-run, status]
+concurrency: { group: experiment, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Run task
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          case "${{ inputs.command }}" in
+            probe) python run.py probe ;;
+            stimuli-gen) python stimuli.py gen --n 150 ;;
+            stimuli-screen) python stimuli.py screen ;;
+            dry-run) python run.py init --split dry && python run.py run --split dry --once && python run.py export --split dry && python run.py status ;;
+            status) python run.py status ;;
+          esac
+      - name: Commit outputs
+        run: |
+          git config user.name "experiment-bot"; git config user.email "bot@users.noreply.github.com"
+          git add -A jobs.db results config/evidence stimuli || true
+          git commit -m "task ${{ inputs.command }} $(date -u +%FT%TZ)" || echo "nothing to commit"
+          git pull --rebase -X theirs || true
+          git push || true
