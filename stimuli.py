@@ -47,11 +47,19 @@ def cmd_gen(a):
         tries += 1
         hint = rnd.choice(HINTS[d])
         prompt = T.STIM_PROMPT.format(domain=d) + f"\nTopic seed for variety: {hint}. Variation id: {rnd.randint(0, 10**6)}"
+        used = route
         try:
             r = providers.call(route["provider"], route, prompt, 1200, temperature=1.0)
         except QuotaBlocked as q:
-            print("quota blocked:", q.reason, "- rerun later; progress is saved")
-            return
+            fb = config.STIM_FALLBACK
+            print(f"{route['provider']} blocked ({q.reason[:60]}); using fallback {fb['model_id']}")
+            used = fb
+            try:
+                time.sleep(2)
+                r = providers.call(fb["provider"], fb, prompt, 1200, temperature=1.0)
+            except QuotaBlocked as q2:
+                print("fallback blocked too:", q2.reason[:100], "- rerun later; progress is saved")
+                return
         m = re.search(r"\{.*\}", r["text"], flags=re.S)
         try:
             o = json.loads(m.group(0))
@@ -59,11 +67,11 @@ def cmd_gen(a):
         except Exception:
             continue
         cid = f"{d[:3]}{counts[d] + 1:03d}"
-        row = {"id": cid, "domain": d, "scenario": o["scenario"].strip(), "readings": [x.strip() for x in o["readings"]], "hint": hint}
+        row = {"id": cid, "domain": d, "scenario": o["scenario"].strip(), "readings": [x.strip() for x in o["readings"]], "hint": hint, "generator": used["model_id"]}
         with open(CAND, "a", encoding="utf-8") as fh:
             fh.write(json.dumps(row) + "\n")
         counts[d] += 1
-        time.sleep(config.PROVIDERS[route["provider"]]["min_interval"])
+        time.sleep(config.PROVIDERS[used["provider"]]["min_interval"] + 0.5)
     print("candidates per domain:", counts)
 
 

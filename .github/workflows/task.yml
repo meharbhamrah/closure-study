@@ -5,8 +5,8 @@ on:
       command:
         description: "What to run"
         type: choice
-        default: probe
-        options: [probe, stimuli-gen, stimuli-screen, dry-run, status]
+        default: setup
+        options: [setup, probe, stimuli-gen, stimuli-screen, dry-run, status]
 concurrency: { group: experiment, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
@@ -24,6 +24,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           case "${{ inputs.command }}" in
+            setup) python run.py probe && python stimuli.py gen --n 150 && python stimuli.py screen ;;
             probe) python run.py probe ;;
             stimuli-gen) python stimuli.py gen --n 150 ;;
             stimuli-screen) python stimuli.py screen ;;

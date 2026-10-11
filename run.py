@@ -392,6 +392,7 @@ def cmd_probe(args):
         try:
             ids = providers.list_models(P)
             info["n_models"] = len(ids)
+            info["model_ids"] = sorted(ids)
             for name, v in items:
                 info.setdefault("configured", {})[name] = {"model_id": v["model_id"], "listed": v["model_id"] in ids}
                 if v["model_id"] not in ids:
@@ -401,7 +402,12 @@ def cmd_probe(args):
             info["list_error"] = str(e)[:200]
         for name, v in items[:1]:
             try:
-                r = providers.call(P, v, "Reply with the single word OK.", 64)
+                time.sleep(3)  # free tiers allow ~1 request/second; do not hit right after the list call
+                try:
+                    r = providers.call(P, v, "Reply with the single word OK.", 64)
+                except QuotaBlocked:
+                    time.sleep(10)
+                    r = providers.call(P, v, "Reply with the single word OK.", 64)
                 info["test_call"] = {"model": v["model_id"], "text": r["text"][:40], "finish": r["finish_reason"],
                                      "usage": [r["prompt_tokens"], r["completion_tokens"]], "ratelimit_headers": r["headers"]}
             except Exception as e:

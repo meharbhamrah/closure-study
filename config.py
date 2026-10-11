@@ -39,6 +39,9 @@ JUDGES = {
 # Stimulus generator: must NOT be an evaluated model.
 STIM_GENERATOR = {"provider": "mistral", "model_id": "mistral-small-latest", "family": "mistral", "reasoning": False}
 
+# Used only if the primary stimulus generator is rate limited. Not one of the evaluated models.
+STIM_FALLBACK = {"provider": "gemini", "model_id": "gemini-3.8-flash", "family": "gemini", "reasoning": False}
+
 DOMAINS = ["career", "interpersonal", "identity"]
 FRAMINGS = ["neutral", "mild", "emphatic"]
 TEMPERATURE = 0.0
@@ -66,3 +69,4 @@ if os.environ.get("HARNESS_MOCK"):
         for _v in _d.values():
             _v["provider"] = "mock"
     STIM_GENERATOR["provider"] = "mock"
+    STIM_FALLBACK["provider"] = "mock"
