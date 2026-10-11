@@ -30,25 +30,25 @@ MODELS = {
     "gpt20":   {"provider": "groq",     "model_id": "openai/gpt-oss-20b",    "family": "openai", "reasoning": True, "reasoning_effort": "low", "tpd_budget": 180000},
 }
 
-# Two judges, identical for every response. Neither should be an evaluated family if avoidable.
+# Two judges, identical for every response (see JUDGE_PROTOCOL.md). Mistral was dropped (free plan unusable).
+# judgeA: open-weight Gemma model line (not an evaluated model). judgeB: a larger Gemini model (not the evaluated
+# flash-lite, but same lab as one evaluated model -> disclosed, with a sensitivity analysis).
 JUDGES = {
-    "judgeA": {"provider": "mistral", "model_id": "mistral-small-latest", "family": "mistral", "reasoning": False},
-    "judgeB": {"provider": "gemini",  "model_id": "gemini-3.8-flash",     "family": "gemini",  "reasoning": False},  # see sensitivity note in design
+    "judgeA": {"provider": "gemini", "model_id": "gemma-4-31b-it",   "family": "gemma",  "reasoning": False},
+    "judgeB": {"provider": "gemini", "model_id": "gemini-3.8-flash", "family": "gemini", "reasoning": False},
 }
+# Prespecified replacements, used only if a judge fails the reliability checks BEFORE the main run.
+JUDGE_FALLBACKS = ["gemini-3.7-flash", "gemma-4-26b-a4b-it"]
 
-# Stimulus generator: must NOT be an evaluated model.
-STIM_GENERATOR = {"provider": "mistral", "model_id": "mistral-small-latest", "family": "mistral", "reasoning": False}
-
-# Stimulus generators tried in order (first that works). None of these is an evaluated model.
+# Stimulus generators tried in order. None is an evaluated model; every item is human-screened anyway.
 STIM_CHAIN = [
-    {"provider": "mistral", "model_id": "mistral-small-latest", "family": "mistral", "reasoning": False},
-    {"provider": "gemini",  "model_id": "gemma-4-31b-it",        "family": "gemma",   "reasoning": False},
-    {"provider": "gemini",  "model_id": "gemini-3.8-flash",      "family": "gemini",  "reasoning": False},
+    {"provider": "gemini", "model_id": "gemma-4-26b-a4b-it", "family": "gemma",  "reasoning": False},
+    {"provider": "gemini", "model_id": "gemma-4-31b-it",     "family": "gemma",  "reasoning": False},
+    {"provider": "gemini", "model_id": "gemini-3.7-flash",   "family": "gemini", "reasoning": False},
 ]
-# Extra candidate routes to test in `probe` (possible judges).
+# Extra candidate routes tested in `probe`.
 PROBE_EXTRA = [
-    {"provider": "gemini", "model_id": "gemma-4-31b-it",      "family": "gemma"},
-    {"provider": "gemini", "model_id": "gemma-4-26b-a4b-it",  "family": "gemma"},
+    {"provider": "gemini", "model_id": "gemini-3.6-flash", "family": "gemini"},
 ]
 
 DOMAINS = ["career", "interpersonal", "identity"]
@@ -77,6 +77,5 @@ if os.environ.get("HARNESS_MOCK"):
     for _d in (MODELS, JUDGES):
         for _v in _d.values():
             _v["provider"] = "mock"
-    STIM_GENERATOR["provider"] = "mock"
     for _v in STIM_CHAIN + PROBE_EXTRA:
         _v["provider"] = "mock"
