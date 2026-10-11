@@ -1,0 +1,76 @@
+{
+ "date": "2026-10-11 15:07:13",
+ "providers": {
+  "gemini": {
+   "n_models": 62,
+   "configured": {
+    "gemini": {
+     "model_id": "gemini-3.5-flash-lite",
+     "listed": true
+    },
+    "judgeB": {
+     "model_id": "gemini-3.8-flash",
+     "listed": true
+    }
+   },
+   "test_call": {
+    "model": "gemini-3.5-flash-lite",
+    "text": "OK",
+    "finish": "stop",
+    "usage": [
+     8,
+     1
+    ],
+    "ratelimit_headers": {}
+   }
+  },
+  "groq": {
+   "n_models": 11,
+   "configured": {
+    "gpt120": {
+     "model_id": "openai/gpt-oss-120b",
+     "listed": true
+    },
+    "qwen27": {
+     "model_id": "qwen/qwen3.8-27b",
+     "listed": true
+    },
+    "gpt20": {
+     "model_id": "openai/gpt-oss-20b",
+     "listed": true
+    }
+   },
+   "test_call": {
+    "model": "openai/gpt-oss-120b",
+    "text": "OK",
+    "finish": "stop",
+    "usage": [
+     78,
+     28
+    ],
+    "ratelimit_headers": {
+     "x-ratelimit-limit-requests": "1000",
+     "x-ratelimit-limit-tokens": "8000",
+     "x-ratelimit-remaining-requests": "999",
+     "x-ratelimit-remaining-tokens": "7858",
+     "x-ratelimit-reset-requests": "1m26.4s",
+     "x-ratelimit-reset-tokens": "1.065s"
+    }
+   }
+  },
+  "mistral": {
+   "n_models": 46,
+   "configured": {
+    "judgeA": {
+     "model_id": "mistral-small-latest",
+     "listed": true
+    },
+    "stim": {
+     "model_id": "mistral-small-latest",
+     "listed": true
+    }
+   },
+   "test_call_error": "QuotaBlocked: rate limit: {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429"
+  }
+ }
+}
