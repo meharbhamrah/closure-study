@@ -39,8 +39,17 @@ JUDGES = {
 # Stimulus generator: must NOT be an evaluated model.
 STIM_GENERATOR = {"provider": "mistral", "model_id": "mistral-small-latest", "family": "mistral", "reasoning": False}
 
-# Used only if the primary stimulus generator is rate limited. Not one of the evaluated models.
-STIM_FALLBACK = {"provider": "gemini", "model_id": "gemini-3.8-flash", "family": "gemini", "reasoning": False}
+# Stimulus generators tried in order (first that works). None of these is an evaluated model.
+STIM_CHAIN = [
+    {"provider": "mistral", "model_id": "mistral-small-latest", "family": "mistral", "reasoning": False},
+    {"provider": "gemini",  "model_id": "gemma-4-31b-it",        "family": "gemma",   "reasoning": False},
+    {"provider": "gemini",  "model_id": "gemini-3.8-flash",      "family": "gemini",  "reasoning": False},
+]
+# Extra candidate routes to test in `probe` (possible judges).
+PROBE_EXTRA = [
+    {"provider": "gemini", "model_id": "gemma-4-31b-it",      "family": "gemma"},
+    {"provider": "gemini", "model_id": "gemma-4-26b-a4b-it",  "family": "gemma"},
+]
 
 DOMAINS = ["career", "interpersonal", "identity"]
 FRAMINGS = ["neutral", "mild", "emphatic"]
@@ -69,4 +78,5 @@ if os.environ.get("HARNESS_MOCK"):
         for _v in _d.values():
             _v["provider"] = "mock"
     STIM_GENERATOR["provider"] = "mock"
-    STIM_FALLBACK["provider"] = "mock"
+    for _v in STIM_CHAIN + PROBE_EXTRA:
+        _v["provider"] = "mock"

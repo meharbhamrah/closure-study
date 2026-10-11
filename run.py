@@ -380,40 +380,44 @@ def cmd_run(args):
 # ---------------------------------------------------------------- probe
 def cmd_probe(args):
     os.makedirs("config/evidence", exist_ok=True)
-    out = {"date": time.strftime("%Y-%m-%d %H:%M:%S"), "providers": {}}
-    wanted = collections.defaultdict(list)
-    for name, v in list(config.MODELS.items()) + list(config.JUDGES.items()) + [("stim", config.STIM_GENERATOR)]:
-        wanted[v["provider"]].append((name, v))
-    for P, items in wanted.items():
+    out = {"date": time.strftime("%Y-%m-%d %H:%M:%S"), "providers": {}, "routes": {}}
+    routes = {}
+    for name, v in list(config.MODELS.items()) + list(config.JUDGES.items()):
+        routes[f"{v['provider']}|{v['model_id']}"] = (name, v)
+    for v in config.STIM_CHAIN + config.PROBE_EXTRA:
+        routes.setdefault(f"{v['provider']}|{v['model_id']}", ("candidate", v))
+    for P in sorted({v["provider"] for _, v in routes.values()}):
         if config.PROVIDERS[P]["kind"] == "mock" or not providers.has_key(P):
             print(f"{P}: no key set, skipped")
             continue
-        info = {}
         try:
             ids = providers.list_models(P)
-            info["n_models"] = len(ids)
-            info["model_ids"] = sorted(ids)
-            for name, v in items:
-                info.setdefault("configured", {})[name] = {"model_id": v["model_id"], "listed": v["model_id"] in ids}
-                if v["model_id"] not in ids:
-                    close = [i for i in ids if v["model_id"].split("/")[-1].split("-")[0] in i][:8]
-                    info["configured"][name]["similar_ids"] = close
+            out["providers"][P] = {"n_models": len(ids), "model_ids": sorted(ids)}
         except Exception as e:
-            info["list_error"] = str(e)[:200]
-        for name, v in items[:1]:
-            try:
-                time.sleep(3)  # free tiers allow ~1 request/second; do not hit right after the list call
+            ids = []
+            out["providers"][P] = {"list_error": str(e)[:200]}
+        for rid, (name, v) in routes.items():
+            if v["provider"] != P:
+                continue
+            res = {"role": name, "listed": v["model_id"] in ids}
+            for attempt in range(3):
+                time.sleep(3)  # free tiers allow ~1 request/second
                 try:
-                    r = providers.call(P, v, "Reply with the single word OK.", 64)
-                except QuotaBlocked:
+                    c = providers.call(P, {**v, "reasoning_effort": v.get("reasoning_effort")}, "Reply with the single word OK.", 256)
+                    res.update(ok=True, text=c["text"][:40], finish=c["finish_reason"], usage=[c["prompt_tokens"], c["completion_tokens"]],
+                               ratelimit_headers=c["headers"])
+                    break
+                except QuotaBlocked as e:
+                    res.update(ok=False, error="rate limited: " + e.reason[:150])
                     time.sleep(10)
-                    r = providers.call(P, v, "Reply with the single word OK.", 64)
-                info["test_call"] = {"model": v["model_id"], "text": r["text"][:40], "finish": r["finish_reason"],
-                                     "usage": [r["prompt_tokens"], r["completion_tokens"]], "ratelimit_headers": r["headers"]}
-            except Exception as e:
-                info["test_call_error"] = f"{type(e).__name__}: {str(e)[:200]}"
-        out["providers"][P] = info
-        print(P, json.dumps(info, indent=1))
+                except Exception as e:
+                    res.update(ok=False, error=f"{type(e).__name__}: {str(e)[:200]}")
+                    if isinstance(e, Transient):
+                        time.sleep(10)
+                    else:
+                        break
+            out["routes"][rid] = res
+            print(rid, json.dumps({k: res[k] for k in res if k != "ratelimit_headers"}))
     path = f"config/evidence/probe_{time.strftime('%Y%m%d_%H%M')}.json"
     json.dump(out, open(path, "w"), indent=1)
     print("saved", path)

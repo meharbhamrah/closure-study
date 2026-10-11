@@ -32,49 +32,53 @@ CAND = "stimuli/candidates.jsonl"
 SCREEN = "stimuli/screening.csv"
 
 
+def call_chain(prompt, blocked):
+    """Try each generator in config.STIM_CHAIN; remember quota blocks. Returns (route, result) or (None, None)."""
+    for route in config.STIM_CHAIN:
+        key = route["provider"] + "|" + route["model_id"]
+        if blocked.get(key, 0) > time.time():
+            continue
+        for attempt in range(3):
+            try:
+                return route, providers.call(route["provider"], route, prompt, 1500, temperature=1.0)
+            except QuotaBlocked as q:
+                blocked[key] = min(q.until, time.time() + 600)
+                print(f"  {key} blocked: {q.reason[:70]}")
+                break
+            except Transient as e:
+                print(f"  {key} temporary error ({str(e)[:80]}); retry {attempt + 1}/3")
+                time.sleep(8 * (attempt + 1))
+            except Fatal as e:
+                print(f"  {key} error: {str(e)[:200]}")
+                blocked[key] = time.time() + 3600
+                break
+            except Abort as e:
+                print(f"  {key} unusable: {str(e)[:200]}")
+                blocked[key] = time.time() + 86400
+                break
+    return None, None
+
+
 def cmd_gen(a):
     os.makedirs("stimuli", exist_ok=True)
     have = [json.loads(l) for l in open(CAND)] if os.path.exists(CAND) else []
     counts = {d: sum(1 for h in have if h["domain"] == d) for d in config.DOMAINS}
     per = a.n // len(config.DOMAINS)
-    route = config.STIM_GENERATOR
-    rnd = random.Random(42)
-    tries = 0
+    rnd = random.Random(42 + len(have))
+    blocked, tries, misses = {}, 0, 0
     while any(counts[d] < per for d in config.DOMAINS) and tries < a.n * 4:
         d = min(config.DOMAINS, key=lambda x: counts[x])
-        if counts[d] >= per:
-            break
         tries += 1
         hint = rnd.choice(HINTS[d])
         prompt = T.STIM_PROMPT.format(domain=d) + f"\nTopic seed for variety: {hint}. Variation id: {rnd.randint(0, 10**6)}"
-        used = route
-        try:
-            r = providers.call(route["provider"], route, prompt, 1200, temperature=1.0)
-        except Abort as e:
-            print("ABORT (configuration/key problem):", e)
-            return
-        except (Fatal, Transient) as e:
-            errs = globals().setdefault("_errs", [])
-            errs.append(str(e))
-            print(f"error from {route['provider']}: {str(e)[:300]}")
-            if len(errs) >= 5:
-                print("5 errors in a row; stopping. Progress is saved.")
-                return
-            time.sleep(3)
+        used, r = call_chain(prompt, blocked)
+        if used is None:
+            misses += 1
+            if misses >= 3:
+                print("All generators unavailable right now; progress is saved, rerun later.")
+                break
+            time.sleep(20)
             continue
-        except QuotaBlocked as q:
-            fb = config.STIM_FALLBACK
-            print(f"{route['provider']} blocked ({q.reason[:60]}); using fallback {fb['model_id']}")
-            used = fb
-            try:
-                time.sleep(2)
-                r = providers.call(fb["provider"], fb, prompt, 1200, temperature=1.0)
-            except QuotaBlocked as q2:
-                print("fallback blocked too:", q2.reason[:100], "- rerun later; progress is saved")
-                return
-            except (Abort, Fatal, Transient) as e:
-                print("fallback error:", str(e)[:300])
-                return
         m = re.search(r"\{.*\}", r["text"], flags=re.S)
         try:
             o = json.loads(m.group(0))
@@ -82,7 +86,8 @@ def cmd_gen(a):
         except Exception:
             continue
         cid = f"{d[:3]}{counts[d] + 1:03d}"
-        row = {"id": cid, "domain": d, "scenario": o["scenario"].strip(), "readings": [x.strip() for x in o["readings"]], "hint": hint, "generator": used["model_id"]}
+        row = {"id": cid, "domain": d, "scenario": o["scenario"].strip(), "readings": [x.strip() for x in o["readings"]],
+               "hint": hint, "generator": used["model_id"]}
         with open(CAND, "a", encoding="utf-8") as fh:
             fh.write(json.dumps(row) + "\n")
         counts[d] += 1
@@ -95,6 +100,8 @@ def tok(s):
 
 
 def cmd_screen(a):
+    if not os.path.exists(CAND):
+        sys.exit("No candidates yet (stimuli/candidates.jsonl missing): run `stimuli.py gen` first.")
     rows = [json.loads(l) for l in open(CAND)]
     flags = {}
     for i, r in enumerate(rows):
