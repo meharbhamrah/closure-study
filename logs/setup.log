@@ -1,10 +1,179 @@
 gemini|gemini-3.5-flash-lite {"role": "gemini", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
-gemini|gemma-4-31b-it {"role": "judgeA", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemma-4-31b-it {"role": "judgeA", "listed": true, "ok": true, "error": "Transient: gemini HTTP 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal error encountered.\",\n    \"status\": \"INTERNAL\"\n  }\n}\n", "text": "OK", "finish": "stop", "usage": [8, 1]}
 gemini|gemini-3.8-flash {"role": "judgeB", "listed": true, "ok": false, "error": "Transient: gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAV"}
-gemini|gemma-4-26b-a4b-it {"role": "candidate", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
-gemini|gemini-3.7-flash {"role": "candidate", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
-gemini|gemini-3.6-flash {"role": "candidate", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemma-4-26b-a4b-it {"role": "candidate", "listed": true, "ok": true, "error": "Transient: gemini HTTP 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal error encountered.\",\n    \"status\": \"INTERNAL\"\n  }\n}\n", "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemini-3.7-flash {"role": "candidate", "listed": true, "ok": true, "error": "Transient: gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAV", "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemini-3.6-flash {"role": "candidate", "listed": true, "ok": false, "error": "Transient: gemini HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAV"}
 groq|openai/gpt-oss-120b {"role": "gpt120", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [78, 28]}
 groq|qwen/qwen3.8-27b {"role": "qwen27", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [19, 2]}
 groq|openai/gpt-oss-20b {"role": "gpt20", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [78, 17]}
-saved config/evidence/probe_20261012_1811.json
+saved config/evidence/probe_20261013_0840.json
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  unusable output from gemma-4-26b-a4b-it: finish=length tokens=None thinking=3997 chars=0 start=''
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  unusable output from gemma-4-26b-a4b-it: finish=length tokens=None thinking=3997 chars=0 start=''
+  unusable output from gemma-4-26b-a4b-it: finish=length tokens=None thinking=3997 chars=0 start=''
+  unusable output from gemma-4-26b-a4b-it: finish=length tokens=None thinking=3997 chars=0 start=''
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-26b-a4b-it temporary error (network: The read operation timed out); retry 3/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 2/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemini-3.7-flash temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 1/3
+  gemini|gemini-3.7-flash temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 2/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  unusable output from gemma-4-26b-a4b-it: finish=length tokens=None thinking=3997 chars=0 start=''
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemini-3.7-flash temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 1/3
+  gemini|gemini-3.7-flash temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 2/3
+  gemini|gemini-3.7-flash temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 3/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-26b-a4b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 1/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 2/3
+  gemini|gemma-4-31b-it temporary error (gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error ); retry 3/3
+  gemini|gemini-3.7-flash temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 1/3
+  gemini|gemini-3.7-flash temporary error (network: The read operation timed out); retry 2/3
+  gemini|gemini-3.7-flash temporary error (gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c); retry 3/3
+candidates per domain: {'career': 3, 'interpersonal': 2, 'identity': 2}
+wrote stimuli/screening.csv. Open it, edit text if needed, put y in the keep column for good items (need >=32 per domain).
