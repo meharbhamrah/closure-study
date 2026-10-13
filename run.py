@@ -400,7 +400,7 @@ def cmd_probe(args):
             if v["provider"] != P:
                 continue
             res = {"role": name, "listed": v["model_id"] in ids}
-            for attempt in range(3):
+            for attempt in range(4):
                 time.sleep(3)  # free tiers allow ~1 request/second
                 try:
                     c = providers.call(P, {**v, "reasoning_effort": v.get("reasoning_effort")}, "Reply with the single word OK.", 256)
@@ -413,7 +413,7 @@ def cmd_probe(args):
                 except Exception as e:
                     res.update(ok=False, error=f"{type(e).__name__}: {str(e)[:200]}")
                     if isinstance(e, Transient):
-                        time.sleep(10)
+                        time.sleep(30 * (attempt + 1))
                     else:
                         break
             out["routes"][rid] = res

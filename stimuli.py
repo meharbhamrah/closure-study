@@ -40,10 +40,10 @@ def call_chain(prompt, blocked):
             continue
         for attempt in range(3):
             try:
-                return route, providers.call(route["provider"], route, prompt, 1500, temperature=1.0)
+                return route, providers.call(route["provider"], route, prompt, 4000, temperature=1.0)
             except QuotaBlocked as q:
                 blocked[key] = min(q.until, time.time() + 600)
-                print(f"  {key} blocked: {q.reason[:70]}")
+                print(f"  {key} blocked: {q.reason[:70]}", flush=True)
                 break
             except Transient as e:
                 print(f"  {key} temporary error ({str(e)[:80]}); retry {attempt + 1}/3")
@@ -65,8 +65,9 @@ def cmd_gen(a):
     counts = {d: sum(1 for h in have if h["domain"] == d) for d in config.DOMAINS}
     per = a.n // len(config.DOMAINS)
     rnd = random.Random(42 + len(have))
-    blocked, tries, misses = {}, 0, 0
-    while any(counts[d] < per for d in config.DOMAINS) and tries < a.n * 4:
+    blocked, tries, misses, bad = {}, 0, 0, 0
+    t_end = time.time() + a.max_minutes * 60
+    while any(counts[d] < per for d in config.DOMAINS) and tries < a.n * 3 and time.time() < t_end:
         d = min(config.DOMAINS, key=lambda x: counts[x])
         tries += 1
         hint = rnd.choice(HINTS[d])
@@ -79,11 +80,19 @@ def cmd_gen(a):
                 break
             time.sleep(20)
             continue
-        m = re.search(r"\{.*\}", r["text"], flags=re.S)
+        txt = r["text"]
+        m = re.search(r"\{.*\}", txt, flags=re.S)
         try:
             o = json.loads(m.group(0))
             assert isinstance(o["scenario"], str) and len(o["readings"]) == 3 and all(isinstance(x, str) and x for x in o["readings"])
-        except Exception:
+            bad = 0
+        except Exception as e:
+            bad += 1
+            print(f"  unusable output from {used['model_id']}: finish={r['finish_reason']} tokens={r['completion_tokens']} "
+                  f"thinking={r['reasoning_tokens']} chars={len(txt)} start={txt[:80]!r}", flush=True)
+            if bad >= 8:
+                print("8 unusable outputs in a row: stopping so this can be diagnosed.", flush=True)
+                break
             continue
         cid = f"{d[:3]}{counts[d] + 1:03d}"
         row = {"id": cid, "domain": d, "scenario": o["scenario"].strip(), "readings": [x.strip() for x in o["readings"]],
@@ -148,7 +157,7 @@ def cmd_finalize(a):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
-    s = sub.add_parser("gen"); s.add_argument("--n", type=int, default=150)
+    s = sub.add_parser("gen"); s.add_argument("--n", type=int, default=150); s.add_argument("--max-minutes", type=float, default=40)
     sub.add_parser("screen")
     s = sub.add_parser("finalize"); s.add_argument("--main", type=int, default=30); s.add_argument("--dry", type=int, default=2)
     a = ap.parse_args()

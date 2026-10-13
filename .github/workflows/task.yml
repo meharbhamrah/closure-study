@@ -12,7 +12,7 @@ permissions: { contents: write }
 jobs:
   task:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,9 +26,9 @@ jobs:
           set -o pipefail
           mkdir -p logs
           case "${{ inputs.command }}" in
-            setup) python run.py probe && python stimuli.py gen --n 150 && python stimuli.py screen ;;
-            probe) python run.py probe ;;
-            stimuli-gen) python stimuli.py gen --n 150 ;;
+            setup) python -u run.py probe && python -u stimuli.py gen --n 150 --max-minutes 40 && python -u stimuli.py screen ;;
+            probe) python -u run.py probe ;;
+            stimuli-gen) python -u stimuli.py gen --n 150 --max-minutes 40 ;;
             stimuli-screen) python stimuli.py screen ;;
             dry-run) python run.py init --split dry && python run.py run --split dry --once && python run.py export --split dry && python run.py status ;;
             status) python run.py status ;;
