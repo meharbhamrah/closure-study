@@ -116,7 +116,7 @@ def cmd_screen(a):
     for i, r in enumerate(rows):
         f = []
         n = len(r["scenario"].split())
-        if n < 25 or n > 110:
+        if n < 15 or n > 110:
             f.append(f"length {n} words")
         for j in range(i):
             A, B = tok(r["scenario"]), tok(rows[j]["scenario"])
@@ -128,9 +128,9 @@ def cmd_screen(a):
         flags[r["id"]] = "; ".join(f)
     with open(SCREEN, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
-        w.writerow(["id", "domain", "scenario", "reading1", "reading2", "reading3", "auto_flags", "keep(y/n)", "notes"])
+        w.writerow(["id", "domain", "scenario", "reading1", "reading2", "reading3", "auto_flags", "keep(y/n)", "notes", "orig_pos", "generator"])
         for r in rows:
-            w.writerow([r["id"], r["domain"], r["scenario"], *r["readings"], flags[r["id"]], "", ""])
+            w.writerow([r["id"], r["domain"], r["scenario"], *r["readings"], flags[r["id"]], "y" if a.prefill else "", "", ",".join(map(str, r.get("orig_pos", []))), r.get("generator", "")])
     print(f"wrote {SCREEN}. Open it, edit text if needed, put y in the keep column for good items (need >=32 per domain).")
 
 
@@ -146,7 +146,7 @@ def cmd_finalize(a):
         random.Random(7).shuffle(dk)  # fixed seed: dry/main assignment is not chosen by hand
         for k, r in enumerate(dk[:need]):
             out.append({"id": r["id"], "domain": d, "scenario": r["scenario"], "readings": [r["reading1"], r["reading2"], r["reading3"]],
-                        "split": "dry" if k < a.dry else "main"})
+                        "split": "dry" if k < a.dry else "main", "orig_pos": r.get("orig_pos", ""), "generator": r.get("generator", "")})
     out.sort(key=lambda r: (r["split"] != "dry", r["domain"], r["id"]))
     with open(config.STIMULI_PATH, "w", encoding="utf-8") as fh:
         for r in out:
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("gen"); s.add_argument("--n", type=int, default=150); s.add_argument("--max-minutes", type=float, default=40)
-    sub.add_parser("screen")
+    s = sub.add_parser("screen"); s.add_argument("--prefill", action="store_true", help="mark every item keep=y (reviewer then vetoes)")
     s = sub.add_parser("finalize"); s.add_argument("--main", type=int, default=30); s.add_argument("--dry", type=int, default=2)
     a = ap.parse_args()
     {"gen": cmd_gen, "screen": cmd_screen, "finalize": cmd_finalize}[a.cmd](a)
