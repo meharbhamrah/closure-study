@@ -1,0 +1,95 @@
+10:54:25 BLOCKED gemini|gemma-4-31b-it until 10:55:25 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+10:54:27 BLOCKED gemini|gemini-3.8-flash until 10:55:27 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+10:54:27 BLOCKED groq|qwen/qwen3.8-27b until 10:54:30 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+10:54:46 BLOCKED groq|qwen/qwen3.8-27b until 10:54:52 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+10:54:54 BLOCKED groq|qwen/qwen3.8-27b until 10:55:09 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+10:55:17 BLOCKED groq|qwen/qwen3.8-27b until 10:55:18 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+10:55:18 BLOCKED groq|qwen/qwen3.8-27b until 10:55:24 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+10:55:30 BLOCKED groq|qwen/qwen3.8-27b until 10:55:59 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+10:55:30 BLOCKED gemini|gemma-4-31b-it until 10:57:30 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+10:57:12 BLOCKED groq|qwen/qwen3.8-27b until 10:57:42 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+10:57:21 BLOCKED gemini|gemini-3.8-flash until 10:58:21 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+10:57:33 BLOCKED gemini|gemma-4-31b-it until 11:01:33 (transient (3): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+10:57:43 BLOCKED groq|qwen/qwen3.8-27b until 10:58:13 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+10:58:17 BLOCKED groq|qwen/qwen3.8-27b until 10:58:47 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:00:29 progress: free/done=26; judge/done=2; probe/done=26; free/pending=46; judge/pending=50; probe/pending=46
+11:00:42 BLOCKED gemini|gemini-3.8-flash until 11:01:42 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+11:00:43 BLOCKED groq|qwen/qwen3.8-27b until 11:01:13 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:01:24 BLOCKED groq|qwen/qwen3.8-27b until 11:01:37 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+11:01:33 BLOCKED gemini|gemma-4-31b-it until 11:09:33 (transient (4): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+11:01:37 BLOCKED groq|qwen/qwen3.8-27b until 11:02:07 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:01:44 BLOCKED gemini|gemini-3.8-flash until 11:03:44 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+11:02:23 BLOCKED groq|qwen/qwen3.8-27b until 11:02:53 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:02:53 BLOCKED groq|qwen/qwen3.8-27b until 11:03:23 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:03:28 BLOCKED groq|qwen/qwen3.8-27b until 11:03:58 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:03:46 BLOCKED gemini|gemini-3.8-flash until 11:07:46 (transient (3): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+11:04:01 BLOCKED groq|qwen/qwen3.8-27b until 11:04:31 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:04:31 BLOCKED groq|qwen/qwen3.8-27b until 11:05:01 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:05:06 BLOCKED groq|qwen/qwen3.8-27b until 11:05:19 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+11:05:32 progress: free/done=64; judge/done=2; probe/done=63; free/pending=8; judge/pending=124; probe/pending=9
+11:05:35 BLOCKED groq|qwen/qwen3.8-27b until 11:06:05 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:06:05 BLOCKED groq|qwen/qwen3.8-27b until 11:06:35 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:06:38 BLOCKED groq|qwen/qwen3.8-27b until 11:07:08 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:07:16 BLOCKED groq|qwen/qwen3.8-27b until 11:07:46 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:07:46 BLOCKED groq|qwen/qwen3.8-27b until 11:08:16 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:07:48 BLOCKED gemini|gemini-3.8-flash until 11:15:48 (transient (4): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+11:08:16 BLOCKED groq|qwen/qwen3.8-27b until 11:08:46 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:08:53 BLOCKED groq|qwen/qwen3.8-27b until 11:09:23 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:09:23 BLOCKED groq|qwen/qwen3.8-27b until 11:09:53 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:09:33 BLOCKED gemini|gemma-4-31b-it until 11:24:33 (transient (5): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+11:09:53 BLOCKED groq|qwen/qwen3.8-27b until 11:10:23 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:10:24 BLOCKED groq|qwen/qwen3.8-27b until 11:10:54 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:10:54 BLOCKED groq|qwen/qwen3.8-27b until 11:11:24 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:10:54 progress: free/done=66; judge/done=2; probe/done=66; free/pending=6; judge/pending=130; probe/pending=6
+11:11:28 BLOCKED groq|qwen/qwen3.8-27b until 11:11:58 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+11:12:05 BLOCKED groq|qwen/qwen3.8-27b until 11:12:07 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+11:12:07 BLOCKED groq|qwen/qwen3.8-27b until 11:12:37 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:12:40 BLOCKED groq|qwen/qwen3.8-27b until 11:13:10 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:13:10 BLOCKED groq|qwen/qwen3.8-27b until 11:13:40 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:13:48 BLOCKED groq|qwen/qwen3.8-27b until 11:14:18 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:14:18 BLOCKED groq|qwen/qwen3.8-27b until 11:14:48 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:14:55 BLOCKED groq|qwen/qwen3.8-27b until 11:15:25 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:15:25 BLOCKED groq|qwen/qwen3.8-27b until 11:15:55 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:15:49 BLOCKED gemini|gemini-3.8-flash until 11:30:49 (transient (5): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+11:15:58 progress: free/done=71; judge/done=2; probe/done=70; free/pending=1; judge/pending=138; probe/pending=2
+11:16:01 BLOCKED groq|qwen/qwen3.8-27b until 11:16:31 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:16:31 BLOCKED groq|qwen/qwen3.8-27b until 11:16:45 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `or)
+11:16:47 BLOCKED groq|qwen/qwen3.8-27b until 11:17:17 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:17:23 BLOCKED groq|qwen/qwen3.8-27b until 11:17:53 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
+11:17:53 all lanes blocked/pending for 7 more minutes; --once so exiting
