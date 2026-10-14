@@ -102,3 +102,74 @@
     "code": 503,
     "message": "This model is c)
 11:56:51 all lanes blocked/pending for 15 more minutes; --once so exiting
+17:14:25 BLOCKED gemini|gemini-3.8-flash until 17:29:25 (transient (7): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+17:18:55 progress: free/done=72; judge/done=9; probe/done=72; judge/pending=135
+17:19:36 BLOCKED gemini|gemma-4-31b-it until 17:20:36 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:24:20 progress: free/done=72; judge/done=14; probe/done=72; judge/pending=130
+17:29:27 BLOCKED gemini|gemini-3.8-flash until 17:44:27 (transient (8): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+17:29:27 progress: free/done=72; judge/done=25; probe/done=72; judge/pending=119
+17:34:01 BLOCKED gemini|gemma-4-31b-it until 17:35:01 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:35:01 BLOCKED gemini|gemma-4-31b-it until 17:37:01 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:35:01 progress: free/done=72; judge/done=31; probe/done=72; judge/pending=113
+17:40:40 progress: free/done=72; judge/done=35; probe/done=72; judge/pending=109
+17:40:46 BLOCKED gemini|gemma-4-31b-it until 17:41:46 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:42:58 BLOCKED gemini|gemma-4-31b-it until 17:43:58 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:44:46 BLOCKED gemini|gemini-3.8-flash until 17:59:46 (transient (9): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+17:45:22 BLOCKED gemini|gemma-4-31b-it until 17:46:22 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:46:22 BLOCKED gemini|gemma-4-31b-it until 17:48:22 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:46:22 progress: free/done=72; judge/done=40; probe/done=72; judge/pending=104
+17:49:44 BLOCKED gemini|gemma-4-31b-it until 17:50:44 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:51:25 progress: free/done=72; judge/done=43; probe/done=72; judge/pending=101
+17:56:32 progress: free/done=72; judge/done=51; probe/done=72; judge/pending=93
+17:56:37 BLOCKED gemini|gemma-4-31b-it until 17:57:37 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+17:59:50 BLOCKED gemini|gemini-3.8-flash until 18:14:50 (transient (10): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+18:00:31 BLOCKED gemini|gemma-4-31b-it until 18:01:31 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+18:02:39 progress: free/done=72; judge/done=57; probe/done=72; judge/pending=87
+18:06:39 BLOCKED gemini|gemma-4-31b-it until 18:07:39 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+18:07:56 progress: free/done=72; judge/done=65; probe/done=72; judge/pending=79
+18:11:27 all lanes blocked/pending for 3 more minutes; --once so exiting
