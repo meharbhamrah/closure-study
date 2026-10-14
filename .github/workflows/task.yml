@@ -5,8 +5,8 @@ on:
       command:
         description: "What to run"
         type: choice
-        default: setup
-        options: [setup, probe, stimuli-gen, stimuli-screen, dry-run, status]
+        default: status
+        options: [status, probe, dry-run]
 concurrency: { group: experiment, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
@@ -26,10 +26,7 @@ jobs:
           set -o pipefail
           mkdir -p logs
           case "${{ inputs.command }}" in
-            setup) python -u run.py probe && python -u stimuli.py gen --n 150 --max-minutes 40 && python -u stimuli.py screen ;;
             probe) python -u run.py probe ;;
-            stimuli-gen) python -u stimuli.py gen --n 150 --max-minutes 40 ;;
-            stimuli-screen) python stimuli.py screen ;;
             dry-run) python run.py init --split dry && python run.py run --split dry --once && python run.py export --split dry && python run.py status ;;
             status) python run.py status ;;
           esac 2>&1 | tee "logs/${{ inputs.command }}.log"
