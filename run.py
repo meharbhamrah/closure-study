@@ -241,13 +241,10 @@ def execute(conn, job, P, st, S, lid):
             return
         except Transient as e:
             n = job["attempts"] + 1
-            st.next_allowed = time.time() + min(30 * n, 300)
-            if n >= 6:
-                finish(conn, job, status="failed", attempts=n, error=str(e)[:300], provider=P)
-            else:
-                conn.execute("UPDATE jobs SET attempts=?, error=? WHERE job_id=?", (n, str(e)[:300], job["job_id"]))
-                conn.commit()
-            log(f"transient {P}: {e}")
+            wait = min(30 * (2 ** min(n, 5)), 900)  # 1 min ... 15 min, per consecutive failure of this job
+            conn.execute("UPDATE jobs SET attempts=?, error=? WHERE job_id=?", (n, str(e)[:300], job["job_id"]))
+            conn.commit()
+            set_blocked(conn, st, lid, time.time() + wait, f"transient ({n}): {str(e)[:80]}")
             return
         except Fatal as e:
             finish(conn, job, status="failed", error=str(e)[:300], provider=P)

@@ -65,7 +65,7 @@ def max_tokens(kind, route):
     if kind == "probe":
         return 2500 if r else 800
     if kind == "judge":
-        return 2048
+        return 6000  # gemma-class judges spend thousands of tokens thinking before the JSON
     return 1500
 
 
