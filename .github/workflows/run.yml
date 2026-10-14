@@ -14,22 +14,26 @@ jobs:
       - name: Gate (only run once prompts are frozen)
         id: gate
         run: |
-          if [ -f FROZEN ] && [ -f stimuli/stimuli_final.jsonl ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; echo "Not frozen yet: skipping"; fi
-      - if: steps.gate.outputs.go == 'true'
+          if [ ! -f stimuli/stimuli_final.jsonl ]; then echo "stage=none" >> "$GITHUB_OUTPUT"; echo "no final stimuli yet"
+          elif [ -f FROZEN ]; then echo "stage=main" >> "$GITHUB_OUTPUT"
+          else echo "stage=dry" >> "$GITHUB_OUTPUT"; fi
+      - if: steps.gate.outputs.stage != 'none'
         uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Run until quotas are exhausted
-        if: steps.gate.outputs.go == 'true'
+        if: steps.gate.outputs.stage != 'none'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python run.py init --split main
-          python run.py run --split main --once || true
-          python run.py status
+          S=${{ steps.gate.outputs.stage }}
+          python -u run.py init --split $S
+          python -u run.py run --split $S --once 2>&1 | tee -a logs_$S.log || true
+          python -u run.py status
+          python run.py export --split $S || true
       - name: Commit state
-        if: steps.gate.outputs.go == 'true'
+        if: steps.gate.outputs.stage != 'none'
         run: |
           git config user.name "experiment-bot"; git config user.email "bot@users.noreply.github.com"
           git add -A

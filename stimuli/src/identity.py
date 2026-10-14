@@ -51,7 +51,7 @@ ITEMS = [
  ["I need to learn to set boundaries and the anxiety will lessen with practice",
   "my sense of worth is tied to being needed, and that is the deeper issue",
   "I have too many commitments and need to restructure my workload, not just refuse"]),
-("I am thinking about changing my name to something that feels more like me. My family is likely to be hurt, and I cannot tell if it is a deep need or a phase.",
+("I am thinking about changing my name to something that feels more like me. My family is likely to be hurt by it.",
  ["it is a deep and lasting need and I should go ahead",
   "I am looking for a symbolic fresh start because of something else in my life",
   "it is a passing mood and I will not want it in a year"]),
