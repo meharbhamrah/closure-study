@@ -173,3 +173,8 @@
     "message": "Internal error )
 18:07:56 progress: free/done=72; judge/done=65; probe/done=72; judge/pending=79
 18:11:27 all lanes blocked/pending for 3 more minutes; --once so exiting
+21:43:22 BLOCKED gemini|gemini-3.8-flash until 21:58:22 (transient (11): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+21:43:22 all lanes blocked/pending for 15 more minutes; --once so exiting
