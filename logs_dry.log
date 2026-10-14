@@ -93,3 +93,12 @@
 11:16:47 BLOCKED groq|qwen/qwen3.8-27b until 11:17:17 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
 11:17:23 BLOCKED groq|qwen/qwen3.8-27b until 11:17:53 (rate limit: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org)
 11:17:53 all lanes blocked/pending for 7 more minutes; --once so exiting
+11:56:50 BLOCKED gemini|gemma-4-31b-it until 12:11:50 (transient (6): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+11:56:51 BLOCKED gemini|gemini-3.8-flash until 12:11:51 (transient (6): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+11:56:51 all lanes blocked/pending for 15 more minutes; --once so exiting
