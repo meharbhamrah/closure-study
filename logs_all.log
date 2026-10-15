@@ -1,0 +1,224 @@
+14:44:34 BLOCKED gemini|gemma-4-26b-a4b-it until 14:45:34 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+14:44:40 BLOCKED gemini|gemma-4-31b-it until 14:45:40 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+14:44:50 BLOCKED gemini|gemini-3.5-flash-lite until 07:05:00 (daily quota: {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,)
+14:44:56 BLOCKED groq|qwen/qwen3.8-27b until 14:45:56 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1153. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:46:52 BLOCKED gemini|gemma-4-26b-a4b-it until 14:48:52 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+14:46:53 BLOCKED groq|qwen/qwen3.8-27b until 14:47:53 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1153. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:46:54 BLOCKED gemini|gemma-4-31b-it until 14:48:54 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+14:47:11 progress: free/done=88; judge/done=72; probe/done=86; free/pending=1064; judge/pending=100; probe/pending=1066
+14:47:53 BLOCKED groq|qwen/qwen3.8-27b until 14:48:53 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1153. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:48:52 BLOCKED gemini|gemma-4-26b-a4b-it until 14:52:52 (transient (3): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+14:48:56 BLOCKED gemini|gemma-4-31b-it until 14:52:56 (transient (3): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+14:48:58 BLOCKED groq|qwen/qwen3.8-27b until 14:49:21 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+14:49:22 BLOCKED groq|qwen/qwen3.8-27b until 14:50:22 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1153. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:50:34 BLOCKED groq|qwen/qwen3.8-27b until 14:50:57 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+14:51:00 BLOCKED groq|qwen/qwen3.8-27b until 14:52:00 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1023. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:52:00 BLOCKED groq|qwen/qwen3.8-27b until 14:53:00 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1283. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:52:12 progress: free/done=121; judge/done=72; probe/done=119; free/pending=1031; judge/pending=168; probe/pending=1033
+14:52:48 BLOCKED groq|openai/gpt-oss-120b until 15:05:53 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+14:56:52 BLOCKED gemini|gemma-4-26b-a4b-it until 15:04:52 (transient (4): network: The read operation timed out)
+14:56:57 BLOCKED gemini|gemma-4-31b-it until 15:04:57 (transient (4): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+14:56:58 BLOCKED groq|qwen/qwen3.8-27b until 14:57:16 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+14:57:10 BLOCKED groq|openai/gpt-oss-20b until 14:59:18 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+14:57:16 BLOCKED groq|qwen/qwen3.8-27b until 14:57:28 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+14:57:16 progress: free/done=128; judge/done=72; probe/done=125; free/pending=1024; judge/pending=184; probe/pending=1027
+14:57:35 BLOCKED groq|qwen/qwen3.8-27b until 14:58:35 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1395. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:58:45 BLOCKED groq|qwen/qwen3.8-27b until 14:59:17 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+14:59:17 BLOCKED groq|qwen/qwen3.8-27b until 15:00:17 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1395. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+14:59:18 BLOCKED groq|openai/gpt-oss-20b until 14:59:34 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+14:59:41 BLOCKED groq|openai/gpt-oss-20b until 15:10:03 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:00:24 BLOCKED groq|qwen/qwen3.8-27b until 15:01:24 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1395. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:01:29 BLOCKED groq|qwen/qwen3.8-27b until 15:02:06 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:02:06 BLOCKED groq|qwen/qwen3.8-27b until 15:02:22 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:02:23 progress: free/done=133; judge/done=72; probe/done=131; free/pending=1019; judge/pending=194; probe/pending=1021
+15:02:29 BLOCKED groq|qwen/qwen3.8-27b until 15:02:44 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:02:44 BLOCKED groq|qwen/qwen3.8-27b until 15:03:05 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:03:05 BLOCKED groq|qwen/qwen3.8-27b until 15:03:06 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:03:14 BLOCKED groq|qwen/qwen3.8-27b until 15:04:10 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:04:10 BLOCKED groq|qwen/qwen3.8-27b until 15:05:10 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1052. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:06:44 BLOCKED gemini|gemma-4-31b-it until 15:21:44 (transient (5): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:07:29 progress: free/done=137; judge/done=74; probe/done=134; free/pending=1015; judge/pending=196; probe/pending=1018
+15:07:30 BLOCKED groq|qwen/qwen3.8-27b until 15:07:48 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:08:37 BLOCKED groq|openai/gpt-oss-120b until 15:11:28 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+15:08:39 BLOCKED groq|qwen/qwen3.8-27b until 15:09:39 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1052. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:09:14 BLOCKED gemini|gemma-4-26b-a4b-it until 15:10:14 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:10:04 BLOCKED groq|qwen/qwen3.8-27b until 15:10:27 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:10:09 BLOCKED groq|openai/gpt-oss-20b until 15:14:22 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:10:38 BLOCKED groq|qwen/qwen3.8-27b until 15:11:38 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1346. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:10:40 BLOCKED gemini|gemma-4-26b-a4b-it until 15:11:40 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:11:28 BLOCKED groq|openai/gpt-oss-120b until 15:11:49 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+15:12:17 BLOCKED groq|openai/gpt-oss-120b until 15:26:51 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+15:12:45 progress: free/done=144; judge/done=79; probe/done=142; free/pending=1008; judge/pending=209; probe/pending=1010
+15:12:45 BLOCKED groq|qwen/qwen3.8-27b until 15:13:45 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1358. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:12:50 BLOCKED gemini|gemma-4-26b-a4b-it until 15:13:50 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:14:30 BLOCKED groq|openai/gpt-oss-20b until 15:15:01 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:14:33 BLOCKED groq|qwen/qwen3.8-27b until 15:14:42 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:14:35 BLOCKED gemini|gemma-4-26b-a4b-it until 15:15:35 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:14:42 BLOCKED groq|qwen/qwen3.8-27b until 15:15:42 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1346. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:15:04 BLOCKED groq|openai/gpt-oss-20b until 15:16:38 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:17:52 progress: free/done=145; judge/done=81; probe/done=145; free/pending=1007; judge/pending=209; probe/pending=1007
+15:17:52 BLOCKED groq|qwen/qwen3.8-27b until 15:18:52 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1358. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:17:56 BLOCKED groq|openai/gpt-oss-20b until 15:25:21 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:19:01 BLOCKED groq|qwen/qwen3.8-27b until 15:19:17 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:19:02 BLOCKED gemini|gemma-4-26b-a4b-it until 15:20:02 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:19:25 BLOCKED groq|qwen/qwen3.8-27b until 15:20:21 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:20:03 BLOCKED gemini|gemma-4-26b-a4b-it until 15:22:03 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:20:28 BLOCKED groq|qwen/qwen3.8-27b until 15:20:36 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:20:36 BLOCKED groq|qwen/qwen3.8-27b until 15:21:12 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:21:20 BLOCKED groq|qwen/qwen3.8-27b until 15:21:59 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:21:45 BLOCKED gemini|gemma-4-31b-it until 15:36:45 (transient (6): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:21:59 BLOCKED groq|qwen/qwen3.8-27b until 15:22:16 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:22:03 BLOCKED gemini|gemma-4-26b-a4b-it until 15:26:03 (transient (3): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:22:18 BLOCKED groq|qwen/qwen3.8-27b until 15:23:18 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1016. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:23:22 progress: free/done=151; judge/done=82; probe/done=149; free/pending=1001; judge/pending=218; probe/pending=1003
+15:23:24 BLOCKED groq|qwen/qwen3.8-27b until 15:24:24 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1394. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:24:27 BLOCKED groq|qwen/qwen3.8-27b until 15:25:27 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1016. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:25:24 BLOCKED groq|openai/gpt-oss-20b until 15:26:47 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:25:33 BLOCKED groq|qwen/qwen3.8-27b until 15:26:33 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1016. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:26:03 BLOCKED gemini|gemma-4-26b-a4b-it until 15:34:03 (transient (4): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:26:42 BLOCKED groq|qwen/qwen3.8-27b until 15:27:18 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:26:55 BLOCKED groq|openai/gpt-oss-20b until 15:40:26 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:26:58 BLOCKED groq|openai/gpt-oss-120b until 15:28:57 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+15:27:18 BLOCKED groq|qwen/qwen3.8-27b until 15:28:18 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1429. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:28:19 BLOCKED groq|qwen/qwen3.8-27b until 15:29:19 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1394. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:28:57 BLOCKED groq|openai/gpt-oss-120b until 15:40:39 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+15:28:57 progress: free/done=155; judge/done=82; probe/done=153; free/pending=997; judge/pending=228; probe/pending=999
+15:29:19 BLOCKED groq|qwen/qwen3.8-27b until 15:30:19 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1429. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:30:19 BLOCKED groq|qwen/qwen3.8-27b until 15:31:19 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1719. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:31:24 BLOCKED groq|qwen/qwen3.8-27b until 15:31:40 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:31:43 BLOCKED groq|qwen/qwen3.8-27b until 15:32:43 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1376. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:32:43 BLOCKED groq|qwen/qwen3.8-27b until 15:33:43 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1376. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:33:43 BLOCKED groq|qwen/qwen3.8-27b until 15:34:43 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1376. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:34:04 BLOCKED gemini|gemma-4-26b-a4b-it until 15:49:04 (transient (5): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:34:04 progress: free/done=156; judge/done=82; probe/done=154; free/pending=996; judge/pending=230; probe/pending=998
+15:34:48 BLOCKED groq|qwen/qwen3.8-27b until 15:35:20 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:35:24 BLOCKED groq|qwen/qwen3.8-27b until 15:36:24 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1376. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:36:28 BLOCKED groq|qwen/qwen3.8-27b until 15:37:28 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1376. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:37:52 BLOCKED gemini|gemma-4-31b-it until 15:52:52 (transient (7): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:37:59 BLOCKED groq|qwen/qwen3.8-27b until 15:38:59 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1141. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:39:04 progress: free/done=160; judge/done=82; probe/done=157; free/pending=992; judge/pending=236; probe/pending=995
+15:39:07 BLOCKED groq|qwen/qwen3.8-27b until 15:39:55 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:39:58 BLOCKED groq|qwen/qwen3.8-27b until 15:40:58 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1099. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:40:36 BLOCKED groq|openai/gpt-oss-20b until 15:45:59 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:40:50 BLOCKED groq|openai/gpt-oss-120b until 16:00:03 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+15:41:03 BLOCKED groq|qwen/qwen3.8-27b until 15:41:08 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:41:16 BLOCKED groq|qwen/qwen3.8-27b until 15:42:16 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1099. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:42:19 BLOCKED groq|qwen/qwen3.8-27b until 15:43:19 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1232. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:43:19 BLOCKED groq|qwen/qwen3.8-27b until 15:44:19 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1088. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:44:19 BLOCKED groq|qwen/qwen3.8-27b until 15:45:19 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1217. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:44:19 progress: free/done=164; judge/done=82; probe/done=163; free/pending=988; judge/pending=246; probe/pending=989
+15:45:19 BLOCKED groq|qwen/qwen3.8-27b until 15:46:19 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1264. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:46:03 BLOCKED groq|openai/gpt-oss-20b until 15:49:14 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:46:24 BLOCKED groq|qwen/qwen3.8-27b until 15:46:30 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:46:30 BLOCKED groq|qwen/qwen3.8-27b until 15:46:41 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:46:41 BLOCKED groq|qwen/qwen3.8-27b until 15:47:41 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1210. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:47:56 BLOCKED groq|qwen/qwen3.8-27b until 15:48:13 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:48:13 BLOCKED groq|qwen/qwen3.8-27b until 15:48:34 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:48:34 BLOCKED groq|qwen/qwen3.8-27b until 15:48:35 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:48:43 BLOCKED groq|qwen/qwen3.8-27b until 15:49:21 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:49:04 BLOCKED gemini|gemma-4-26b-a4b-it until 16:04:04 (transient (6): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:49:14 BLOCKED groq|openai/gpt-oss-20b until 15:51:18 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:49:21 progress: free/done=169; judge/done=82; probe/done=167; free/pending=983; judge/pending=256; probe/pending=985
+15:49:35 BLOCKED groq|qwen/qwen3.8-27b until 15:49:52 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:49:52 BLOCKED groq|qwen/qwen3.8-27b until 15:50:52 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1265. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:50:52 BLOCKED groq|qwen/qwen3.8-27b until 15:51:52 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1090. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:51:19 BLOCKED groq|openai/gpt-oss-20b until 15:51:28 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:51:28 BLOCKED groq|openai/gpt-oss-20b until 15:51:41 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:51:44 BLOCKED groq|openai/gpt-oss-20b until 15:53:03 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:51:52 BLOCKED groq|qwen/qwen3.8-27b until 15:52:52 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1090. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:52:52 BLOCKED gemini|gemma-4-31b-it until 16:07:52 (transient (8): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+15:53:03 BLOCKED groq|openai/gpt-oss-20b until 15:57:11 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:53:07 BLOCKED groq|qwen/qwen3.8-27b until 15:54:07 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1242. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:54:14 BLOCKED groq|qwen/qwen3.8-27b until 15:55:14 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1194. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:55:15 progress: free/done=174; judge/done=82; probe/done=173; free/pending=978; judge/pending=266; probe/pending=979
+15:55:22 BLOCKED groq|qwen/qwen3.8-27b until 15:55:28 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:55:29 BLOCKED groq|qwen/qwen3.8-27b until 15:56:29 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1242. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:56:36 BLOCKED groq|qwen/qwen3.8-27b until 15:57:36 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1242. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+15:57:15 BLOCKED groq|openai/gpt-oss-20b until 16:11:27 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
+15:57:51 BLOCKED groq|qwen/qwen3.8-27b until 15:58:34 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:58:41 BLOCKED groq|qwen/qwen3.8-27b until 15:59:12 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:59:15 BLOCKED groq|qwen/qwen3.8-27b until 15:59:23 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+15:59:29 BLOCKED groq|qwen/qwen3.8-27b until 16:00:29 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1400. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+16:00:15 BLOCKED groq|openai/gpt-oss-120b until 16:05:38 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+16:00:15 progress: free/done=182; judge/done=82; probe/done=179; free/pending=970; judge/pending=282; probe/pending=973
+16:00:32 BLOCKED groq|qwen/qwen3.8-27b until 16:01:32 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1400. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+16:01:32 BLOCKED groq|qwen/qwen3.8-27b until 16:02:32 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1400. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+16:02:38 BLOCKED groq|qwen/qwen3.8-27b until 16:02:56 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+16:03:03 BLOCKED groq|qwen/qwen3.8-27b until 16:04:03 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1063. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+16:04:04 BLOCKED gemini|gemma-4-26b-a4b-it until 16:19:04 (transient (7): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+16:04:11 BLOCKED groq|qwen/qwen3.8-27b until 16:05:41 (daily quota: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per day)
+16:05:38 progress: free/done=185; judge/done=82; probe/done=183; free/pending=967; judge/pending=288; probe/pending=969
+16:05:45 BLOCKED groq|qwen/qwen3.8-27b until 16:06:18 (daily quota: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per day)
+16:05:48 BLOCKED groq|openai/gpt-oss-120b until 16:22:24 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+16:06:19 BLOCKED groq|qwen/qwen3.8-27b until 16:11:12 (daily quota: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per day)
+16:07:53 BLOCKED gemini|gemma-4-31b-it until 16:22:53 (transient (9): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+16:07:53 all lanes blocked/pending for 3 more minutes; --once so exiting
