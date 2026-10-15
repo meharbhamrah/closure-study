@@ -53,7 +53,10 @@ def _pt_midnight():
 def _classify_429(provider, headers, body):
     low = body.lower()
     if "request too large" in low:
-        return Fatal("request too large for the provider window: " + body[:160].replace("\n", " "))
+        # Groq answers 429 with this text when the per-minute bucket cannot take our requested tokens right now
+        # (it cleared on retry in the dry run), so treat it as a short block, not a permanent failure.
+        wait = min(float(headers.get("retry-after") or 60), 300)
+        return QuotaBlocked(time.time() + max(wait, 60), "too large for current bucket: " + body[:400].replace("\n", " "))
     try:
         ra = float(headers.get("retry-after", "")) if headers.get("retry-after") else None
     except ValueError:

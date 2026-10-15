@@ -103,6 +103,10 @@ def route_of(job):
 def cmd_init(args):
     conn = connect()
     S = load_stimuli()
+    r = conn.execute("UPDATE jobs SET status='pending', error=NULL WHERE status='failed' AND error LIKE 'request too large%'").rowcount
+    conn.commit()
+    if r:
+        log(f"init: reset {r} jobs that failed on the mistaken 'request too large' = fatal rule")
     n = 0
     for s in S:
         if args.split != "all" and s["split"] != args.split:
@@ -217,7 +221,7 @@ def set_blocked(conn, st, provider, until, note):
     st.blocked_until = until
     conn.execute("INSERT OR REPLACE INTO provider_state VALUES(?,?,?)", (provider, until, note))
     conn.commit()
-    log(f"BLOCKED {provider} until {time.strftime('%H:%M:%S', time.localtime(until))} ({note[:100]})")
+    log(f"BLOCKED {provider} until {time.strftime('%H:%M:%S', time.localtime(until))} ({note[:400]})")
 
 
 def finish(conn, job, **kw):
