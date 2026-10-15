@@ -253,7 +253,9 @@ def execute(conn, job, P, st, S, lid):
         st.window.append((time.time(), (res["prompt_tokens"] or len(prompt) // 4) + (res["completion_tokens"] or cap // 2)))
         if res["finish_reason"] == "length" or (not res["text"].strip() and str(res["finish_reason"]).startswith(("length", "stop"))):
             if attempt == 1:
-                cap *= 2  # prereg: one retry at doubled max_tokens
+                lim = config.PROVIDERS[P]["tpm"]
+                headroom = (lim - 700 - len(prompt) // 3) if lim <= 10000 else 10**9  # Groq rejects prompt+max_tokens above its 8K window
+                cap = max(cap, min(cap * 2, headroom))  # prereg: one retry at doubled max_tokens (as far as the provider window allows)
                 st.next_allowed = time.time() + config.PROVIDERS[P]["min_interval"]
                 time.sleep(config.PROVIDERS[P]["min_interval"])
                 continue

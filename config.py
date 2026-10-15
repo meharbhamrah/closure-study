@@ -35,10 +35,10 @@ MODELS = {
 # flash-lite, but same lab as one evaluated model -> disclosed, with a sensitivity analysis).
 JUDGES = {
     "judgeA": {"provider": "gemini", "model_id": "gemma-4-31b-it",   "family": "gemma",  "reasoning": False},
-    "judgeB": {"provider": "gemini", "model_id": "gemini-3.8-flash", "family": "gemini", "reasoning": False},
+    "judgeB": {"provider": "gemini", "model_id": "gemma-4-26b-a4b-it", "family": "gemma",  "reasoning": False},
 }
 # Prespecified replacements, used only if a judge fails the reliability checks BEFORE the main run.
-JUDGE_FALLBACKS = ["gemini-3.7-flash", "gemma-4-26b-a4b-it"]
+JUDGE_FALLBACKS = ["gemini-3.6-flash"]
 
 # Stimulus generators tried in order. None is an evaluated model; every item is human-screened anyway.
 STIM_CHAIN = [

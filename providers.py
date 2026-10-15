@@ -52,6 +52,8 @@ def _pt_midnight():
 
 def _classify_429(provider, headers, body):
     low = body.lower()
+    if "request too large" in low:
+        return Fatal("request too large for the provider window: " + body[:160].replace("\n", " "))
     try:
         ra = float(headers.get("retry-after", "")) if headers.get("retry-after") else None
     except ValueError:

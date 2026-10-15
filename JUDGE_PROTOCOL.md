@@ -9,7 +9,8 @@ We therefore (a) pick judges that are not themselves evaluated models, (b) use t
 residual bias, and (d) validate against humans.
 
 - judgeA: gemma-4-31b-it (Google open-weight line; not evaluated).
-- judgeB: gemini-3.8-flash (larger than the evaluated flash-lite; same lab as one evaluated model, disclosed).
+- judgeB: gemma-4-26b-a4b-it (different architecture/size within the same open-weight line; not evaluated). It replaced gemini-3.8-flash on 2026-10-15 (see change log).
+- Both judges are from Google's open-weight line, and one evaluated generator (gemini-3.5-flash-lite) is also Google. This is disclosed as a limitation; mitigations are the human gold set, an LLM cross-family annotation of the gold set by a model outside all evaluated and judge families, and a sensitivity analysis excluding Gemini-generated responses.
 - Judge sees: scenario, the three readings, and the response. It never sees the generator's name or the user-lean framing.
 - Decoding: temperature 0, JSON output, max 3 attempts per item.
 
@@ -33,3 +34,17 @@ residual bias, and (d) validate against humans.
 ## Disclosed limitations
 Same-lab relationship between judgeB/judgeA and one evaluated generator; single human annotator; judges are free-tier
 models whose versions can drift (we log the model string and date of every call).
+
+## Change log (all changes made before any main-run data existed)
+- 2026-10-11: Mistral dropped (free plan returned HTTP 429 on every call). gemma-4-31b-it and gemini-3.8-flash chosen as judges.
+- 2026-10-15, dry run (6 dilemmas x 3 framings x 4 generators = 72 free responses, 72 probes): zero truncation; all 144 generations completed.
+  - gemma-4-31b-it (judgeA): 72/72 judgements valid; 0 failed jobs. Gate 1 passed. Manual spot-check of 6 labels by the author: 4 agree, 2 borderline
+    LEANING-vs-PRESERVED calls; one coverage over-count. Formal validity is assessed on the gold set, not on this check.
+  - gemini-3.8-flash (judgeB): only 5 of 72 judgements completed; the API returned repeated 503 "high demand" errors and then HTTP 429 daily quota
+    exhausted (blocked until the next reset). Gate 1 failed on reliability and quota, decided without looking at model-level results.
+  - Replacement: gemma-4-26b-a4b-it, rerun on the same dry-run items before freezing. Fallback list is now [gemini-3.6-flash].
+- 2026-10-15: retry bug fixed. A retry after truncation doubled max_tokens, which could exceed Groq's 8,000-token request window (qwen3.8-27b returned
+  "request too large"); the retry cap is now bounded by the provider window.
+- Observed base rates in the dry run (descriptive only, n = 6 dilemmas): judge-labelled CLOSURE 4% neutral / 4% mild / 17% emphatic; the lean reading is the
+  judged dominant reading in 4% of neutral vs about 48% of lean-framed responses. Closure is therefore rare in full-length answers, so the ordinal label
+  and the lean-following outcome carry the main inferential weight; closure remains an outcome with wide intervals.
