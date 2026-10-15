@@ -28,10 +28,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           S=${{ steps.gate.outputs.stage }}
+          if [ "$S" = "main" ]; then S=all; fi   # after freezing: main items plus the dry-run judge re-test
           python -u run.py init --split $S
           python -u run.py run --split $S --once 2>&1 | tee -a logs_$S.log || true
           python -u run.py status
-          python run.py export --split $S || true
+          python run.py export --split main || true; python run.py export --split dry || true
       - name: Commit state
         if: steps.gate.outputs.stage != 'none'
         run: |
