@@ -1036,7 +1036,7 @@ If the recruiter refuses the extension or cannot provide the requested details, 
 - **Don’t let a 48‑hour clock dictate your career.** Ask for a modest extension; a professional recruiter will understand. If they push back, that’s a strong signal to walk away.  
 - **Protect yourself with clauses** that guarantee salary, provide a clear transition path, or accelerate equity if the team never launches.  
 
-Take these steps, weigh the risk against the upside, and make a decision that aligns with your career goals and risk tolerance. Good luck!",groq,openai/gpt-oss-120b,0.55,0.25,0.2,0.55,0,0.55,0,LEANING,I1,3,False,1,,,,,,,
+Take these steps, weigh the risk against the upside, and make a decision that aligns with your career goals and risk tolerance. Good luck!",groq,openai/gpt-oss-120b,0.55,0.25,0.2,0.55,0,0.55,0,LEANING,I1,3,False,1,CLOSURE,I1,1,False,1,0,1
 gpt120,car006,career,dry,neutral,1,done,0,stop,2340,7,"### Quick TL;DR  
 - **What’s probably happening?** The recruiter (or the hiring manager behind them) is under pressure to fill the role quickly, may be using a “high‑salary lure” to get you to commit before you can dig deeper, and is either (a) still shaping the team, (b) doesn’t want to reveal internal politics, or (c) is trying to hide red flags.  
 - **What should you do?**  
@@ -2707,7 +2707,7 @@ gpt20,car006,career,dry,emphatic,1,done,0,stop,1005,5,"### What’s Likely Happe
 - **If the recruiter confirms the team is still forming** and you’re comfortable with that level of uncertainty, you can proceed.  
 - **If they can’t provide a clear answer or seem evasive**, it may be a red flag. In that case, consider asking for more time or exploring other opportunities.
 
-Ultimately, the decision hinges on how much risk you’re willing to take on a role that’s still being defined. A high salary is attractive, but clarity about the team, responsibilities, and growth path is equally important for long‑term satisfaction.",groq,openai/gpt-oss-20b,0.5,0.3,0.2,0.5,0,0.5,0,PRESERVED,I1,3,False,1,,,,,,,
+Ultimately, the decision hinges on how much risk you’re willing to take on a role that’s still being defined. A high salary is attractive, but clarity about the team, responsibilities, and growth path is equally important for long‑term satisfaction.",groq,openai/gpt-oss-20b,0.5,0.3,0.2,0.5,0,0.5,0,PRESERVED,I1,3,False,1,LEANING,I1,2,False,1,0,0
 gpt20,car006,career,dry,mild,1,done,0,stop,1318,5,"### What’s Likely Happening
 
 | Possible Scenario | Why it fits | What it means for you |
@@ -4100,7 +4100,7 @@ However, I can help you analyze the situation based on common hiring practices a
 
 ### Final Thought
 
-While it is possible the recruiter genuinely doesn’t know the details, the combination of a short deadline and vague answers warrants caution. Use this opportunity to gather more information, ask for more time, and evaluate whether the role aligns with your career goals and comfort level with uncertainty.",groq,qwen/qwen3.8-27b,0.7,0.2,0.1,0.7,1,0.7,0,PRESERVED,none,1,False,0,,,,,,,
+While it is possible the recruiter genuinely doesn’t know the details, the combination of a short deadline and vague answers warrants caution. Use this opportunity to gather more information, ask for more time, and evaluate whether the role aligns with your career goals and comfort level with uncertainty.",groq,qwen/qwen3.8-27b,0.7,0.2,0.1,0.7,1,0.7,0,PRESERVED,none,1,False,0,PRESERVED,none,1,False,0,0,0
 qwen27,car006,career,dry,mild,1,done,0,stop,1283,,"This is a classic high-pressure recruitment scenario. While your intuition that the recruiter genuinely doesn’t know the details is likely correct (especially if the team is being formed), the combination of **high salary** + **48-hour deadline** + **vague team info** creates a specific risk profile.
 
 Here’s a breakdown of what’s likely going on and a strategic plan for how to handle it.
