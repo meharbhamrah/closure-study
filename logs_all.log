@@ -588,3 +588,1122 @@
 02:17:50 BLOCKED groq|qwen/qwen3.8-27b until 02:23:05 (daily quota: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per day)
 02:20:20 BLOCKED groq|openai/gpt-oss-20b until 02:21:48 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per d)
 02:21:50 progress: free/done=366; judge/done=347; probe/done=363; probe/failed=1; free/pending=786; judge/pending=385; probe/pending=788
+04:40:24 progress: free/done=370; judge/done=352; probe/done=367; probe/failed=1; free/pending=782; judge/pending=384; probe/pending=784
+04:43:21 BLOCKED gemini|gemma-4-31b-it until 04:44:21 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+04:45:00 BLOCKED groq|qwen/qwen3.8-27b until 04:46:00 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1704. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+04:46:35 progress: free/done=374; judge/done=356; probe/done=371; probe/failed=1; free/pending=778; judge/pending=390; probe/pending=780
+04:51:35 BLOCKED gemini|gemma-4-26b-a4b-it until 04:52:35 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+04:53:01 BLOCKED gemini|gemma-4-31b-it until 04:54:01 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+04:53:44 progress: free/done=378; judge/done=360; probe/done=376; probe/failed=1; free/pending=774; judge/pending=394; probe/pending=775
+04:53:44 BLOCKED groq|openai/gpt-oss-120b until 05:23:44 (internal 24h token budget reached)
+04:53:44 BLOCKED groq|qwen/qwen3.8-27b until 04:54:44 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1059. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+04:53:45 BLOCKED groq|openai/gpt-oss-120b until 05:23:45 (internal 24h token budget reached)
+04:53:48 BLOCKED groq|openai/gpt-oss-120b until 05:23:48 (internal 24h token budget reached)
+04:53:48 BLOCKED groq|openai/gpt-oss-120b until 05:23:48 (internal 24h token budget reached)
+04:53:49 BLOCKED groq|openai/gpt-oss-120b until 05:23:49 (internal 24h token budget reached)
+04:54:13 BLOCKED groq|openai/gpt-oss-120b until 05:24:13 (internal 24h token budget reached)
+04:56:49 BLOCKED groq|openai/gpt-oss-120b until 05:26:49 (internal 24h token budget reached)
+05:00:53 BLOCKED gemini|gemma-4-31b-it until 05:01:53 (transient (1): network: The read operation timed out)
+05:02:06 progress: free/done=381; judge/done=364; probe/done=378; probe/failed=1; free/pending=771; judge/pending=396; probe/pending=773
+05:02:06 BLOCKED groq|openai/gpt-oss-120b until 05:32:06 (internal 24h token budget reached)
+05:05:10 BLOCKED gemini|gemma-4-31b-it until 05:07:10 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+05:06:49 BLOCKED groq|openai/gpt-oss-120b until 05:36:49 (internal 24h token budget reached)
+05:06:52 BLOCKED groq|openai/gpt-oss-120b until 05:36:52 (internal 24h token budget reached)
+05:06:54 BLOCKED groq|openai/gpt-oss-120b until 05:36:54 (internal 24h token budget reached)
+05:07:26 progress: free/done=383; judge/done=366; probe/done=380; probe/failed=1; free/pending=769; judge/pending=400; probe/pending=771
+05:07:26 BLOCKED groq|openai/gpt-oss-120b until 05:37:26 (internal 24h token budget reached)
+05:12:12 BLOCKED groq|openai/gpt-oss-120b until 05:42:12 (internal 24h token budget reached)
+05:15:03 BLOCKED gemini|gemma-4-31b-it until 05:16:03 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+05:15:27 progress: free/done=385; judge/done=369; probe/done=382; probe/failed=1; free/pending=767; judge/pending=399; probe/pending=769
+05:15:27 BLOCKED groq|openai/gpt-oss-120b until 05:45:27 (internal 24h token budget reached)
+05:15:29 BLOCKED groq|openai/gpt-oss-120b until 05:45:29 (internal 24h token budget reached)
+05:15:30 BLOCKED groq|openai/gpt-oss-120b until 05:45:30 (internal 24h token budget reached)
+05:16:33 BLOCKED groq|openai/gpt-oss-120b until 05:46:33 (internal 24h token budget reached)
+05:18:11 BLOCKED groq|openai/gpt-oss-120b until 05:48:11 (internal 24h token budget reached)
+05:21:04 progress: free/done=389; judge/done=374; probe/done=386; probe/failed=1; free/pending=763; judge/pending=402; probe/pending=765
+05:21:04 BLOCKED groq|openai/gpt-oss-120b until 05:51:04 (internal 24h token budget reached)
+05:23:36 BLOCKED groq|openai/gpt-oss-120b until 05:53:36 (internal 24h token budget reached)
+05:23:36 BLOCKED groq|qwen/qwen3.8-27b until 05:24:36 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 3500. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+05:25:34 BLOCKED groq|openai/gpt-oss-120b until 05:55:34 (internal 24h token budget reached)
+05:27:23 BLOCKED gemini|gemma-4-31b-it until 05:28:23 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+05:27:41 progress: free/done=392; judge/done=379; probe/done=388; probe/failed=1; free/pending=760; judge/pending=401; probe/pending=763
+05:27:41 BLOCKED groq|openai/gpt-oss-120b until 05:57:41 (internal 24h token budget reached)
+05:27:42 BLOCKED groq|openai/gpt-oss-120b until 05:57:42 (internal 24h token budget reached)
+05:27:44 BLOCKED groq|openai/gpt-oss-120b until 05:57:44 (internal 24h token budget reached)
+05:29:15 BLOCKED groq|openai/gpt-oss-120b until 05:59:15 (internal 24h token budget reached)
+05:31:58 BLOCKED gemini|gemma-4-31b-it until 05:33:58 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+05:33:17 progress: free/done=394; judge/done=381; probe/done=392; probe/failed=1; free/pending=758; judge/pending=407; probe/pending=759
+05:33:17 BLOCKED groq|openai/gpt-oss-120b until 06:03:17 (internal 24h token budget reached)
+05:33:21 BLOCKED groq|openai/gpt-oss-120b until 06:03:21 (internal 24h token budget reached)
+05:33:22 BLOCKED groq|openai/gpt-oss-120b until 06:03:22 (internal 24h token budget reached)
+05:33:22 BLOCKED groq|qwen/qwen3.8-27b until 05:33:31 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+05:34:27 BLOCKED groq|openai/gpt-oss-120b until 06:04:27 (internal 24h token budget reached)
+05:38:08 BLOCKED groq|openai/gpt-oss-120b until 06:08:08 (internal 24h token budget reached)
+05:38:09 BLOCKED groq|qwen/qwen3.8-27b until 05:39:09 (too large for current bucket: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 1266. The request's expected output tokens exceed the enforced limit; reduce max_tokens (or the request's expected output) and try again. Need more tokens? Upgrade to Dev)
+05:40:55 progress: free/done=397; judge/done=386; probe/done=394; probe/failed=1; free/pending=755; judge/pending=406; probe/pending=757
+05:40:55 BLOCKED groq|openai/gpt-oss-120b until 06:10:55 (internal 24h token budget reached)
+05:42:20 BLOCKED groq|openai/gpt-oss-120b until 06:12:20 (internal 24h token budget reached)
+05:44:29 BLOCKED groq|openai/gpt-oss-120b until 06:14:29 (internal 24h token budget reached)
+05:44:31 BLOCKED groq|openai/gpt-oss-20b until 06:14:31 (internal 24h token budget reached)
+05:48:32 BLOCKED gemini|gemma-4-31b-it until 05:49:32 (transient (1): network: The read operation timed out)
+05:48:32 BLOCKED gemini|gemma-4-26b-a4b-it until 05:49:32 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+05:48:32 progress: free/done=400; judge/done=390; probe/done=396; probe/failed=1; free/pending=752; judge/pending=408; probe/pending=755
+05:48:32 BLOCKED groq|openai/gpt-oss-120b until 06:18:32 (internal 24h token budget reached)
+05:48:32 BLOCKED groq|openai/gpt-oss-20b until 06:18:32 (internal 24h token budget reached)
+05:48:32 BLOCKED groq|openai/gpt-oss-120b until 06:18:32 (internal 24h token budget reached)
+05:48:32 BLOCKED groq|openai/gpt-oss-20b until 06:18:32 (internal 24h token budget reached)
+05:48:35 BLOCKED groq|openai/gpt-oss-120b until 06:18:35 (internal 24h token budget reached)
+05:48:37 BLOCKED groq|openai/gpt-oss-20b until 06:18:37 (internal 24h token budget reached)
+05:48:37 BLOCKED groq|openai/gpt-oss-120b until 06:18:37 (internal 24h token budget reached)
+05:48:37 BLOCKED groq|openai/gpt-oss-20b until 06:18:37 (internal 24h token budget reached)
+05:48:39 BLOCKED groq|openai/gpt-oss-120b until 06:18:39 (internal 24h token budget reached)
+05:48:40 BLOCKED groq|qwen/qwen3.8-27b until 05:48:58 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+05:48:40 BLOCKED groq|openai/gpt-oss-20b until 06:18:40 (internal 24h token budget reached)
+05:48:40 BLOCKED groq|openai/gpt-oss-120b until 06:18:40 (internal 24h token budget reached)
+05:48:40 BLOCKED groq|openai/gpt-oss-20b until 06:18:40 (internal 24h token budget reached)
+05:48:58 BLOCKED groq|openai/gpt-oss-120b until 06:18:58 (internal 24h token budget reached)
+05:48:58 BLOCKED groq|openai/gpt-oss-20b until 06:18:58 (internal 24h token budget reached)
+05:48:58 BLOCKED groq|openai/gpt-oss-120b until 06:18:58 (internal 24h token budget reached)
+05:48:58 BLOCKED groq|openai/gpt-oss-20b until 06:18:58 (internal 24h token budget reached)
+05:49:00 BLOCKED groq|openai/gpt-oss-120b until 06:19:00 (internal 24h token budget reached)
+05:49:03 BLOCKED groq|openai/gpt-oss-20b until 06:19:03 (internal 24h token budget reached)
+05:49:03 BLOCKED groq|openai/gpt-oss-120b until 06:19:03 (internal 24h token budget reached)
+05:49:03 BLOCKED groq|openai/gpt-oss-20b until 06:19:03 (internal 24h token budget reached)
+05:49:05 BLOCKED groq|openai/gpt-oss-120b until 06:19:05 (internal 24h token budget reached)
+05:49:05 BLOCKED groq|qwen/qwen3.8-27b until 05:49:30 (rate limit: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m0scvv36e2y806mw54pxdrqp` se)
+05:49:05 BLOCKED groq|openai/gpt-oss-20b until 06:19:05 (internal 24h token budget reached)
+05:49:05 BLOCKED groq|openai/gpt-oss-120b until 06:19:05 (internal 24h token budget reached)
+05:49:05 BLOCKED groq|openai/gpt-oss-20b until 06:19:05 (internal 24h token budget reached)
+05:49:30 BLOCKED groq|openai/gpt-oss-120b until 06:19:30 (internal 24h token budget reached)
+05:49:31 BLOCKED groq|openai/gpt-oss-20b until 06:19:31 (internal 24h token budget reached)
+05:49:31 BLOCKED groq|openai/gpt-oss-120b until 06:19:31 (internal 24h token budget reached)
+05:49:31 BLOCKED groq|openai/gpt-oss-20b until 06:19:31 (internal 24h token budget reached)
+05:49:32 BLOCKED groq|openai/gpt-oss-120b until 06:19:32 (internal 24h token budget reached)
+05:49:32 BLOCKED groq|openai/gpt-oss-20b until 06:19:32 (internal 24h token budget reached)
+05:53:10 BLOCKED gemini|gemma-4-31b-it until 05:55:10 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+05:54:06 progress: free/done=402; judge/done=391; probe/done=399; probe/failed=1; free/pending=750; judge/pending=413; probe/pending=752
+05:54:06 BLOCKED groq|openai/gpt-oss-120b until 06:24:06 (internal 24h token budget reached)
+05:54:09 BLOCKED groq|openai/gpt-oss-20b until 06:24:09 (internal 24h token budget reached)
+05:54:09 BLOCKED groq|openai/gpt-oss-120b until 06:24:09 (internal 24h token budget reached)
+05:54:09 BLOCKED groq|openai/gpt-oss-20b until 06:24:09 (internal 24h token budget reached)
+05:54:11 BLOCKED groq|openai/gpt-oss-120b until 06:24:11 (internal 24h token budget reached)
+05:54:11 BLOCKED groq|openai/gpt-oss-20b until 06:24:11 (internal 24h token budget reached)
+05:54:33 BLOCKED groq|openai/gpt-oss-120b until 06:24:33 (internal 24h token budget reached)
+05:54:33 BLOCKED groq|openai/gpt-oss-20b until 06:24:33 (internal 24h token budget reached)
+05:54:33 BLOCKED groq|openai/gpt-oss-120b until 06:24:33 (internal 24h token budget reached)
+05:54:33 BLOCKED groq|openai/gpt-oss-20b until 06:24:33 (internal 24h token budget reached)
+05:54:36 BLOCKED groq|openai/gpt-oss-120b until 06:24:36 (internal 24h token budget reached)
+05:54:39 BLOCKED groq|openai/gpt-oss-20b until 06:24:39 (internal 24h token budget reached)
+05:55:29 BLOCKED groq|openai/gpt-oss-120b until 06:25:29 (internal 24h token budget reached)
+05:55:29 BLOCKED groq|qwen/qwen3.8-27b until 06:25:29 (internal 24h token budget reached)
+05:55:29 BLOCKED groq|openai/gpt-oss-20b until 06:25:29 (internal 24h token budget reached)
+05:58:51 BLOCKED groq|openai/gpt-oss-120b until 06:28:51 (internal 24h token budget reached)
+05:58:52 BLOCKED groq|qwen/qwen3.8-27b until 06:28:51 (internal 24h token budget reached)
+05:58:52 BLOCKED groq|openai/gpt-oss-20b until 06:28:52 (internal 24h token budget reached)
+06:03:11 progress: free/done=404; judge/done=397; probe/done=400; probe/failed=1; free/pending=748; judge/pending=411; probe/pending=751
+06:03:11 BLOCKED groq|openai/gpt-oss-120b until 06:33:11 (internal 24h token budget reached)
+06:03:11 BLOCKED groq|qwen/qwen3.8-27b until 06:33:11 (internal 24h token budget reached)
+06:03:11 BLOCKED groq|openai/gpt-oss-20b until 06:33:11 (internal 24h token budget reached)
+06:06:11 BLOCKED gemini|gemma-4-26b-a4b-it until 06:07:11 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+06:06:11 BLOCKED groq|openai/gpt-oss-120b until 06:36:11 (internal 24h token budget reached)
+06:06:11 BLOCKED groq|qwen/qwen3.8-27b until 06:36:11 (internal 24h token budget reached)
+06:06:11 BLOCKED groq|openai/gpt-oss-20b until 06:36:11 (internal 24h token budget reached)
+06:06:16 BLOCKED groq|openai/gpt-oss-120b until 06:36:16 (internal 24h token budget reached)
+06:06:16 BLOCKED groq|qwen/qwen3.8-27b until 06:36:16 (internal 24h token budget reached)
+06:06:16 BLOCKED groq|openai/gpt-oss-20b until 06:36:16 (internal 24h token budget reached)
+06:06:16 BLOCKED gemini|gemma-4-31b-it until 06:07:16 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+06:06:16 BLOCKED groq|openai/gpt-oss-120b until 06:36:16 (internal 24h token budget reached)
+06:06:17 BLOCKED groq|qwen/qwen3.8-27b until 06:36:16 (internal 24h token budget reached)
+06:06:17 BLOCKED groq|openai/gpt-oss-20b until 06:36:17 (internal 24h token budget reached)
+06:07:11 BLOCKED groq|openai/gpt-oss-120b until 06:37:11 (internal 24h token budget reached)
+06:07:11 BLOCKED groq|qwen/qwen3.8-27b until 06:37:11 (internal 24h token budget reached)
+06:07:11 BLOCKED groq|openai/gpt-oss-20b until 06:37:11 (internal 24h token budget reached)
+06:07:12 BLOCKED gemini|gemma-4-26b-a4b-it until 06:09:12 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+06:07:12 BLOCKED groq|openai/gpt-oss-120b until 06:37:12 (internal 24h token budget reached)
+06:07:12 BLOCKED groq|qwen/qwen3.8-27b until 06:37:12 (internal 24h token budget reached)
+06:07:12 BLOCKED groq|openai/gpt-oss-20b until 06:37:12 (internal 24h token budget reached)
+06:07:16 BLOCKED groq|openai/gpt-oss-120b until 06:37:16 (internal 24h token budget reached)
+06:07:16 BLOCKED groq|qwen/qwen3.8-27b until 06:37:16 (internal 24h token budget reached)
+06:07:16 BLOCKED groq|openai/gpt-oss-20b until 06:37:16 (internal 24h token budget reached)
+06:08:50 progress: free/done=404; judge/done=399; probe/done=400; probe/failed=1; free/pending=748; judge/pending=409; probe/pending=751
+06:08:50 BLOCKED groq|openai/gpt-oss-120b until 06:38:50 (internal 24h token budget reached)
+06:08:50 BLOCKED groq|qwen/qwen3.8-27b until 06:38:50 (internal 24h token budget reached)
+06:08:50 BLOCKED groq|openai/gpt-oss-20b until 06:38:50 (internal 24h token budget reached)
+06:08:55 BLOCKED groq|openai/gpt-oss-120b until 06:38:55 (internal 24h token budget reached)
+06:08:55 BLOCKED groq|qwen/qwen3.8-27b until 06:38:55 (internal 24h token budget reached)
+06:08:55 BLOCKED groq|openai/gpt-oss-20b until 06:38:55 (internal 24h token budget reached)
+06:10:48 BLOCKED groq|openai/gpt-oss-120b until 06:40:48 (internal 24h token budget reached)
+06:10:48 BLOCKED groq|qwen/qwen3.8-27b until 06:40:48 (internal 24h token budget reached)
+06:10:48 BLOCKED groq|openai/gpt-oss-20b until 06:40:48 (internal 24h token budget reached)
+06:14:48 BLOCKED gemini|gemma-4-31b-it until 06:15:48 (transient (1): network: The read operation timed out)
+06:15:54 progress: free/done=404; judge/done=402; probe/done=400; probe/failed=1; free/pending=748; judge/pending=406; probe/pending=751
+06:15:54 BLOCKED groq|openai/gpt-oss-120b until 06:45:54 (internal 24h token budget reached)
+06:15:54 BLOCKED groq|qwen/qwen3.8-27b until 06:45:54 (internal 24h token budget reached)
+06:15:54 BLOCKED groq|openai/gpt-oss-20b until 06:45:54 (internal 24h token budget reached)
+06:18:11 BLOCKED groq|openai/gpt-oss-120b until 06:48:11 (internal 24h token budget reached)
+06:18:11 BLOCKED groq|qwen/qwen3.8-27b until 06:48:11 (internal 24h token budget reached)
+06:18:11 BLOCKED groq|openai/gpt-oss-20b until 06:48:11 (internal 24h token budget reached)
+06:22:11 BLOCKED gemini|gemma-4-31b-it until 06:23:11 (transient (1): network: The read operation timed out)
+06:22:12 BLOCKED gemini|gemma-4-26b-a4b-it until 06:23:12 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+06:22:12 progress: free/done=404; judge/done=404; probe/done=400; probe/failed=1; free/pending=748; judge/pending=404; probe/pending=751
+06:22:12 BLOCKED groq|openai/gpt-oss-120b until 06:52:12 (internal 24h token budget reached)
+06:22:12 BLOCKED groq|qwen/qwen3.8-27b until 06:52:12 (internal 24h token budget reached)
+06:22:12 BLOCKED groq|openai/gpt-oss-20b until 06:52:12 (internal 24h token budget reached)
+06:23:11 BLOCKED groq|openai/gpt-oss-120b until 06:53:11 (internal 24h token budget reached)
+06:23:11 BLOCKED groq|qwen/qwen3.8-27b until 06:53:11 (internal 24h token budget reached)
+06:23:11 BLOCKED groq|openai/gpt-oss-20b until 06:53:11 (internal 24h token budget reached)
+06:27:11 BLOCKED gemini|gemma-4-31b-it until 06:29:11 (transient (2): network: The read operation timed out)
+06:27:40 progress: free/done=404; judge/done=405; probe/done=400; probe/failed=1; free/pending=748; judge/pending=403; probe/pending=751
+06:27:40 BLOCKED groq|openai/gpt-oss-120b until 06:57:40 (internal 24h token budget reached)
+06:27:40 BLOCKED groq|qwen/qwen3.8-27b until 06:57:40 (internal 24h token budget reached)
+06:27:40 BLOCKED groq|openai/gpt-oss-20b until 06:57:40 (internal 24h token budget reached)
+06:27:45 BLOCKED groq|openai/gpt-oss-120b until 06:57:45 (internal 24h token budget reached)
+06:27:45 BLOCKED groq|qwen/qwen3.8-27b until 06:57:45 (internal 24h token budget reached)
+06:27:45 BLOCKED groq|openai/gpt-oss-20b until 06:57:45 (internal 24h token budget reached)
+06:29:04 BLOCKED groq|openai/gpt-oss-120b until 06:59:04 (internal 24h token budget reached)
+06:29:04 BLOCKED groq|qwen/qwen3.8-27b until 06:59:04 (internal 24h token budget reached)
+06:29:04 BLOCKED groq|openai/gpt-oss-20b until 06:59:04 (internal 24h token budget reached)
+06:29:09 BLOCKED groq|openai/gpt-oss-120b until 06:59:09 (internal 24h token budget reached)
+06:29:09 BLOCKED groq|qwen/qwen3.8-27b until 06:59:09 (internal 24h token budget reached)
+06:29:09 BLOCKED groq|openai/gpt-oss-20b until 06:59:09 (internal 24h token budget reached)
+06:29:45 BLOCKED groq|openai/gpt-oss-120b until 06:59:45 (internal 24h token budget reached)
+06:29:45 BLOCKED groq|qwen/qwen3.8-27b until 06:59:45 (internal 24h token budget reached)
+06:29:45 BLOCKED groq|openai/gpt-oss-20b until 06:59:45 (internal 24h token budget reached)
+06:32:29 BLOCKED groq|openai/gpt-oss-120b until 07:02:29 (internal 24h token budget reached)
+06:32:29 BLOCKED groq|qwen/qwen3.8-27b until 07:02:29 (internal 24h token budget reached)
+06:32:29 BLOCKED groq|openai/gpt-oss-20b until 07:02:29 (internal 24h token budget reached)
+06:36:56 progress: free/done=404; judge/done=411; probe/done=400; probe/failed=1; free/pending=748; judge/pending=397; probe/pending=751
+06:36:56 BLOCKED groq|openai/gpt-oss-120b until 07:06:56 (internal 24h token budget reached)
+06:36:56 BLOCKED groq|qwen/qwen3.8-27b until 07:06:56 (internal 24h token budget reached)
+06:36:56 BLOCKED groq|openai/gpt-oss-20b until 07:06:56 (internal 24h token budget reached)
+06:38:59 BLOCKED groq|openai/gpt-oss-120b until 07:08:59 (internal 24h token budget reached)
+06:38:59 BLOCKED groq|qwen/qwen3.8-27b until 07:08:59 (internal 24h token budget reached)
+06:38:59 BLOCKED groq|openai/gpt-oss-20b until 07:08:59 (internal 24h token budget reached)
+06:42:08 BLOCKED gemini|gemma-4-31b-it until 06:43:08 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+06:42:50 progress: free/done=404; judge/done=414; probe/done=400; probe/failed=1; free/pending=748; judge/pending=394; probe/pending=751
+06:42:50 BLOCKED groq|openai/gpt-oss-120b until 07:12:50 (internal 24h token budget reached)
+06:42:50 BLOCKED groq|qwen/qwen3.8-27b until 07:12:50 (internal 24h token budget reached)
+06:42:50 BLOCKED groq|openai/gpt-oss-20b until 07:12:50 (internal 24h token budget reached)
+06:42:55 BLOCKED groq|openai/gpt-oss-120b until 07:12:55 (internal 24h token budget reached)
+06:42:55 BLOCKED groq|qwen/qwen3.8-27b until 07:12:55 (internal 24h token budget reached)
+06:42:55 BLOCKED groq|openai/gpt-oss-20b until 07:12:55 (internal 24h token budget reached)
+06:43:16 BLOCKED groq|openai/gpt-oss-120b until 07:13:16 (internal 24h token budget reached)
+06:43:16 BLOCKED groq|qwen/qwen3.8-27b until 07:13:16 (internal 24h token budget reached)
+06:43:16 BLOCKED groq|openai/gpt-oss-20b until 07:13:16 (internal 24h token budget reached)
+06:47:18 BLOCKED groq|openai/gpt-oss-120b until 07:17:18 (internal 24h token budget reached)
+06:47:18 BLOCKED groq|qwen/qwen3.8-27b until 07:17:18 (internal 24h token budget reached)
+06:47:18 BLOCKED groq|openai/gpt-oss-20b until 07:17:18 (internal 24h token budget reached)
+06:51:18 BLOCKED gemini|gemma-4-31b-it until 06:52:18 (transient (1): network: The read operation timed out)
+06:51:44 progress: free/done=404; judge/done=418; probe/done=400; probe/failed=1; free/pending=748; judge/pending=390; probe/pending=751
+06:51:44 BLOCKED groq|openai/gpt-oss-120b until 07:21:44 (internal 24h token budget reached)
+06:51:44 BLOCKED groq|qwen/qwen3.8-27b until 07:21:44 (internal 24h token budget reached)
+06:51:44 BLOCKED groq|openai/gpt-oss-20b until 07:21:44 (internal 24h token budget reached)
+06:51:49 BLOCKED groq|openai/gpt-oss-120b until 07:21:49 (internal 24h token budget reached)
+06:51:49 BLOCKED groq|qwen/qwen3.8-27b until 07:21:49 (internal 24h token budget reached)
+06:51:50 BLOCKED groq|openai/gpt-oss-20b until 07:21:49 (internal 24h token budget reached)
+06:52:11 BLOCKED groq|openai/gpt-oss-120b until 07:22:11 (internal 24h token budget reached)
+06:52:11 BLOCKED groq|qwen/qwen3.8-27b until 07:22:11 (internal 24h token budget reached)
+06:52:11 BLOCKED groq|openai/gpt-oss-20b until 07:22:11 (internal 24h token budget reached)
+06:52:16 BLOCKED groq|openai/gpt-oss-120b until 07:22:16 (internal 24h token budget reached)
+06:52:16 BLOCKED groq|qwen/qwen3.8-27b until 07:22:16 (internal 24h token budget reached)
+06:52:16 BLOCKED groq|openai/gpt-oss-20b until 07:22:16 (internal 24h token budget reached)
+06:52:38 BLOCKED groq|openai/gpt-oss-120b until 07:22:38 (internal 24h token budget reached)
+06:52:38 BLOCKED groq|qwen/qwen3.8-27b until 07:22:38 (internal 24h token budget reached)
+06:52:38 BLOCKED groq|openai/gpt-oss-20b until 07:22:38 (internal 24h token budget reached)
+06:54:11 BLOCKED gemini|gemma-4-31b-it until 06:56:11 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+06:54:33 BLOCKED groq|openai/gpt-oss-120b until 07:24:33 (internal 24h token budget reached)
+06:54:33 BLOCKED groq|qwen/qwen3.8-27b until 07:24:33 (internal 24h token budget reached)
+06:54:33 BLOCKED groq|openai/gpt-oss-20b until 07:24:33 (internal 24h token budget reached)
+06:54:37 BLOCKED groq|openai/gpt-oss-120b until 07:24:37 (internal 24h token budget reached)
+06:54:37 BLOCKED groq|qwen/qwen3.8-27b until 07:24:37 (internal 24h token budget reached)
+06:54:37 BLOCKED groq|openai/gpt-oss-20b until 07:24:37 (internal 24h token budget reached)
+06:55:17 BLOCKED groq|openai/gpt-oss-120b until 07:25:17 (internal 24h token budget reached)
+06:55:17 BLOCKED groq|qwen/qwen3.8-27b until 07:25:17 (internal 24h token budget reached)
+06:55:17 BLOCKED groq|openai/gpt-oss-20b until 07:25:17 (internal 24h token budget reached)
+06:55:22 BLOCKED groq|openai/gpt-oss-120b until 07:25:22 (internal 24h token budget reached)
+06:55:22 BLOCKED groq|qwen/qwen3.8-27b until 07:25:22 (internal 24h token budget reached)
+06:55:22 BLOCKED groq|openai/gpt-oss-20b until 07:25:22 (internal 24h token budget reached)
+06:55:51 BLOCKED groq|openai/gpt-oss-120b until 07:25:51 (internal 24h token budget reached)
+06:55:51 BLOCKED groq|qwen/qwen3.8-27b until 07:25:51 (internal 24h token budget reached)
+06:55:51 BLOCKED groq|openai/gpt-oss-20b until 07:25:51 (internal 24h token budget reached)
+06:55:56 BLOCKED groq|openai/gpt-oss-120b until 07:25:56 (internal 24h token budget reached)
+06:55:56 BLOCKED groq|qwen/qwen3.8-27b until 07:25:56 (internal 24h token budget reached)
+06:55:56 BLOCKED groq|openai/gpt-oss-20b until 07:25:56 (internal 24h token budget reached)
+06:56:16 BLOCKED groq|openai/gpt-oss-120b until 07:26:16 (internal 24h token budget reached)
+06:56:16 BLOCKED groq|qwen/qwen3.8-27b until 07:26:16 (internal 24h token budget reached)
+06:56:16 BLOCKED groq|openai/gpt-oss-20b until 07:26:16 (internal 24h token budget reached)
+07:00:18 progress: free/done=404; judge/done=426; probe/done=400; probe/failed=1; free/pending=748; judge/pending=382; probe/pending=751
+07:00:18 BLOCKED groq|openai/gpt-oss-120b until 07:30:18 (internal 24h token budget reached)
+07:00:18 BLOCKED groq|qwen/qwen3.8-27b until 07:30:18 (internal 24h token budget reached)
+07:00:18 BLOCKED groq|openai/gpt-oss-20b until 07:30:18 (internal 24h token budget reached)
+07:02:40 BLOCKED groq|openai/gpt-oss-120b until 07:32:40 (internal 24h token budget reached)
+07:02:40 BLOCKED groq|qwen/qwen3.8-27b until 07:32:40 (internal 24h token budget reached)
+07:02:40 BLOCKED groq|openai/gpt-oss-20b until 07:32:40 (internal 24h token budget reached)
+07:06:40 BLOCKED gemini|gemma-4-31b-it until 07:07:40 (transient (1): network: The read operation timed out)
+07:07:16 progress: free/done=404; judge/done=429; probe/done=400; probe/failed=1; free/pending=748; judge/pending=379; probe/pending=751
+07:07:22 BLOCKED groq|openai/gpt-oss-120b until 07:37:22 (internal 24h token budget reached)
+07:07:22 BLOCKED groq|qwen/qwen3.8-27b until 07:37:22 (internal 24h token budget reached)
+07:07:22 BLOCKED groq|openai/gpt-oss-20b until 07:37:22 (internal 24h token budget reached)
+07:07:51 BLOCKED groq|openai/gpt-oss-120b until 07:37:51 (internal 24h token budget reached)
+07:07:51 BLOCKED groq|qwen/qwen3.8-27b until 07:37:51 (internal 24h token budget reached)
+07:07:51 BLOCKED groq|openai/gpt-oss-20b until 07:37:51 (internal 24h token budget reached)
+07:10:20 BLOCKED groq|openai/gpt-oss-120b until 07:40:20 (internal 24h token budget reached)
+07:10:20 BLOCKED groq|qwen/qwen3.8-27b until 07:40:20 (internal 24h token budget reached)
+07:10:20 BLOCKED groq|openai/gpt-oss-20b until 07:40:20 (internal 24h token budget reached)
+07:11:49 BLOCKED groq|openai/gpt-oss-120b until 07:41:49 (internal 24h token budget reached)
+07:11:49 BLOCKED groq|qwen/qwen3.8-27b until 07:41:49 (internal 24h token budget reached)
+07:11:49 BLOCKED groq|openai/gpt-oss-20b until 07:41:49 (internal 24h token budget reached)
+07:15:06 progress: free/done=406; judge/done=436; probe/done=402; probe/failed=1; free/pending=746; judge/pending=376; probe/pending=749
+07:15:12 BLOCKED groq|openai/gpt-oss-120b until 07:45:12 (internal 24h token budget reached)
+07:15:12 BLOCKED groq|qwen/qwen3.8-27b until 07:45:12 (internal 24h token budget reached)
+07:15:12 BLOCKED groq|openai/gpt-oss-20b until 07:45:12 (internal 24h token budget reached)
+07:17:21 BLOCKED groq|openai/gpt-oss-120b until 07:47:21 (internal 24h token budget reached)
+07:17:21 BLOCKED groq|qwen/qwen3.8-27b until 07:47:21 (internal 24h token budget reached)
+07:17:21 BLOCKED groq|openai/gpt-oss-20b until 07:47:21 (internal 24h token budget reached)
+07:20:20 progress: free/done=407; judge/done=440; probe/done=403; probe/failed=1; free/pending=745; judge/pending=374; probe/pending=748
+07:20:26 BLOCKED groq|openai/gpt-oss-120b until 07:50:26 (internal 24h token budget reached)
+07:20:26 BLOCKED groq|qwen/qwen3.8-27b until 07:50:26 (internal 24h token budget reached)
+07:20:26 BLOCKED groq|openai/gpt-oss-20b until 07:50:26 (internal 24h token budget reached)
+07:22:37 BLOCKED gemini|gemini-3.5-flash-lite until 07:23:37 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:22:37 BLOCKED groq|openai/gpt-oss-120b until 07:52:37 (internal 24h token budget reached)
+07:22:37 BLOCKED groq|qwen/qwen3.8-27b until 07:52:37 (internal 24h token budget reached)
+07:22:37 BLOCKED groq|openai/gpt-oss-20b until 07:52:37 (internal 24h token budget reached)
+07:24:06 BLOCKED groq|openai/gpt-oss-120b until 07:54:06 (internal 24h token budget reached)
+07:24:06 BLOCKED groq|qwen/qwen3.8-27b until 07:54:06 (internal 24h token budget reached)
+07:24:06 BLOCKED groq|openai/gpt-oss-20b until 07:54:06 (internal 24h token budget reached)
+07:24:53 BLOCKED gemini|gemma-4-31b-it until 07:25:53 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:25:19 BLOCKED groq|openai/gpt-oss-120b until 07:55:19 (internal 24h token budget reached)
+07:25:19 BLOCKED groq|qwen/qwen3.8-27b until 07:55:19 (internal 24h token budget reached)
+07:25:19 BLOCKED groq|openai/gpt-oss-20b until 07:55:19 (internal 24h token budget reached)
+07:25:36 progress: free/done=409; judge/done=446; probe/done=404; probe/failed=1; free/pending=743; judge/pending=370; probe/pending=747
+07:25:37 BLOCKED groq|openai/gpt-oss-120b until 07:55:37 (internal 24h token budget reached)
+07:25:37 BLOCKED groq|qwen/qwen3.8-27b until 07:55:37 (internal 24h token budget reached)
+07:25:37 BLOCKED groq|openai/gpt-oss-20b until 07:55:37 (internal 24h token budget reached)
+07:25:38 BLOCKED groq|openai/gpt-oss-120b until 07:55:38 (internal 24h token budget reached)
+07:25:38 BLOCKED groq|qwen/qwen3.8-27b until 07:55:38 (internal 24h token budget reached)
+07:25:38 BLOCKED groq|openai/gpt-oss-20b until 07:55:38 (internal 24h token budget reached)
+07:25:41 BLOCKED groq|openai/gpt-oss-120b until 07:55:41 (internal 24h token budget reached)
+07:25:41 BLOCKED groq|qwen/qwen3.8-27b until 07:55:41 (internal 24h token budget reached)
+07:25:41 BLOCKED groq|openai/gpt-oss-20b until 07:55:41 (internal 24h token budget reached)
+07:27:00 BLOCKED groq|openai/gpt-oss-120b until 07:57:00 (internal 24h token budget reached)
+07:27:00 BLOCKED groq|qwen/qwen3.8-27b until 07:57:00 (internal 24h token budget reached)
+07:27:00 BLOCKED groq|openai/gpt-oss-20b until 07:57:00 (internal 24h token budget reached)
+07:29:22 BLOCKED groq|openai/gpt-oss-120b until 07:59:22 (internal 24h token budget reached)
+07:29:22 BLOCKED groq|qwen/qwen3.8-27b until 07:59:22 (internal 24h token budget reached)
+07:29:22 BLOCKED groq|openai/gpt-oss-20b until 07:59:22 (internal 24h token budget reached)
+07:31:50 progress: free/done=410; judge/done=451; probe/done=406; probe/failed=1; free/pending=742; judge/pending=369; probe/pending=745
+07:32:03 BLOCKED groq|openai/gpt-oss-120b until 08:02:03 (internal 24h token budget reached)
+07:32:03 BLOCKED groq|qwen/qwen3.8-27b until 08:02:03 (internal 24h token budget reached)
+07:32:03 BLOCKED groq|openai/gpt-oss-20b until 08:02:03 (internal 24h token budget reached)
+07:33:13 BLOCKED groq|openai/gpt-oss-120b until 08:03:13 (internal 24h token budget reached)
+07:33:13 BLOCKED groq|qwen/qwen3.8-27b until 08:03:13 (internal 24h token budget reached)
+07:33:13 BLOCKED groq|openai/gpt-oss-20b until 08:03:13 (internal 24h token budget reached)
+07:35:20 BLOCKED groq|openai/gpt-oss-120b until 08:05:20 (internal 24h token budget reached)
+07:35:20 BLOCKED groq|qwen/qwen3.8-27b until 08:05:20 (internal 24h token budget reached)
+07:35:20 BLOCKED groq|openai/gpt-oss-20b until 08:05:20 (internal 24h token budget reached)
+07:35:57 BLOCKED gemini|gemma-4-31b-it until 07:36:57 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:36:22 BLOCKED groq|openai/gpt-oss-120b until 08:06:22 (internal 24h token budget reached)
+07:36:22 BLOCKED groq|qwen/qwen3.8-27b until 08:06:22 (internal 24h token budget reached)
+07:36:22 BLOCKED groq|openai/gpt-oss-20b until 08:06:22 (internal 24h token budget reached)
+07:36:22 BLOCKED groq|openai/gpt-oss-120b until 08:06:22 (internal 24h token budget reached)
+07:36:22 BLOCKED groq|qwen/qwen3.8-27b until 08:06:22 (internal 24h token budget reached)
+07:36:22 BLOCKED groq|openai/gpt-oss-20b until 08:06:22 (internal 24h token budget reached)
+07:36:25 BLOCKED groq|openai/gpt-oss-120b until 08:06:25 (internal 24h token budget reached)
+07:36:25 BLOCKED groq|qwen/qwen3.8-27b until 08:06:25 (internal 24h token budget reached)
+07:36:25 BLOCKED groq|openai/gpt-oss-20b until 08:06:25 (internal 24h token budget reached)
+07:36:54 progress: free/done=412; judge/done=457; probe/done=408; probe/failed=1; free/pending=740; judge/pending=367; probe/pending=743
+07:37:04 BLOCKED groq|openai/gpt-oss-120b until 08:07:04 (internal 24h token budget reached)
+07:37:04 BLOCKED groq|qwen/qwen3.8-27b until 08:07:04 (internal 24h token budget reached)
+07:37:04 BLOCKED groq|openai/gpt-oss-20b until 08:07:04 (internal 24h token budget reached)
+07:37:30 BLOCKED gemini|gemma-4-31b-it until 07:38:30 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:38:10 BLOCKED groq|openai/gpt-oss-120b until 08:08:10 (internal 24h token budget reached)
+07:38:10 BLOCKED groq|qwen/qwen3.8-27b until 08:08:10 (internal 24h token budget reached)
+07:38:10 BLOCKED groq|openai/gpt-oss-20b until 08:08:10 (internal 24h token budget reached)
+07:38:10 BLOCKED groq|openai/gpt-oss-120b until 08:08:10 (internal 24h token budget reached)
+07:38:10 BLOCKED groq|qwen/qwen3.8-27b until 08:08:10 (internal 24h token budget reached)
+07:38:10 BLOCKED groq|openai/gpt-oss-20b until 08:08:10 (internal 24h token budget reached)
+07:38:13 BLOCKED groq|openai/gpt-oss-120b until 08:08:13 (internal 24h token budget reached)
+07:38:13 BLOCKED groq|qwen/qwen3.8-27b until 08:08:13 (internal 24h token budget reached)
+07:38:13 BLOCKED groq|openai/gpt-oss-20b until 08:08:13 (internal 24h token budget reached)
+07:38:39 BLOCKED groq|openai/gpt-oss-120b until 08:08:39 (internal 24h token budget reached)
+07:38:39 BLOCKED groq|qwen/qwen3.8-27b until 08:08:39 (internal 24h token budget reached)
+07:38:39 BLOCKED groq|openai/gpt-oss-20b until 08:08:39 (internal 24h token budget reached)
+07:39:26 BLOCKED gemini|gemini-3.5-flash-lite until 07:40:26 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:39:26 BLOCKED groq|openai/gpt-oss-120b until 08:09:26 (internal 24h token budget reached)
+07:39:26 BLOCKED groq|qwen/qwen3.8-27b until 08:09:26 (internal 24h token budget reached)
+07:39:26 BLOCKED groq|openai/gpt-oss-20b until 08:09:26 (internal 24h token budget reached)
+07:40:10 BLOCKED groq|openai/gpt-oss-120b until 08:10:10 (internal 24h token budget reached)
+07:40:10 BLOCKED groq|qwen/qwen3.8-27b until 08:10:10 (internal 24h token budget reached)
+07:40:10 BLOCKED groq|openai/gpt-oss-20b until 08:10:10 (internal 24h token budget reached)
+07:41:04 BLOCKED groq|openai/gpt-oss-120b until 08:11:04 (internal 24h token budget reached)
+07:41:04 BLOCKED groq|qwen/qwen3.8-27b until 08:11:04 (internal 24h token budget reached)
+07:41:04 BLOCKED groq|openai/gpt-oss-20b until 08:11:04 (internal 24h token budget reached)
+07:42:27 BLOCKED gemini|gemma-4-26b-a4b-it until 07:43:27 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:42:27 progress: free/done=414; judge/done=466; probe/done=410; probe/failed=1; free/pending=738; judge/pending=362; probe/pending=741
+07:42:40 BLOCKED groq|openai/gpt-oss-120b until 08:12:40 (internal 24h token budget reached)
+07:42:40 BLOCKED groq|qwen/qwen3.8-27b until 08:12:40 (internal 24h token budget reached)
+07:42:40 BLOCKED groq|openai/gpt-oss-20b until 08:12:40 (internal 24h token budget reached)
+07:43:00 BLOCKED gemini|gemma-4-31b-it until 07:44:00 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:43:02 BLOCKED gemini|gemini-3.5-flash-lite until 07:44:02 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:43:02 BLOCKED groq|openai/gpt-oss-120b until 08:13:02 (internal 24h token budget reached)
+07:43:02 BLOCKED groq|qwen/qwen3.8-27b until 08:13:02 (internal 24h token budget reached)
+07:43:02 BLOCKED groq|openai/gpt-oss-20b until 08:13:02 (internal 24h token budget reached)
+07:43:02 BLOCKED groq|openai/gpt-oss-120b until 08:13:02 (internal 24h token budget reached)
+07:43:02 BLOCKED groq|qwen/qwen3.8-27b until 08:13:02 (internal 24h token budget reached)
+07:43:02 BLOCKED groq|openai/gpt-oss-20b until 08:13:02 (internal 24h token budget reached)
+07:43:27 BLOCKED groq|openai/gpt-oss-120b until 08:13:27 (internal 24h token budget reached)
+07:43:27 BLOCKED groq|qwen/qwen3.8-27b until 08:13:27 (internal 24h token budget reached)
+07:43:27 BLOCKED groq|openai/gpt-oss-20b until 08:13:27 (internal 24h token budget reached)
+07:43:40 BLOCKED groq|openai/gpt-oss-120b until 08:13:40 (internal 24h token budget reached)
+07:43:40 BLOCKED groq|qwen/qwen3.8-27b until 08:13:40 (internal 24h token budget reached)
+07:43:40 BLOCKED groq|openai/gpt-oss-20b until 08:13:40 (internal 24h token budget reached)
+07:43:45 BLOCKED groq|openai/gpt-oss-120b until 08:13:45 (internal 24h token budget reached)
+07:43:45 BLOCKED groq|qwen/qwen3.8-27b until 08:13:45 (internal 24h token budget reached)
+07:43:45 BLOCKED groq|openai/gpt-oss-20b until 08:13:45 (internal 24h token budget reached)
+07:43:58 BLOCKED groq|openai/gpt-oss-120b until 08:13:58 (internal 24h token budget reached)
+07:43:58 BLOCKED groq|qwen/qwen3.8-27b until 08:13:58 (internal 24h token budget reached)
+07:43:58 BLOCKED groq|openai/gpt-oss-20b until 08:13:58 (internal 24h token budget reached)
+07:44:00 BLOCKED groq|openai/gpt-oss-120b until 08:14:00 (internal 24h token budget reached)
+07:44:00 BLOCKED groq|qwen/qwen3.8-27b until 08:14:00 (internal 24h token budget reached)
+07:44:00 BLOCKED groq|openai/gpt-oss-20b until 08:14:00 (internal 24h token budget reached)
+07:44:45 BLOCKED gemini|gemma-4-31b-it until 07:45:45 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:45:19 BLOCKED groq|openai/gpt-oss-120b until 08:15:19 (internal 24h token budget reached)
+07:45:19 BLOCKED groq|qwen/qwen3.8-27b until 08:15:19 (internal 24h token budget reached)
+07:45:19 BLOCKED groq|openai/gpt-oss-20b until 08:15:19 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|openai/gpt-oss-120b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|qwen/qwen3.8-27b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|openai/gpt-oss-20b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|openai/gpt-oss-120b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|qwen/qwen3.8-27b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|openai/gpt-oss-20b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|openai/gpt-oss-120b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|qwen/qwen3.8-27b until 08:15:41 (internal 24h token budget reached)
+07:45:41 BLOCKED groq|openai/gpt-oss-20b until 08:15:41 (internal 24h token budget reached)
+07:46:01 BLOCKED groq|openai/gpt-oss-120b until 08:16:01 (internal 24h token budget reached)
+07:46:01 BLOCKED groq|qwen/qwen3.8-27b until 08:16:01 (internal 24h token budget reached)
+07:46:01 BLOCKED groq|openai/gpt-oss-20b until 08:16:01 (internal 24h token budget reached)
+07:46:12 BLOCKED gemini|gemma-4-31b-it until 07:48:12 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:46:32 BLOCKED groq|openai/gpt-oss-120b until 08:16:32 (internal 24h token budget reached)
+07:46:32 BLOCKED groq|qwen/qwen3.8-27b until 08:16:32 (internal 24h token budget reached)
+07:46:32 BLOCKED groq|openai/gpt-oss-20b until 08:16:32 (internal 24h token budget reached)
+07:46:59 BLOCKED groq|openai/gpt-oss-120b until 08:16:59 (internal 24h token budget reached)
+07:46:59 BLOCKED groq|qwen/qwen3.8-27b until 08:16:59 (internal 24h token budget reached)
+07:46:59 BLOCKED groq|openai/gpt-oss-20b until 08:16:59 (internal 24h token budget reached)
+07:47:47 progress: free/done=417; judge/done=474; probe/done=413; probe/failed=1; free/pending=735; judge/pending=360; probe/pending=738
+07:47:53 BLOCKED groq|openai/gpt-oss-120b until 08:17:53 (internal 24h token budget reached)
+07:47:53 BLOCKED groq|qwen/qwen3.8-27b until 08:17:53 (internal 24h token budget reached)
+07:47:53 BLOCKED groq|openai/gpt-oss-20b until 08:17:53 (internal 24h token budget reached)
+07:48:17 BLOCKED gemini|gemini-3.5-flash-lite until 07:49:17 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:48:17 BLOCKED groq|openai/gpt-oss-120b until 08:18:17 (internal 24h token budget reached)
+07:48:17 BLOCKED groq|qwen/qwen3.8-27b until 08:18:17 (internal 24h token budget reached)
+07:48:17 BLOCKED groq|openai/gpt-oss-20b until 08:18:17 (internal 24h token budget reached)
+07:49:05 BLOCKED gemini|gemma-4-31b-it until 07:53:05 (transient (3): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:49:49 BLOCKED groq|openai/gpt-oss-120b until 08:19:49 (internal 24h token budget reached)
+07:49:49 BLOCKED groq|qwen/qwen3.8-27b until 08:19:49 (internal 24h token budget reached)
+07:49:49 BLOCKED groq|openai/gpt-oss-20b until 08:19:49 (internal 24h token budget reached)
+07:50:58 BLOCKED groq|openai/gpt-oss-120b until 08:20:58 (internal 24h token budget reached)
+07:50:58 BLOCKED groq|qwen/qwen3.8-27b until 08:20:58 (internal 24h token budget reached)
+07:50:58 BLOCKED groq|openai/gpt-oss-20b until 08:20:58 (internal 24h token budget reached)
+07:52:51 BLOCKED groq|openai/gpt-oss-120b until 08:22:51 (internal 24h token budget reached)
+07:52:51 BLOCKED groq|qwen/qwen3.8-27b until 08:22:51 (internal 24h token budget reached)
+07:52:51 BLOCKED groq|openai/gpt-oss-20b until 08:22:51 (internal 24h token budget reached)
+07:53:08 progress: free/done=419; judge/done=479; probe/done=415; probe/failed=1; free/pending=733; judge/pending=359; probe/pending=736
+07:53:14 BLOCKED groq|openai/gpt-oss-120b until 08:23:14 (internal 24h token budget reached)
+07:53:14 BLOCKED groq|qwen/qwen3.8-27b until 08:23:14 (internal 24h token budget reached)
+07:53:14 BLOCKED groq|openai/gpt-oss-20b until 08:23:14 (internal 24h token budget reached)
+07:54:07 BLOCKED gemini|gemma-4-31b-it until 08:02:07 (transient (4): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:54:43 BLOCKED groq|openai/gpt-oss-120b until 08:24:43 (internal 24h token budget reached)
+07:54:43 BLOCKED groq|qwen/qwen3.8-27b until 08:24:43 (internal 24h token budget reached)
+07:54:43 BLOCKED groq|openai/gpt-oss-20b until 08:24:43 (internal 24h token budget reached)
+07:54:43 BLOCKED groq|openai/gpt-oss-120b until 08:24:43 (internal 24h token budget reached)
+07:54:43 BLOCKED groq|qwen/qwen3.8-27b until 08:24:43 (internal 24h token budget reached)
+07:54:43 BLOCKED groq|openai/gpt-oss-20b until 08:24:43 (internal 24h token budget reached)
+07:54:44 BLOCKED groq|openai/gpt-oss-120b until 08:24:44 (internal 24h token budget reached)
+07:54:44 BLOCKED groq|qwen/qwen3.8-27b until 08:24:44 (internal 24h token budget reached)
+07:54:44 BLOCKED groq|openai/gpt-oss-20b until 08:24:44 (internal 24h token budget reached)
+07:55:58 BLOCKED groq|openai/gpt-oss-120b until 08:25:58 (internal 24h token budget reached)
+07:55:58 BLOCKED groq|qwen/qwen3.8-27b until 08:25:58 (internal 24h token budget reached)
+07:55:58 BLOCKED groq|openai/gpt-oss-20b until 08:25:58 (internal 24h token budget reached)
+07:57:02 BLOCKED groq|openai/gpt-oss-120b until 08:27:02 (internal 24h token budget reached)
+07:57:02 BLOCKED groq|qwen/qwen3.8-27b until 08:27:02 (internal 24h token budget reached)
+07:57:02 BLOCKED groq|openai/gpt-oss-20b until 08:27:02 (internal 24h token budget reached)
+07:57:02 BLOCKED groq|openai/gpt-oss-120b until 08:27:02 (internal 24h token budget reached)
+07:57:02 BLOCKED groq|qwen/qwen3.8-27b until 08:27:02 (internal 24h token budget reached)
+07:57:02 BLOCKED groq|openai/gpt-oss-20b until 08:27:02 (internal 24h token budget reached)
+07:57:04 BLOCKED groq|openai/gpt-oss-120b until 08:27:04 (internal 24h token budget reached)
+07:57:04 BLOCKED groq|qwen/qwen3.8-27b until 08:27:04 (internal 24h token budget reached)
+07:57:04 BLOCKED groq|openai/gpt-oss-20b until 08:27:04 (internal 24h token budget reached)
+07:57:27 BLOCKED groq|openai/gpt-oss-120b until 08:27:27 (internal 24h token budget reached)
+07:57:27 BLOCKED groq|qwen/qwen3.8-27b until 08:27:27 (internal 24h token budget reached)
+07:57:27 BLOCKED groq|openai/gpt-oss-20b until 08:27:27 (internal 24h token budget reached)
+07:57:27 BLOCKED groq|openai/gpt-oss-120b until 08:27:27 (internal 24h token budget reached)
+07:57:27 BLOCKED groq|qwen/qwen3.8-27b until 08:27:27 (internal 24h token budget reached)
+07:57:27 BLOCKED groq|openai/gpt-oss-20b until 08:27:27 (internal 24h token budget reached)
+07:57:28 BLOCKED groq|openai/gpt-oss-120b until 08:27:28 (internal 24h token budget reached)
+07:57:28 BLOCKED groq|qwen/qwen3.8-27b until 08:27:28 (internal 24h token budget reached)
+07:57:28 BLOCKED groq|openai/gpt-oss-20b until 08:27:28 (internal 24h token budget reached)
+07:58:15 progress: free/done=422; judge/done=484; probe/done=417; probe/failed=1; free/pending=730; judge/pending=360; probe/pending=734
+07:58:19 BLOCKED groq|openai/gpt-oss-120b until 08:28:19 (internal 24h token budget reached)
+07:58:19 BLOCKED groq|qwen/qwen3.8-27b until 08:28:19 (internal 24h token budget reached)
+07:58:19 BLOCKED groq|openai/gpt-oss-20b until 08:28:19 (internal 24h token budget reached)
+07:58:19 BLOCKED groq|openai/gpt-oss-120b until 08:28:19 (internal 24h token budget reached)
+07:58:19 BLOCKED groq|qwen/qwen3.8-27b until 08:28:19 (internal 24h token budget reached)
+07:58:19 BLOCKED groq|openai/gpt-oss-20b until 08:28:19 (internal 24h token budget reached)
+07:58:20 BLOCKED groq|openai/gpt-oss-120b until 08:28:20 (internal 24h token budget reached)
+07:58:20 BLOCKED groq|qwen/qwen3.8-27b until 08:28:20 (internal 24h token budget reached)
+07:58:20 BLOCKED groq|openai/gpt-oss-20b until 08:28:20 (internal 24h token budget reached)
+07:59:13 BLOCKED groq|openai/gpt-oss-120b until 08:29:13 (internal 24h token budget reached)
+07:59:13 BLOCKED groq|qwen/qwen3.8-27b until 08:29:13 (internal 24h token budget reached)
+07:59:13 BLOCKED groq|openai/gpt-oss-20b until 08:29:13 (internal 24h token budget reached)
+07:59:27 BLOCKED groq|openai/gpt-oss-120b until 08:29:27 (internal 24h token budget reached)
+07:59:27 BLOCKED groq|qwen/qwen3.8-27b until 08:29:27 (internal 24h token budget reached)
+07:59:27 BLOCKED groq|openai/gpt-oss-20b until 08:29:27 (internal 24h token budget reached)
+07:59:27 BLOCKED groq|openai/gpt-oss-120b until 08:29:27 (internal 24h token budget reached)
+07:59:27 BLOCKED groq|qwen/qwen3.8-27b until 08:29:27 (internal 24h token budget reached)
+07:59:27 BLOCKED groq|openai/gpt-oss-20b until 08:29:27 (internal 24h token budget reached)
+07:59:30 BLOCKED groq|openai/gpt-oss-120b until 08:29:30 (internal 24h token budget reached)
+07:59:30 BLOCKED groq|qwen/qwen3.8-27b until 08:29:30 (internal 24h token budget reached)
+07:59:30 BLOCKED groq|openai/gpt-oss-20b until 08:29:30 (internal 24h token budget reached)
+07:59:43 BLOCKED gemini|gemini-3.5-flash-lite until 08:00:43 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:59:43 BLOCKED groq|openai/gpt-oss-120b until 08:29:43 (internal 24h token budget reached)
+07:59:43 BLOCKED groq|qwen/qwen3.8-27b until 08:29:43 (internal 24h token budget reached)
+07:59:43 BLOCKED groq|openai/gpt-oss-20b until 08:29:43 (internal 24h token budget reached)
+07:59:43 BLOCKED groq|openai/gpt-oss-120b until 08:29:43 (internal 24h token budget reached)
+07:59:43 BLOCKED groq|qwen/qwen3.8-27b until 08:29:43 (internal 24h token budget reached)
+07:59:43 BLOCKED groq|openai/gpt-oss-20b until 08:29:43 (internal 24h token budget reached)
+07:59:48 BLOCKED groq|openai/gpt-oss-120b until 08:29:48 (internal 24h token budget reached)
+07:59:48 BLOCKED groq|qwen/qwen3.8-27b until 08:29:48 (internal 24h token budget reached)
+07:59:48 BLOCKED groq|openai/gpt-oss-20b until 08:29:48 (internal 24h token budget reached)
+08:00:41 BLOCKED groq|openai/gpt-oss-120b until 08:30:41 (internal 24h token budget reached)
+08:00:41 BLOCKED groq|qwen/qwen3.8-27b until 08:30:41 (internal 24h token budget reached)
+08:00:41 BLOCKED groq|openai/gpt-oss-20b until 08:30:41 (internal 24h token budget reached)
+08:00:44 BLOCKED gemini|gemini-3.5-flash-lite until 08:02:44 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:00:44 BLOCKED groq|openai/gpt-oss-120b until 08:30:44 (internal 24h token budget reached)
+08:00:44 BLOCKED groq|qwen/qwen3.8-27b until 08:30:44 (internal 24h token budget reached)
+08:00:44 BLOCKED groq|openai/gpt-oss-20b until 08:30:44 (internal 24h token budget reached)
+08:00:44 BLOCKED groq|openai/gpt-oss-120b until 08:30:44 (internal 24h token budget reached)
+08:00:44 BLOCKED groq|qwen/qwen3.8-27b until 08:30:44 (internal 24h token budget reached)
+08:00:44 BLOCKED groq|openai/gpt-oss-20b until 08:30:44 (internal 24h token budget reached)
+08:00:46 BLOCKED groq|openai/gpt-oss-120b until 08:30:46 (internal 24h token budget reached)
+08:00:46 BLOCKED groq|qwen/qwen3.8-27b until 08:30:46 (internal 24h token budget reached)
+08:00:46 BLOCKED groq|openai/gpt-oss-20b until 08:30:46 (internal 24h token budget reached)
+08:01:10 BLOCKED groq|openai/gpt-oss-120b until 08:31:10 (internal 24h token budget reached)
+08:01:10 BLOCKED groq|qwen/qwen3.8-27b until 08:31:10 (internal 24h token budget reached)
+08:01:10 BLOCKED groq|openai/gpt-oss-20b until 08:31:10 (internal 24h token budget reached)
+08:01:15 BLOCKED groq|openai/gpt-oss-120b until 08:31:15 (internal 24h token budget reached)
+08:01:15 BLOCKED groq|qwen/qwen3.8-27b until 08:31:15 (internal 24h token budget reached)
+08:01:15 BLOCKED groq|openai/gpt-oss-20b until 08:31:15 (internal 24h token budget reached)
+08:02:01 BLOCKED groq|openai/gpt-oss-120b until 08:32:01 (internal 24h token budget reached)
+08:02:01 BLOCKED groq|qwen/qwen3.8-27b until 08:32:01 (internal 24h token budget reached)
+08:02:01 BLOCKED groq|openai/gpt-oss-20b until 08:32:01 (internal 24h token budget reached)
+08:02:06 BLOCKED groq|openai/gpt-oss-120b until 08:32:06 (internal 24h token budget reached)
+08:02:06 BLOCKED groq|qwen/qwen3.8-27b until 08:32:06 (internal 24h token budget reached)
+08:02:06 BLOCKED groq|openai/gpt-oss-20b until 08:32:06 (internal 24h token budget reached)
+08:03:07 BLOCKED groq|openai/gpt-oss-120b until 08:33:07 (internal 24h token budget reached)
+08:03:07 BLOCKED groq|qwen/qwen3.8-27b until 08:33:07 (internal 24h token budget reached)
+08:03:07 BLOCKED groq|openai/gpt-oss-20b until 08:33:07 (internal 24h token budget reached)
+08:05:31 BLOCKED gemini|gemma-4-31b-it until 08:20:30 (transient (5): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:05:31 BLOCKED gemini|gemma-4-26b-a4b-it until 08:06:31 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:05:31 progress: free/done=424; judge/done=491; probe/done=419; probe/failed=1; free/pending=728; judge/pending=355; probe/pending=732
+08:05:35 BLOCKED groq|openai/gpt-oss-120b until 08:35:35 (internal 24h token budget reached)
+08:05:35 BLOCKED groq|qwen/qwen3.8-27b until 08:35:35 (internal 24h token budget reached)
+08:05:35 BLOCKED groq|openai/gpt-oss-20b until 08:35:35 (internal 24h token budget reached)
+08:05:35 BLOCKED groq|openai/gpt-oss-120b until 08:35:35 (internal 24h token budget reached)
+08:05:35 BLOCKED groq|qwen/qwen3.8-27b until 08:35:35 (internal 24h token budget reached)
+08:05:35 BLOCKED groq|openai/gpt-oss-20b until 08:35:35 (internal 24h token budget reached)
+08:05:44 BLOCKED groq|openai/gpt-oss-120b until 08:35:44 (internal 24h token budget reached)
+08:05:44 BLOCKED groq|qwen/qwen3.8-27b until 08:35:44 (internal 24h token budget reached)
+08:05:44 BLOCKED groq|openai/gpt-oss-20b until 08:35:44 (internal 24h token budget reached)
+08:05:44 BLOCKED groq|openai/gpt-oss-120b until 08:35:44 (internal 24h token budget reached)
+08:05:44 BLOCKED groq|qwen/qwen3.8-27b until 08:35:44 (internal 24h token budget reached)
+08:05:44 BLOCKED groq|openai/gpt-oss-20b until 08:35:44 (internal 24h token budget reached)
+08:05:57 BLOCKED groq|openai/gpt-oss-120b until 08:35:57 (internal 24h token budget reached)
+08:05:57 BLOCKED groq|qwen/qwen3.8-27b until 08:35:57 (internal 24h token budget reached)
+08:05:57 BLOCKED groq|openai/gpt-oss-20b until 08:35:57 (internal 24h token budget reached)
+08:05:57 BLOCKED groq|openai/gpt-oss-120b until 08:35:57 (internal 24h token budget reached)
+08:05:57 BLOCKED groq|qwen/qwen3.8-27b until 08:35:57 (internal 24h token budget reached)
+08:05:57 BLOCKED groq|openai/gpt-oss-20b until 08:35:57 (internal 24h token budget reached)
+08:06:10 BLOCKED groq|openai/gpt-oss-120b until 08:36:10 (internal 24h token budget reached)
+08:06:10 BLOCKED groq|qwen/qwen3.8-27b until 08:36:10 (internal 24h token budget reached)
+08:06:10 BLOCKED groq|openai/gpt-oss-20b until 08:36:10 (internal 24h token budget reached)
+08:06:10 BLOCKED groq|openai/gpt-oss-120b until 08:36:10 (internal 24h token budget reached)
+08:06:10 BLOCKED groq|qwen/qwen3.8-27b until 08:36:10 (internal 24h token budget reached)
+08:06:10 BLOCKED groq|openai/gpt-oss-20b until 08:36:10 (internal 24h token budget reached)
+08:06:17 BLOCKED groq|openai/gpt-oss-120b until 08:36:17 (internal 24h token budget reached)
+08:06:17 BLOCKED groq|qwen/qwen3.8-27b until 08:36:17 (internal 24h token budget reached)
+08:06:17 BLOCKED groq|openai/gpt-oss-20b until 08:36:17 (internal 24h token budget reached)
+08:06:17 BLOCKED groq|openai/gpt-oss-120b until 08:36:17 (internal 24h token budget reached)
+08:06:17 BLOCKED groq|qwen/qwen3.8-27b until 08:36:17 (internal 24h token budget reached)
+08:06:17 BLOCKED groq|openai/gpt-oss-20b until 08:36:17 (internal 24h token budget reached)
+08:06:22 BLOCKED gemini|gemini-3.5-flash-lite until 08:07:22 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:06:22 BLOCKED groq|openai/gpt-oss-120b until 08:36:22 (internal 24h token budget reached)
+08:06:22 BLOCKED groq|qwen/qwen3.8-27b until 08:36:22 (internal 24h token budget reached)
+08:06:22 BLOCKED groq|openai/gpt-oss-20b until 08:36:22 (internal 24h token budget reached)
+08:06:22 BLOCKED groq|openai/gpt-oss-120b until 08:36:22 (internal 24h token budget reached)
+08:06:22 BLOCKED groq|qwen/qwen3.8-27b until 08:36:22 (internal 24h token budget reached)
+08:06:22 BLOCKED groq|openai/gpt-oss-20b until 08:36:22 (internal 24h token budget reached)
+08:06:31 BLOCKED groq|openai/gpt-oss-120b until 08:36:31 (internal 24h token budget reached)
+08:06:31 BLOCKED groq|qwen/qwen3.8-27b until 08:36:31 (internal 24h token budget reached)
+08:06:31 BLOCKED groq|openai/gpt-oss-20b until 08:36:31 (internal 24h token budget reached)
+08:07:37 BLOCKED groq|openai/gpt-oss-120b until 08:37:37 (internal 24h token budget reached)
+08:07:37 BLOCKED groq|qwen/qwen3.8-27b until 08:37:37 (internal 24h token budget reached)
+08:07:37 BLOCKED groq|openai/gpt-oss-20b until 08:37:37 (internal 24h token budget reached)
+08:07:37 BLOCKED gemini|gemma-4-26b-a4b-it until 08:08:37 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:07:37 BLOCKED groq|openai/gpt-oss-120b until 08:37:37 (internal 24h token budget reached)
+08:07:37 BLOCKED groq|qwen/qwen3.8-27b until 08:37:37 (internal 24h token budget reached)
+08:07:37 BLOCKED groq|openai/gpt-oss-20b until 08:37:37 (internal 24h token budget reached)
+08:07:53 BLOCKED groq|openai/gpt-oss-120b until 08:37:53 (internal 24h token budget reached)
+08:07:53 BLOCKED groq|qwen/qwen3.8-27b until 08:37:53 (internal 24h token budget reached)
+08:07:53 BLOCKED groq|openai/gpt-oss-20b until 08:37:53 (internal 24h token budget reached)
+08:07:53 BLOCKED groq|openai/gpt-oss-120b until 08:37:53 (internal 24h token budget reached)
+08:07:53 BLOCKED groq|qwen/qwen3.8-27b until 08:37:53 (internal 24h token budget reached)
+08:07:53 BLOCKED groq|openai/gpt-oss-20b until 08:37:53 (internal 24h token budget reached)
+08:08:05 BLOCKED groq|openai/gpt-oss-120b until 08:38:05 (internal 24h token budget reached)
+08:08:05 BLOCKED groq|qwen/qwen3.8-27b until 08:38:05 (internal 24h token budget reached)
+08:08:05 BLOCKED groq|openai/gpt-oss-20b until 08:38:05 (internal 24h token budget reached)
+08:08:05 BLOCKED groq|openai/gpt-oss-120b until 08:38:05 (internal 24h token budget reached)
+08:08:05 BLOCKED groq|qwen/qwen3.8-27b until 08:38:05 (internal 24h token budget reached)
+08:08:05 BLOCKED groq|openai/gpt-oss-20b until 08:38:05 (internal 24h token budget reached)
+08:08:13 BLOCKED groq|openai/gpt-oss-120b until 08:38:13 (internal 24h token budget reached)
+08:08:13 BLOCKED groq|qwen/qwen3.8-27b until 08:38:13 (internal 24h token budget reached)
+08:08:13 BLOCKED groq|openai/gpt-oss-20b until 08:38:13 (internal 24h token budget reached)
+08:08:13 BLOCKED groq|openai/gpt-oss-120b until 08:38:13 (internal 24h token budget reached)
+08:08:13 BLOCKED groq|qwen/qwen3.8-27b until 08:38:13 (internal 24h token budget reached)
+08:08:13 BLOCKED groq|openai/gpt-oss-20b until 08:38:13 (internal 24h token budget reached)
+08:08:23 BLOCKED groq|openai/gpt-oss-120b until 08:38:23 (internal 24h token budget reached)
+08:08:23 BLOCKED groq|qwen/qwen3.8-27b until 08:38:23 (internal 24h token budget reached)
+08:08:23 BLOCKED groq|openai/gpt-oss-20b until 08:38:23 (internal 24h token budget reached)
+08:08:23 BLOCKED groq|openai/gpt-oss-120b until 08:38:23 (internal 24h token budget reached)
+08:08:23 BLOCKED groq|qwen/qwen3.8-27b until 08:38:23 (internal 24h token budget reached)
+08:08:23 BLOCKED groq|openai/gpt-oss-20b until 08:38:23 (internal 24h token budget reached)
+08:08:29 BLOCKED gemini|gemini-3.5-flash-lite until 08:09:29 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:08:29 BLOCKED groq|openai/gpt-oss-120b until 08:38:29 (internal 24h token budget reached)
+08:08:29 BLOCKED groq|qwen/qwen3.8-27b until 08:38:29 (internal 24h token budget reached)
+08:08:29 BLOCKED groq|openai/gpt-oss-20b until 08:38:29 (internal 24h token budget reached)
+08:08:29 BLOCKED groq|openai/gpt-oss-120b until 08:38:29 (internal 24h token budget reached)
+08:08:29 BLOCKED groq|qwen/qwen3.8-27b until 08:38:29 (internal 24h token budget reached)
+08:08:29 BLOCKED groq|openai/gpt-oss-20b until 08:38:29 (internal 24h token budget reached)
+08:08:37 BLOCKED groq|openai/gpt-oss-120b until 08:38:37 (internal 24h token budget reached)
+08:08:37 BLOCKED groq|qwen/qwen3.8-27b until 08:38:37 (internal 24h token budget reached)
+08:08:37 BLOCKED groq|openai/gpt-oss-20b until 08:38:37 (internal 24h token budget reached)
+08:08:38 BLOCKED gemini|gemma-4-26b-a4b-it until 08:10:38 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:08:38 BLOCKED groq|openai/gpt-oss-120b until 08:38:38 (internal 24h token budget reached)
+08:08:38 BLOCKED groq|qwen/qwen3.8-27b until 08:38:38 (internal 24h token budget reached)
+08:08:38 BLOCKED groq|openai/gpt-oss-20b until 08:38:38 (internal 24h token budget reached)
+08:09:30 BLOCKED groq|openai/gpt-oss-120b until 08:39:30 (internal 24h token budget reached)
+08:09:30 BLOCKED groq|qwen/qwen3.8-27b until 08:39:30 (internal 24h token budget reached)
+08:09:30 BLOCKED groq|openai/gpt-oss-20b until 08:39:30 (internal 24h token budget reached)
+08:09:30 BLOCKED groq|openai/gpt-oss-120b until 08:39:30 (internal 24h token budget reached)
+08:09:30 BLOCKED groq|qwen/qwen3.8-27b until 08:39:30 (internal 24h token budget reached)
+08:09:30 BLOCKED groq|openai/gpt-oss-20b until 08:39:30 (internal 24h token budget reached)
+08:09:35 BLOCKED gemini|gemini-3.5-flash-lite until 08:10:35 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:09:35 BLOCKED groq|openai/gpt-oss-120b until 08:39:35 (internal 24h token budget reached)
+08:09:35 BLOCKED groq|qwen/qwen3.8-27b until 08:39:35 (internal 24h token budget reached)
+08:09:35 BLOCKED groq|openai/gpt-oss-20b until 08:39:35 (internal 24h token budget reached)
+08:09:35 BLOCKED groq|openai/gpt-oss-120b until 08:39:35 (internal 24h token budget reached)
+08:09:35 BLOCKED groq|qwen/qwen3.8-27b until 08:39:35 (internal 24h token budget reached)
+08:09:35 BLOCKED groq|openai/gpt-oss-20b until 08:39:35 (internal 24h token budget reached)
+08:10:43 BLOCKED groq|openai/gpt-oss-120b until 08:40:43 (internal 24h token budget reached)
+08:10:43 BLOCKED groq|qwen/qwen3.8-27b until 08:40:43 (internal 24h token budget reached)
+08:10:43 BLOCKED groq|openai/gpt-oss-20b until 08:40:43 (internal 24h token budget reached)
+08:10:44 BLOCKED gemini|gemma-4-26b-a4b-it until 08:14:44 (transient (3): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:10:44 progress: free/done=430; judge/done=492; probe/done=425; probe/failed=1; free/pending=722; judge/pending=366; probe/pending=726
+08:10:44 BLOCKED groq|openai/gpt-oss-120b until 08:40:44 (internal 24h token budget reached)
+08:10:44 BLOCKED groq|qwen/qwen3.8-27b until 08:40:44 (internal 24h token budget reached)
+08:10:44 BLOCKED groq|openai/gpt-oss-20b until 08:40:44 (internal 24h token budget reached)
+08:10:52 BLOCKED groq|openai/gpt-oss-120b until 08:40:52 (internal 24h token budget reached)
+08:10:52 BLOCKED groq|qwen/qwen3.8-27b until 08:40:52 (internal 24h token budget reached)
+08:10:52 BLOCKED groq|openai/gpt-oss-20b until 08:40:52 (internal 24h token budget reached)
+08:10:52 BLOCKED groq|openai/gpt-oss-120b until 08:40:52 (internal 24h token budget reached)
+08:10:52 BLOCKED groq|qwen/qwen3.8-27b until 08:40:52 (internal 24h token budget reached)
+08:10:52 BLOCKED groq|openai/gpt-oss-20b until 08:40:52 (internal 24h token budget reached)
+08:11:05 BLOCKED groq|openai/gpt-oss-120b until 08:41:05 (internal 24h token budget reached)
+08:11:05 BLOCKED groq|qwen/qwen3.8-27b until 08:41:05 (internal 24h token budget reached)
+08:11:05 BLOCKED groq|openai/gpt-oss-20b until 08:41:05 (internal 24h token budget reached)
+08:11:06 BLOCKED groq|openai/gpt-oss-120b until 08:41:06 (internal 24h token budget reached)
+08:11:06 BLOCKED groq|qwen/qwen3.8-27b until 08:41:06 (internal 24h token budget reached)
+08:11:06 BLOCKED groq|openai/gpt-oss-20b until 08:41:06 (internal 24h token budget reached)
+08:11:17 BLOCKED groq|openai/gpt-oss-120b until 08:41:17 (internal 24h token budget reached)
+08:11:17 BLOCKED groq|qwen/qwen3.8-27b until 08:41:17 (internal 24h token budget reached)
+08:11:17 BLOCKED groq|openai/gpt-oss-20b until 08:41:17 (internal 24h token budget reached)
+08:11:17 BLOCKED groq|openai/gpt-oss-120b until 08:41:17 (internal 24h token budget reached)
+08:11:17 BLOCKED groq|qwen/qwen3.8-27b until 08:41:17 (internal 24h token budget reached)
+08:11:17 BLOCKED groq|openai/gpt-oss-20b until 08:41:17 (internal 24h token budget reached)
+08:11:28 BLOCKED groq|openai/gpt-oss-120b until 08:41:28 (internal 24h token budget reached)
+08:11:28 BLOCKED groq|qwen/qwen3.8-27b until 08:41:28 (internal 24h token budget reached)
+08:11:28 BLOCKED groq|openai/gpt-oss-20b until 08:41:28 (internal 24h token budget reached)
+08:11:28 BLOCKED groq|openai/gpt-oss-120b until 08:41:28 (internal 24h token budget reached)
+08:11:28 BLOCKED groq|qwen/qwen3.8-27b until 08:41:28 (internal 24h token budget reached)
+08:11:28 BLOCKED groq|openai/gpt-oss-20b until 08:41:28 (internal 24h token budget reached)
+08:11:36 BLOCKED groq|openai/gpt-oss-120b until 08:41:36 (internal 24h token budget reached)
+08:11:36 BLOCKED groq|qwen/qwen3.8-27b until 08:41:36 (internal 24h token budget reached)
+08:11:36 BLOCKED groq|openai/gpt-oss-20b until 08:41:36 (internal 24h token budget reached)
+08:11:36 BLOCKED groq|openai/gpt-oss-120b until 08:41:36 (internal 24h token budget reached)
+08:11:36 BLOCKED groq|qwen/qwen3.8-27b until 08:41:36 (internal 24h token budget reached)
+08:11:36 BLOCKED groq|openai/gpt-oss-20b until 08:41:36 (internal 24h token budget reached)
+08:11:47 BLOCKED groq|openai/gpt-oss-120b until 08:41:47 (internal 24h token budget reached)
+08:11:47 BLOCKED groq|qwen/qwen3.8-27b until 08:41:47 (internal 24h token budget reached)
+08:11:47 BLOCKED groq|openai/gpt-oss-20b until 08:41:47 (internal 24h token budget reached)
+08:11:47 BLOCKED groq|openai/gpt-oss-120b until 08:41:47 (internal 24h token budget reached)
+08:11:47 BLOCKED groq|qwen/qwen3.8-27b until 08:41:47 (internal 24h token budget reached)
+08:11:47 BLOCKED groq|openai/gpt-oss-20b until 08:41:47 (internal 24h token budget reached)
+08:11:53 BLOCKED groq|openai/gpt-oss-120b until 08:41:53 (internal 24h token budget reached)
+08:11:53 BLOCKED groq|qwen/qwen3.8-27b until 08:41:53 (internal 24h token budget reached)
+08:11:53 BLOCKED groq|openai/gpt-oss-20b until 08:41:53 (internal 24h token budget reached)
+08:11:53 BLOCKED groq|openai/gpt-oss-120b until 08:41:53 (internal 24h token budget reached)
+08:11:53 BLOCKED groq|qwen/qwen3.8-27b until 08:41:53 (internal 24h token budget reached)
+08:11:53 BLOCKED groq|openai/gpt-oss-20b until 08:41:53 (internal 24h token budget reached)
+08:11:58 BLOCKED gemini|gemini-3.5-flash-lite until 08:12:58 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:11:58 BLOCKED groq|openai/gpt-oss-120b until 08:41:58 (internal 24h token budget reached)
+08:11:58 BLOCKED groq|qwen/qwen3.8-27b until 08:41:58 (internal 24h token budget reached)
+08:11:58 BLOCKED groq|openai/gpt-oss-20b until 08:41:58 (internal 24h token budget reached)
+08:11:58 BLOCKED groq|openai/gpt-oss-120b until 08:41:58 (internal 24h token budget reached)
+08:11:58 BLOCKED groq|qwen/qwen3.8-27b until 08:41:58 (internal 24h token budget reached)
+08:11:58 BLOCKED groq|openai/gpt-oss-20b until 08:41:58 (internal 24h token budget reached)
+08:13:04 BLOCKED groq|openai/gpt-oss-120b until 08:43:04 (internal 24h token budget reached)
+08:13:04 BLOCKED groq|qwen/qwen3.8-27b until 08:43:04 (internal 24h token budget reached)
+08:13:04 BLOCKED groq|openai/gpt-oss-20b until 08:43:04 (internal 24h token budget reached)
+08:13:04 BLOCKED groq|openai/gpt-oss-120b until 08:43:04 (internal 24h token budget reached)
+08:13:04 BLOCKED groq|qwen/qwen3.8-27b until 08:43:04 (internal 24h token budget reached)
+08:13:04 BLOCKED groq|openai/gpt-oss-20b until 08:43:04 (internal 24h token budget reached)
+08:13:12 BLOCKED groq|openai/gpt-oss-120b until 08:43:12 (internal 24h token budget reached)
+08:13:12 BLOCKED groq|qwen/qwen3.8-27b until 08:43:12 (internal 24h token budget reached)
+08:13:12 BLOCKED groq|openai/gpt-oss-20b until 08:43:12 (internal 24h token budget reached)
+08:13:12 BLOCKED groq|openai/gpt-oss-120b until 08:43:12 (internal 24h token budget reached)
+08:13:12 BLOCKED groq|qwen/qwen3.8-27b until 08:43:12 (internal 24h token budget reached)
+08:13:12 BLOCKED groq|openai/gpt-oss-20b until 08:43:12 (internal 24h token budget reached)
+08:13:31 BLOCKED groq|openai/gpt-oss-120b until 08:43:31 (internal 24h token budget reached)
+08:13:31 BLOCKED groq|qwen/qwen3.8-27b until 08:43:31 (internal 24h token budget reached)
+08:13:31 BLOCKED groq|openai/gpt-oss-20b until 08:43:31 (internal 24h token budget reached)
+08:13:31 BLOCKED groq|openai/gpt-oss-120b until 08:43:31 (internal 24h token budget reached)
+08:13:31 BLOCKED groq|qwen/qwen3.8-27b until 08:43:31 (internal 24h token budget reached)
+08:13:31 BLOCKED groq|openai/gpt-oss-20b until 08:43:31 (internal 24h token budget reached)
+08:13:37 BLOCKED gemini|gemini-3.5-flash-lite until 08:14:37 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:13:37 BLOCKED groq|openai/gpt-oss-120b until 08:43:37 (internal 24h token budget reached)
+08:13:37 BLOCKED groq|qwen/qwen3.8-27b until 08:43:37 (internal 24h token budget reached)
+08:13:37 BLOCKED groq|openai/gpt-oss-20b until 08:43:37 (internal 24h token budget reached)
+08:13:37 BLOCKED groq|openai/gpt-oss-120b until 08:43:37 (internal 24h token budget reached)
+08:13:37 BLOCKED groq|qwen/qwen3.8-27b until 08:43:37 (internal 24h token budget reached)
+08:13:37 BLOCKED groq|openai/gpt-oss-20b until 08:43:37 (internal 24h token budget reached)
+08:14:37 BLOCKED gemini|gemini-3.5-flash-lite until 08:16:37 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:14:37 BLOCKED groq|openai/gpt-oss-120b until 08:44:37 (internal 24h token budget reached)
+08:14:37 BLOCKED groq|qwen/qwen3.8-27b until 08:44:37 (internal 24h token budget reached)
+08:14:37 BLOCKED groq|openai/gpt-oss-20b until 08:44:37 (internal 24h token budget reached)
+08:14:37 BLOCKED groq|openai/gpt-oss-120b until 08:44:37 (internal 24h token budget reached)
+08:14:37 BLOCKED groq|qwen/qwen3.8-27b until 08:44:37 (internal 24h token budget reached)
+08:14:37 BLOCKED groq|openai/gpt-oss-20b until 08:44:37 (internal 24h token budget reached)
+08:14:44 BLOCKED groq|openai/gpt-oss-120b until 08:44:44 (internal 24h token budget reached)
+08:14:44 BLOCKED groq|qwen/qwen3.8-27b until 08:44:44 (internal 24h token budget reached)
+08:14:44 BLOCKED groq|openai/gpt-oss-20b until 08:44:44 (internal 24h token budget reached)
+08:14:44 BLOCKED gemini|gemma-4-26b-a4b-it until 08:22:44 (transient (4): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:14:44 BLOCKED groq|openai/gpt-oss-120b until 08:44:44 (internal 24h token budget reached)
+08:14:44 BLOCKED groq|qwen/qwen3.8-27b until 08:44:44 (internal 24h token budget reached)
+08:14:44 BLOCKED groq|openai/gpt-oss-20b until 08:44:44 (internal 24h token budget reached)
+08:15:44 BLOCKED groq|openai/gpt-oss-120b until 08:45:44 (internal 24h token budget reached)
+08:15:44 BLOCKED groq|qwen/qwen3.8-27b until 08:45:44 (internal 24h token budget reached)
+08:15:44 BLOCKED groq|openai/gpt-oss-20b until 08:45:44 (internal 24h token budget reached)
+08:15:44 progress: free/done=435; judge/done=492; probe/done=430; probe/failed=1; free/pending=717; judge/pending=378; probe/pending=721
+08:16:44 BLOCKED groq|openai/gpt-oss-120b until 08:46:44 (internal 24h token budget reached)
+08:16:44 BLOCKED groq|qwen/qwen3.8-27b until 08:46:44 (internal 24h token budget reached)
+08:16:44 BLOCKED groq|openai/gpt-oss-20b until 08:46:44 (internal 24h token budget reached)
+08:16:44 BLOCKED groq|openai/gpt-oss-120b until 08:46:44 (internal 24h token budget reached)
+08:16:44 BLOCKED groq|qwen/qwen3.8-27b until 08:46:44 (internal 24h token budget reached)
+08:16:44 BLOCKED groq|openai/gpt-oss-20b until 08:46:44 (internal 24h token budget reached)
+08:16:53 BLOCKED groq|openai/gpt-oss-120b until 08:46:53 (internal 24h token budget reached)
+08:16:53 BLOCKED groq|qwen/qwen3.8-27b until 08:46:53 (internal 24h token budget reached)
+08:16:53 BLOCKED groq|openai/gpt-oss-20b until 08:46:53 (internal 24h token budget reached)
+08:16:53 BLOCKED groq|openai/gpt-oss-120b until 08:46:53 (internal 24h token budget reached)
+08:16:53 BLOCKED groq|qwen/qwen3.8-27b until 08:46:53 (internal 24h token budget reached)
+08:16:53 BLOCKED groq|openai/gpt-oss-20b until 08:46:53 (internal 24h token budget reached)
+08:17:04 BLOCKED groq|openai/gpt-oss-120b until 08:47:04 (internal 24h token budget reached)
+08:17:04 BLOCKED groq|qwen/qwen3.8-27b until 08:47:04 (internal 24h token budget reached)
+08:17:04 BLOCKED groq|openai/gpt-oss-20b until 08:47:04 (internal 24h token budget reached)
+08:17:04 BLOCKED groq|openai/gpt-oss-120b until 08:47:04 (internal 24h token budget reached)
+08:17:04 BLOCKED groq|qwen/qwen3.8-27b until 08:47:04 (internal 24h token budget reached)
+08:17:04 BLOCKED groq|openai/gpt-oss-20b until 08:47:04 (internal 24h token budget reached)
+08:17:09 BLOCKED gemini|gemini-3.5-flash-lite until 08:18:09 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:17:09 BLOCKED groq|openai/gpt-oss-120b until 08:47:09 (internal 24h token budget reached)
+08:17:09 BLOCKED groq|qwen/qwen3.8-27b until 08:47:09 (internal 24h token budget reached)
+08:17:09 BLOCKED groq|openai/gpt-oss-20b until 08:47:09 (internal 24h token budget reached)
+08:17:10 BLOCKED groq|openai/gpt-oss-120b until 08:47:10 (internal 24h token budget reached)
+08:17:10 BLOCKED groq|qwen/qwen3.8-27b until 08:47:10 (internal 24h token budget reached)
+08:17:10 BLOCKED groq|openai/gpt-oss-20b until 08:47:10 (internal 24h token budget reached)
+08:18:15 BLOCKED groq|openai/gpt-oss-120b until 08:48:15 (internal 24h token budget reached)
+08:18:15 BLOCKED groq|qwen/qwen3.8-27b until 08:48:15 (internal 24h token budget reached)
+08:18:15 BLOCKED groq|openai/gpt-oss-20b until 08:48:15 (internal 24h token budget reached)
+08:18:15 BLOCKED groq|openai/gpt-oss-120b until 08:48:15 (internal 24h token budget reached)
+08:18:15 BLOCKED groq|qwen/qwen3.8-27b until 08:48:15 (internal 24h token budget reached)
+08:18:15 BLOCKED groq|openai/gpt-oss-20b until 08:48:15 (internal 24h token budget reached)
+08:18:22 BLOCKED gemini|gemini-3.5-flash-lite until 08:19:22 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:18:22 BLOCKED groq|openai/gpt-oss-120b until 08:48:22 (internal 24h token budget reached)
+08:18:22 BLOCKED groq|qwen/qwen3.8-27b until 08:48:22 (internal 24h token budget reached)
+08:18:22 BLOCKED groq|openai/gpt-oss-20b until 08:48:22 (internal 24h token budget reached)
+08:18:22 BLOCKED groq|openai/gpt-oss-120b until 08:48:22 (internal 24h token budget reached)
+08:18:22 BLOCKED groq|qwen/qwen3.8-27b until 08:48:22 (internal 24h token budget reached)
+08:18:22 BLOCKED groq|openai/gpt-oss-20b until 08:48:22 (internal 24h token budget reached)
+08:19:23 BLOCKED gemini|gemini-3.5-flash-lite until 08:21:23 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:19:23 BLOCKED groq|openai/gpt-oss-120b until 08:49:23 (internal 24h token budget reached)
+08:19:23 BLOCKED groq|qwen/qwen3.8-27b until 08:49:23 (internal 24h token budget reached)
+08:19:23 BLOCKED groq|openai/gpt-oss-20b until 08:49:23 (internal 24h token budget reached)
+08:19:23 BLOCKED groq|openai/gpt-oss-120b until 08:49:23 (internal 24h token budget reached)
+08:19:23 BLOCKED groq|qwen/qwen3.8-27b until 08:49:23 (internal 24h token budget reached)
+08:19:23 BLOCKED groq|openai/gpt-oss-20b until 08:49:23 (internal 24h token budget reached)
+08:20:23 BLOCKED groq|openai/gpt-oss-120b until 08:50:23 (internal 24h token budget reached)
+08:20:23 BLOCKED groq|qwen/qwen3.8-27b until 08:50:23 (internal 24h token budget reached)
+08:20:23 BLOCKED groq|openai/gpt-oss-20b until 08:50:23 (internal 24h token budget reached)
+08:20:30 BLOCKED groq|openai/gpt-oss-120b until 08:50:30 (internal 24h token budget reached)
+08:20:30 BLOCKED groq|qwen/qwen3.8-27b until 08:50:30 (internal 24h token budget reached)
+08:20:30 BLOCKED groq|openai/gpt-oss-20b until 08:50:30 (internal 24h token budget reached)
+08:23:47 BLOCKED gemini|gemma-4-26b-a4b-it until 08:38:47 (transient (5): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:23:47 progress: free/done=437; judge/done=493; probe/done=432; probe/failed=1; free/pending=715; judge/pending=381; probe/pending=719
+08:23:47 BLOCKED gemini|gemini-3.5-flash-lite until 08:27:47 (transient (3): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:23:47 BLOCKED groq|openai/gpt-oss-120b until 08:53:47 (internal 24h token budget reached)
+08:23:47 BLOCKED groq|qwen/qwen3.8-27b until 08:53:47 (internal 24h token budget reached)
+08:23:47 BLOCKED groq|openai/gpt-oss-20b until 08:53:47 (internal 24h token budget reached)
+08:23:47 BLOCKED groq|openai/gpt-oss-120b until 08:53:47 (internal 24h token budget reached)
+08:23:47 BLOCKED groq|qwen/qwen3.8-27b until 08:53:47 (internal 24h token budget reached)
+08:23:47 BLOCKED groq|openai/gpt-oss-20b until 08:53:47 (internal 24h token budget reached)
+08:23:51 BLOCKED groq|openai/gpt-oss-120b until 08:53:51 (internal 24h token budget reached)
+08:23:51 BLOCKED groq|qwen/qwen3.8-27b until 08:53:51 (internal 24h token budget reached)
+08:23:51 BLOCKED groq|openai/gpt-oss-20b until 08:53:51 (internal 24h token budget reached)
+08:25:51 BLOCKED groq|openai/gpt-oss-120b until 08:55:51 (internal 24h token budget reached)
+08:25:51 BLOCKED groq|qwen/qwen3.8-27b until 08:55:51 (internal 24h token budget reached)
+08:25:51 BLOCKED groq|openai/gpt-oss-20b until 08:55:51 (internal 24h token budget reached)
+08:25:56 BLOCKED groq|openai/gpt-oss-120b until 08:55:56 (internal 24h token budget reached)
+08:25:56 BLOCKED groq|qwen/qwen3.8-27b until 08:55:56 (internal 24h token budget reached)
+08:25:56 BLOCKED groq|openai/gpt-oss-20b until 08:55:56 (internal 24h token budget reached)
+08:27:23 BLOCKED groq|openai/gpt-oss-120b until 08:57:23 (internal 24h token budget reached)
+08:27:23 BLOCKED groq|qwen/qwen3.8-27b until 08:57:23 (internal 24h token budget reached)
+08:27:23 BLOCKED groq|openai/gpt-oss-20b until 08:57:23 (internal 24h token budget reached)
+08:27:28 BLOCKED groq|openai/gpt-oss-120b until 08:57:28 (internal 24h token budget reached)
+08:27:28 BLOCKED groq|qwen/qwen3.8-27b until 08:57:28 (internal 24h token budget reached)
+08:27:28 BLOCKED groq|openai/gpt-oss-20b until 08:57:28 (internal 24h token budget reached)
+08:29:02 progress: free/done=437; judge/done=496; probe/done=432; probe/failed=1; free/pending=715; judge/pending=378; probe/pending=719
+08:29:09 BLOCKED groq|openai/gpt-oss-120b until 08:59:09 (internal 24h token budget reached)
+08:29:09 BLOCKED groq|qwen/qwen3.8-27b until 08:59:09 (internal 24h token budget reached)
+08:29:09 BLOCKED groq|openai/gpt-oss-20b until 08:59:09 (internal 24h token budget reached)
+08:30:16 BLOCKED gemini|gemma-4-31b-it until 08:31:16 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:30:25 BLOCKED groq|openai/gpt-oss-120b until 09:00:25 (internal 24h token budget reached)
+08:30:25 BLOCKED groq|qwen/qwen3.8-27b until 09:00:25 (internal 24h token budget reached)
+08:30:25 BLOCKED groq|openai/gpt-oss-20b until 09:00:25 (internal 24h token budget reached)
+08:30:25 BLOCKED groq|openai/gpt-oss-120b until 09:00:25 (internal 24h token budget reached)
+08:30:25 BLOCKED groq|qwen/qwen3.8-27b until 09:00:25 (internal 24h token budget reached)
+08:30:25 BLOCKED groq|openai/gpt-oss-20b until 09:00:25 (internal 24h token budget reached)
+08:30:30 BLOCKED gemini|gemini-3.5-flash-lite until 08:31:30 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:30:30 BLOCKED groq|openai/gpt-oss-120b until 09:00:30 (internal 24h token budget reached)
+08:30:30 BLOCKED groq|qwen/qwen3.8-27b until 09:00:30 (internal 24h token budget reached)
+08:30:30 BLOCKED groq|openai/gpt-oss-20b until 09:00:30 (internal 24h token budget reached)
+08:30:30 BLOCKED groq|openai/gpt-oss-120b until 09:00:30 (internal 24h token budget reached)
+08:30:30 BLOCKED groq|qwen/qwen3.8-27b until 09:00:30 (internal 24h token budget reached)
+08:30:30 BLOCKED groq|openai/gpt-oss-20b until 09:00:30 (internal 24h token budget reached)
+08:31:16 BLOCKED groq|openai/gpt-oss-120b until 09:01:16 (internal 24h token budget reached)
+08:31:16 BLOCKED groq|qwen/qwen3.8-27b until 09:01:16 (internal 24h token budget reached)
+08:31:16 BLOCKED groq|openai/gpt-oss-20b until 09:01:16 (internal 24h token budget reached)
+08:33:21 BLOCKED gemini|gemma-4-31b-it until 08:35:21 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:33:23 BLOCKED gemini|gemini-3.5-flash-lite until 08:35:23 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:33:23 BLOCKED groq|openai/gpt-oss-120b until 09:03:23 (internal 24h token budget reached)
+08:33:23 BLOCKED groq|qwen/qwen3.8-27b until 09:03:23 (internal 24h token budget reached)
+08:33:23 BLOCKED groq|openai/gpt-oss-20b until 09:03:23 (internal 24h token budget reached)
+08:33:23 BLOCKED groq|openai/gpt-oss-120b until 09:03:23 (internal 24h token budget reached)
+08:33:23 BLOCKED groq|qwen/qwen3.8-27b until 09:03:23 (internal 24h token budget reached)
+08:33:23 BLOCKED groq|openai/gpt-oss-20b until 09:03:23 (internal 24h token budget reached)
+08:34:24 BLOCKED groq|openai/gpt-oss-120b until 09:04:24 (internal 24h token budget reached)
+08:34:24 BLOCKED groq|qwen/qwen3.8-27b until 09:04:24 (internal 24h token budget reached)
+08:34:24 BLOCKED groq|openai/gpt-oss-20b until 09:04:24 (internal 24h token budget reached)
+08:34:24 progress: free/done=438; judge/done=496; probe/done=433; probe/failed=1; free/pending=714; judge/pending=380; probe/pending=718
+08:35:21 BLOCKED groq|openai/gpt-oss-120b until 09:05:21 (internal 24h token budget reached)
+08:35:21 BLOCKED groq|qwen/qwen3.8-27b until 09:05:21 (internal 24h token budget reached)
+08:35:21 BLOCKED groq|openai/gpt-oss-20b until 09:05:21 (internal 24h token budget reached)
+08:37:13 BLOCKED groq|openai/gpt-oss-120b until 09:07:13 (internal 24h token budget reached)
+08:37:13 BLOCKED groq|qwen/qwen3.8-27b until 09:07:13 (internal 24h token budget reached)
+08:37:13 BLOCKED groq|openai/gpt-oss-20b until 09:07:13 (internal 24h token budget reached)
+08:37:13 BLOCKED groq|openai/gpt-oss-120b until 09:07:13 (internal 24h token budget reached)
+08:37:13 BLOCKED groq|qwen/qwen3.8-27b until 09:07:13 (internal 24h token budget reached)
+08:37:13 BLOCKED groq|openai/gpt-oss-20b until 09:07:13 (internal 24h token budget reached)
+08:37:15 BLOCKED groq|openai/gpt-oss-120b until 09:07:15 (internal 24h token budget reached)
+08:37:15 BLOCKED groq|qwen/qwen3.8-27b until 09:07:15 (internal 24h token budget reached)
+08:37:15 BLOCKED groq|openai/gpt-oss-20b until 09:07:15 (internal 24h token budget reached)
+08:38:05 BLOCKED groq|openai/gpt-oss-120b until 09:08:05 (internal 24h token budget reached)
+08:38:05 BLOCKED groq|qwen/qwen3.8-27b until 09:08:05 (internal 24h token budget reached)
+08:38:05 BLOCKED groq|openai/gpt-oss-20b until 09:08:05 (internal 24h token budget reached)
+08:40:14 BLOCKED gemini|gemma-4-31b-it until 08:41:14 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:41:05 progress: free/done=439; judge/done=499; probe/done=434; probe/failed=1; free/pending=713; judge/pending=377; probe/pending=717
+08:41:06 BLOCKED gemini|gemini-3.5-flash-lite until 08:42:06 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:41:06 BLOCKED groq|openai/gpt-oss-120b until 09:11:06 (internal 24h token budget reached)
+08:41:06 BLOCKED groq|qwen/qwen3.8-27b until 09:11:06 (internal 24h token budget reached)
+08:41:06 BLOCKED groq|openai/gpt-oss-20b until 09:11:06 (internal 24h token budget reached)
+08:41:06 BLOCKED groq|openai/gpt-oss-120b until 09:11:06 (internal 24h token budget reached)
+08:41:06 BLOCKED groq|qwen/qwen3.8-27b until 09:11:06 (internal 24h token budget reached)
+08:41:06 BLOCKED groq|openai/gpt-oss-20b until 09:11:06 (internal 24h token budget reached)
+08:41:10 BLOCKED groq|openai/gpt-oss-120b until 09:11:10 (internal 24h token budget reached)
+08:41:10 BLOCKED groq|qwen/qwen3.8-27b until 09:11:10 (internal 24h token budget reached)
+08:41:10 BLOCKED groq|openai/gpt-oss-20b until 09:11:10 (internal 24h token budget reached)
+08:41:10 BLOCKED gemini|gemma-4-26b-a4b-it until 08:42:10 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:41:10 BLOCKED groq|openai/gpt-oss-120b until 09:11:10 (internal 24h token budget reached)
+08:41:10 BLOCKED groq|qwen/qwen3.8-27b until 09:11:10 (internal 24h token budget reached)
+08:41:10 BLOCKED groq|openai/gpt-oss-20b until 09:11:10 (internal 24h token budget reached)
+08:41:14 BLOCKED groq|openai/gpt-oss-120b until 09:11:14 (internal 24h token budget reached)
+08:41:14 BLOCKED groq|qwen/qwen3.8-27b until 09:11:14 (internal 24h token budget reached)
+08:41:14 BLOCKED groq|openai/gpt-oss-20b until 09:11:14 (internal 24h token budget reached)
+08:42:51 BLOCKED groq|openai/gpt-oss-120b until 09:12:51 (internal 24h token budget reached)
+08:42:51 BLOCKED groq|qwen/qwen3.8-27b until 09:12:51 (internal 24h token budget reached)
+08:42:51 BLOCKED groq|openai/gpt-oss-20b until 09:12:51 (internal 24h token budget reached)
+08:46:06 BLOCKED gemini|gemma-4-31b-it until 08:47:06 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:46:30 progress: free/done=439; judge/done=502; probe/done=435; probe/failed=1; free/pending=713; judge/pending=376; probe/pending=716
+08:46:40 BLOCKED groq|openai/gpt-oss-120b until 09:16:40 (internal 24h token budget reached)
+08:46:40 BLOCKED groq|qwen/qwen3.8-27b until 09:16:40 (internal 24h token budget reached)
+08:46:40 BLOCKED groq|openai/gpt-oss-20b until 09:16:40 (internal 24h token budget reached)
+08:48:21 BLOCKED groq|openai/gpt-oss-120b until 09:18:21 (internal 24h token budget reached)
+08:48:21 BLOCKED groq|qwen/qwen3.8-27b until 09:18:21 (internal 24h token budget reached)
+08:48:21 BLOCKED groq|openai/gpt-oss-20b until 09:18:21 (internal 24h token budget reached)
+08:50:05 BLOCKED groq|openai/gpt-oss-120b until 09:20:05 (internal 24h token budget reached)
+08:50:05 BLOCKED groq|qwen/qwen3.8-27b until 09:20:05 (internal 24h token budget reached)
+08:50:05 BLOCKED groq|openai/gpt-oss-20b until 09:20:05 (internal 24h token budget reached)
+08:51:07 BLOCKED groq|openai/gpt-oss-120b until 09:21:07 (internal 24h token budget reached)
+08:51:07 BLOCKED groq|qwen/qwen3.8-27b until 09:21:07 (internal 24h token budget reached)
+08:51:07 BLOCKED groq|openai/gpt-oss-20b until 09:21:07 (internal 24h token budget reached)
+08:55:10 progress: free/done=441; judge/done=509; probe/done=437; probe/failed=1; free/pending=711; judge/pending=373; probe/pending=714
+08:55:17 BLOCKED groq|openai/gpt-oss-120b until 09:25:17 (internal 24h token budget reached)
+08:55:17 BLOCKED groq|qwen/qwen3.8-27b until 09:25:17 (internal 24h token budget reached)
+08:55:17 BLOCKED groq|openai/gpt-oss-20b until 09:25:17 (internal 24h token budget reached)
+08:56:29 BLOCKED gemini|gemma-4-31b-it until 08:57:29 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+08:58:03 BLOCKED groq|openai/gpt-oss-120b until 09:28:03 (internal 24h token budget reached)
+08:58:03 BLOCKED groq|qwen/qwen3.8-27b until 09:28:03 (internal 24h token budget reached)
+08:58:03 BLOCKED groq|openai/gpt-oss-20b until 09:28:03 (internal 24h token budget reached)
+08:59:40 BLOCKED gemini|gemma-4-26b-a4b-it until 09:00:40 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+08:59:47 BLOCKED groq|openai/gpt-oss-120b until 09:29:47 (internal 24h token budget reached)
+08:59:47 BLOCKED groq|qwen/qwen3.8-27b until 09:29:47 (internal 24h token budget reached)
+08:59:47 BLOCKED groq|openai/gpt-oss-20b until 09:29:47 (internal 24h token budget reached)
+09:03:47 BLOCKED gemini|gemma-4-31b-it until 09:04:47 (transient (1): network: The read operation timed out)
+09:03:47 BLOCKED gemini|gemma-4-26b-a4b-it until 09:05:47 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+09:03:47 progress: free/done=443; judge/done=511; probe/done=438; probe/failed=1; free/pending=709; judge/pending=373; probe/pending=713
+09:03:47 BLOCKED gemini|gemini-3.5-flash-lite until 09:04:47 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+09:03:47 BLOCKED groq|openai/gpt-oss-120b until 09:33:47 (internal 24h token budget reached)
+09:03:47 BLOCKED groq|qwen/qwen3.8-27b until 09:33:47 (internal 24h token budget reached)
+09:03:47 BLOCKED groq|openai/gpt-oss-20b until 09:33:47 (internal 24h token budget reached)
+09:03:47 BLOCKED groq|openai/gpt-oss-120b until 09:33:47 (internal 24h token budget reached)
+09:03:47 BLOCKED groq|qwen/qwen3.8-27b until 09:33:47 (internal 24h token budget reached)
+09:03:47 BLOCKED groq|openai/gpt-oss-20b until 09:33:47 (internal 24h token budget reached)
+09:04:47 BLOCKED groq|openai/gpt-oss-120b until 09:34:47 (internal 24h token budget reached)
+09:04:47 BLOCKED groq|qwen/qwen3.8-27b until 09:34:47 (internal 24h token budget reached)
+09:04:47 BLOCKED groq|openai/gpt-oss-20b until 09:34:47 (internal 24h token budget reached)
+09:09:05 progress: free/done=443; judge/done=513; probe/done=438; probe/failed=1; free/pending=709; judge/pending=373; probe/pending=713
+09:09:08 BLOCKED groq|openai/gpt-oss-120b until 09:39:08 (internal 24h token budget reached)
+09:09:08 BLOCKED groq|qwen/qwen3.8-27b until 09:39:08 (internal 24h token budget reached)
+09:09:08 BLOCKED groq|openai/gpt-oss-20b until 09:39:08 (internal 24h token budget reached)
+09:13:10 BLOCKED groq|openai/gpt-oss-120b until 09:43:10 (internal 24h token budget reached)
+09:13:10 BLOCKED groq|qwen/qwen3.8-27b until 09:43:10 (internal 24h token budget reached)
+09:13:10 BLOCKED groq|openai/gpt-oss-20b until 09:43:10 (internal 24h token budget reached)
+09:16:32 BLOCKED gemini|gemma-4-31b-it until 09:17:32 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+09:18:03 progress: free/done=444; judge/done=516; probe/done=439; probe/failed=1; free/pending=708; judge/pending=370; probe/pending=712
+09:18:06 BLOCKED groq|openai/gpt-oss-120b until 09:48:06 (internal 24h token budget reached)
+09:18:06 BLOCKED groq|qwen/qwen3.8-27b until 09:48:06 (internal 24h token budget reached)
+09:18:06 BLOCKED groq|openai/gpt-oss-20b until 09:48:06 (internal 24h token budget reached)
+09:20:46 BLOCKED groq|openai/gpt-oss-120b until 09:50:46 (internal 24h token budget reached)
+09:20:46 BLOCKED groq|qwen/qwen3.8-27b until 09:50:46 (internal 24h token budget reached)
+09:20:46 BLOCKED groq|openai/gpt-oss-20b until 09:50:46 (internal 24h token budget reached)
+09:22:15 BLOCKED gemini|gemma-4-31b-it until 09:23:15 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+09:22:47 BLOCKED groq|openai/gpt-oss-120b until 09:52:47 (internal 24h token budget reached)
+09:22:47 BLOCKED groq|qwen/qwen3.8-27b until 09:52:47 (internal 24h token budget reached)
+09:22:47 BLOCKED groq|openai/gpt-oss-20b until 09:52:47 (internal 24h token budget reached)
+09:23:19 progress: free/done=445; judge/done=520; probe/done=441; probe/failed=1; free/pending=707; judge/pending=370; probe/pending=710
+09:23:24 BLOCKED groq|openai/gpt-oss-120b until 09:53:24 (internal 24h token budget reached)
+09:23:24 BLOCKED groq|qwen/qwen3.8-27b until 09:53:24 (internal 24h token budget reached)
+09:23:24 BLOCKED groq|openai/gpt-oss-20b until 09:53:24 (internal 24h token budget reached)
+09:27:34 BLOCKED groq|openai/gpt-oss-120b until 09:57:34 (internal 24h token budget reached)
+09:27:34 BLOCKED groq|qwen/qwen3.8-27b until 09:57:34 (internal 24h token budget reached)
+09:27:34 BLOCKED groq|openai/gpt-oss-20b until 09:57:34 (internal 24h token budget reached)
+09:29:06 BLOCKED gemini|gemma-4-31b-it until 09:30:06 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+09:31:01 progress: free/done=446; judge/done=523; probe/done=442; probe/failed=1; free/pending=706; judge/pending=369; probe/pending=709
+09:31:06 BLOCKED groq|openai/gpt-oss-120b until 10:01:06 (internal 24h token budget reached)
+09:31:06 BLOCKED groq|qwen/qwen3.8-27b until 10:01:06 (internal 24h token budget reached)
+09:31:06 BLOCKED groq|openai/gpt-oss-20b until 10:01:06 (internal 24h token budget reached)
+09:34:23 BLOCKED groq|openai/gpt-oss-120b until 10:04:23 (internal 24h token budget reached)
+09:34:23 BLOCKED groq|qwen/qwen3.8-27b until 10:04:23 (internal 24h token budget reached)
+09:34:23 BLOCKED groq|openai/gpt-oss-20b until 10:04:23 (internal 24h token budget reached)
