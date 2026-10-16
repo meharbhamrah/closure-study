@@ -1707,3 +1707,11 @@
 09:34:23 BLOCKED groq|openai/gpt-oss-120b until 10:04:23 (internal 24h token budget reached)
 09:34:23 BLOCKED groq|qwen/qwen3.8-27b until 10:04:23 (internal 24h token budget reached)
 09:34:23 BLOCKED groq|openai/gpt-oss-20b until 10:04:23 (internal 24h token budget reached)
+11:27:53 ABORT: gemini: HTTP 403 (bad key or no access): {
+  "error": {
+    "code": 403,
+    "message": "Your project has been denied access. Please contact support.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
