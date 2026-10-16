@@ -1723,3 +1723,11 @@
   }
 }
 
+21:12:31 ABORT: gemini: HTTP 403 (bad key or no access): {
+  "error": {
+    "code": 403,
+    "message": "Your project has been denied access. Please contact support.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+
