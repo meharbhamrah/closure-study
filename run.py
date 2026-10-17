@@ -354,8 +354,10 @@ def cmd_run(args):
             try:
                 execute(conn, job, P, st, STIM, lid)
             except Abort as e:
-                log(f"ABORT: {e}")
-                return 2
+                # One provider refusing us (bad key, project denied) must not stop the other providers' lanes.
+                log(f"LANE DISABLED for 3h ({lid}): {str(e)[:300]}")
+                set_blocked(conn, st, lid, time.time() + 3 * 3600, f"access refused: {str(e)[:150]}")
+                continue
             progressed = True
             done_calls += 1
             if args.limit and done_calls >= args.limit:
