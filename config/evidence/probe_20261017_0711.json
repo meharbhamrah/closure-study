@@ -1,0 +1,209 @@
+{
+ "date": "2026-10-17 07:09:28",
+ "providers": {
+  "gemini": {
+   "n_models": 63,
+   "model_ids": [
+    "antigravity-preview-05-2026",
+    "antigravity-preview-09-2026",
+    "antigravity-preview-latest",
+    "aqa",
+    "deep-research-max-preview-04-2026",
+    "deep-research-preview-04-2026",
+    "deep-research-pro-preview-12-2025",
+    "gemini-2.5-computer-use-preview-10-2025",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-image",
+    "gemini-2.5-flash-lite",
+    "gemini-2.5-flash-native-audio-latest",
+    "gemini-2.5-flash-native-audio-preview-09-2025",
+    "gemini-2.5-flash-native-audio-preview-12-2025",
+    "gemini-2.5-flash-preview-tts",
+    "gemini-2.5-pro",
+    "gemini-2.5-pro-preview-tts",
+    "gemini-3-flash-preview",
+    "gemini-3-pro-image",
+    "gemini-3-pro-image-preview",
+    "gemini-3.1-flash-image",
+    "gemini-3.1-flash-image-preview",
+    "gemini-3.1-flash-lite",
+    "gemini-3.1-flash-lite-image",
+    "gemini-3.1-flash-lite-preview",
+    "gemini-3.1-flash-live-preview",
+    "gemini-3.1-flash-tts-preview",
+    "gemini-3.1-pro-preview",
+    "gemini-3.1-pro-preview-customtools",
+    "gemini-3.5-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-3.5-live-translate-preview",
+    "gemini-3.5-transcribe",
+    "gemini-3.5-transcribe-live",
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "gemini-3.8-flash-lite-tts",
+    "gemini-3.8-flash-tts",
+    "gemini-3.8-live",
+    "gemini-3.8-live-extended-thinking",
+    "gemini-4-argon",
+    "gemini-embedding-001",
+    "gemini-embedding-2",
+    "gemini-embedding-2-preview",
+    "gemini-flash-latest",
+    "gemini-flash-lite-latest",
+    "gemini-nano-banana-2.1",
+    "gemini-omni-1.1-flash",
+    "gemini-omni-flash-preview",
+    "gemini-pro-latest",
+    "gemini-robotics-er-2-preview",
+    "gemini-robotics-er-2-streaming-preview",
+    "gemma-4-26b-a4b-it",
+    "gemma-4-31b-it",
+    "lyria-3-clip-preview",
+    "lyria-3-pro-preview",
+    "lyria-3.5",
+    "lyria-realtime-exp",
+    "nano-banana-pro-preview",
+    "veo-3.1-fast-generate-preview",
+    "veo-3.1-generate-preview",
+    "veo-3.1-lite-generate-preview"
+   ]
+  },
+  "groq": {
+   "n_models": 11,
+   "model_ids": [
+    "allam-2-7b",
+    "canopylabs/orpheus-arabic-saudi",
+    "canopylabs/orpheus-v1-english",
+    "meta-llama/llama-prompt-guard-2-22m",
+    "meta-llama/llama-prompt-guard-2-86m",
+    "openai/gpt-oss-120b",
+    "openai/gpt-oss-20b",
+    "openai/gpt-oss-safeguard-20b",
+    "qwen/qwen3.8-27b",
+    "whisper-large-v3",
+    "whisper-large-v3-turbo"
+   ]
+  }
+ },
+ "routes": {
+  "gemini|gemini-3.5-flash-lite": {
+   "role": "gemini",
+   "listed": true,
+   "ok": true,
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    8,
+    1
+   ],
+   "ratelimit_headers": {}
+  },
+  "gemini|gemma-4-31b-it": {
+   "role": "judgeA",
+   "listed": true,
+   "ok": true,
+   "error": "Transient: gemini HTTP 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal error encountered.\",\n    \"status\": \"INTERNAL\"\n  }\n}\n",
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    8,
+    1
+   ],
+   "ratelimit_headers": {}
+  },
+  "gemini|gemma-4-26b-a4b-it": {
+   "role": "judgeB",
+   "listed": true,
+   "ok": true,
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    8,
+    1
+   ],
+   "ratelimit_headers": {}
+  },
+  "gemini|gemini-3.7-flash": {
+   "role": "candidate",
+   "listed": true,
+   "ok": true,
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    8,
+    1
+   ],
+   "ratelimit_headers": {}
+  },
+  "gemini|gemini-3.6-flash": {
+   "role": "candidate",
+   "listed": true,
+   "ok": true,
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    8,
+    1
+   ],
+   "ratelimit_headers": {}
+  },
+  "groq|openai/gpt-oss-120b": {
+   "role": "gpt120",
+   "listed": true,
+   "ok": true,
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    78,
+    28
+   ],
+   "ratelimit_headers": {
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": "8000",
+    "x-ratelimit-remaining-requests": "999",
+    "x-ratelimit-remaining-tokens": "7666",
+    "x-ratelimit-reset-requests": "1m26.4s",
+    "x-ratelimit-reset-tokens": "2.505s"
+   }
+  },
+  "groq|qwen/qwen3.8-27b": {
+   "role": "qwen27",
+   "listed": true,
+   "ok": true,
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    19,
+    2
+   ],
+   "ratelimit_headers": {
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": "8000",
+    "x-ratelimit-remaining-requests": "999",
+    "x-ratelimit-remaining-tokens": "7883",
+    "x-ratelimit-reset-requests": "1m26.4s",
+    "x-ratelimit-reset-tokens": "877ms"
+   }
+  },
+  "groq|openai/gpt-oss-20b": {
+   "role": "gpt20",
+   "listed": true,
+   "ok": true,
+   "text": "OK",
+   "finish": "stop",
+   "usage": [
+    78,
+    17
+   ],
+   "ratelimit_headers": {
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": "8000",
+    "x-ratelimit-remaining-requests": "999",
+    "x-ratelimit-remaining-tokens": "7666",
+    "x-ratelimit-reset-requests": "1m26.4s",
+    "x-ratelimit-reset-tokens": "2.505s"
+   }
+  }
+ }
+}

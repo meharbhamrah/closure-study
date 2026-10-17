@@ -1,0 +1,9 @@
+gemini|gemini-3.5-flash-lite {"role": "gemini", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemma-4-31b-it {"role": "judgeA", "listed": true, "ok": true, "error": "Transient: gemini HTTP 500: {\n  \"error\": {\n    \"code\": 500,\n    \"message\": \"Internal error encountered.\",\n    \"status\": \"INTERNAL\"\n  }\n}\n", "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemma-4-26b-a4b-it {"role": "judgeB", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemini-3.7-flash {"role": "candidate", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
+gemini|gemini-3.6-flash {"role": "candidate", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [8, 1]}
+groq|openai/gpt-oss-120b {"role": "gpt120", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [78, 28]}
+groq|qwen/qwen3.8-27b {"role": "qwen27", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [19, 2]}
+groq|openai/gpt-oss-20b {"role": "gpt20", "listed": true, "ok": true, "text": "OK", "finish": "stop", "usage": [78, 17]}
+saved config/evidence/probe_20261017_0711.json
