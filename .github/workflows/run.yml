@@ -30,7 +30,7 @@ jobs:
           S=${{ steps.gate.outputs.stage }}
           if [ "$S" = "main" ]; then S=all; fi   # after freezing: main items plus the dry-run judge re-test
           python -u run.py init --split $S
-          timeout 40m python -u run.py run --split $S --once 2>&1 | tee -a logs_$S.log || true
+          timeout 40m python -u run.py run --split $S --kinds free probe --once 2>&1 | tee -a logs_$S.log || true
           python -u run.py status
           python run.py export --split main || true; python run.py export --split dry || true
       - name: Commit state
