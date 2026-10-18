@@ -5554,3 +5554,13 @@
     "message": "Internal error )
 07:46:38 BLOCKED gemini|gemma-4-26b-a4b-it until 07:47:38 (transient (27): network: The read operation timed out)
 07:46:38 progress: free/done=1016; judge/done=637; probe/done=1011; probe/failed=3; free/pending=136; judge/pending=1395; probe/pending=138
+12:12:35 progress: free/done=1050; judge/done=637; probe/done=1044; probe/failed=5; free/pending=102; judge/pending=1463; probe/pending=103
+12:17:39 progress: free/done=1072; judge/done=637; probe/done=1067; probe/failed=5; free/pending=80; judge/pending=1507; probe/pending=80
+12:22:40 progress: free/done=1085; judge/done=637; probe/done=1079; probe/failed=5; free/pending=67; judge/pending=1533; probe/pending=68
+12:27:42 progress: free/done=1101; judge/done=637; probe/done=1095; probe/failed=5; free/pending=51; judge/pending=1563; probe/pending=52
+12:32:42 progress: free/done=1114; judge/done=637; probe/done=1108; probe/failed=5; free/pending=38; judge/pending=1591; probe/pending=39
+12:36:12 BLOCKED groq|openai/gpt-oss-120b until 12:37:13 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+12:37:13 BLOCKED groq|openai/gpt-oss-120b until 12:38:30 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+12:38:13 progress: free/done=1123; judge/done=637; probe/done=1117; probe/failed=5; free/pending=29; judge/pending=1609; probe/pending=30
+12:38:40 BLOCKED groq|openai/gpt-oss-120b until 12:52:55 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
+12:38:40 all lanes blocked/pending for 14 more minutes; --once so exiting
