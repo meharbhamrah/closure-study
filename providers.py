@@ -114,7 +114,7 @@ def _call_gemini(name, prov, route, prompt, max_tokens, temperature):
     body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": temperature, "maxOutputTokens": max_tokens}}
     url = f"{prov['base_url']}/models/{route['model_id']}:generateContent"
-    status, h, txt = _http(url, {"x-goog-api-key": _key(prov)}, body)
+    status, h, txt = _http(url, {"x-goog-api-key": _key(prov)}, body, timeout=100)
     if status == 429:
         raise _classify_429(name, h, txt)
     if status in (401, 403):

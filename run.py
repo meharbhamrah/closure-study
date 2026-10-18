@@ -204,6 +204,7 @@ class PState:
     def __init__(self):
         self.next_allowed = 0.0
         self.blocked_until = 0.0
+        self.fails = 0  # consecutive transient failures on this lane
         self.window = collections.deque()  # (time, tokens)
 
 
@@ -245,7 +246,10 @@ def execute(conn, job, P, st, S, lid):
             return
         except Transient as e:
             n = job["attempts"] + 1
-            wait = min(30 * (2 ** min(n, 5)), 900)  # 1 min ... 15 min, per consecutive failure of this job
+            st.fails += 1
+            # Gemma/Gemini 5xx errors are frequent but mostly pass on an immediate retry, so retry quickly and only
+            # back off when the lane has failed many times in a row.
+            wait = 20 if st.fails < 8 else 60 if st.fails < 20 else 240
             conn.execute("UPDATE jobs SET attempts=?, error=? WHERE job_id=?", (n, str(e)[:300], job["job_id"]))
             conn.commit()
             set_blocked(conn, st, lid, time.time() + wait, f"transient ({n}): {str(e)[:80]}")
@@ -254,6 +258,7 @@ def execute(conn, job, P, st, S, lid):
             finish(conn, job, status="failed", error=str(e)[:300], provider=P)
             log(f"FATAL job {job['job_id']}: {e}")
             return
+        st.fails = 0
         st.window.append((time.time(), (res["prompt_tokens"] or len(prompt) // 4) + (res["completion_tokens"] or cap // 2)))
         if res["finish_reason"] == "length" or (not res["text"].strip() and str(res["finish_reason"]).startswith(("length", "stop"))):
             if attempt == 1:
