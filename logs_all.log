@@ -5564,3 +5564,5 @@
 12:38:13 progress: free/done=1123; judge/done=637; probe/done=1117; probe/failed=5; free/pending=29; judge/pending=1609; probe/pending=30
 12:38:40 BLOCKED groq|openai/gpt-oss-120b until 12:52:55 (daily quota: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0scvv36e2y806mw54pxdrqp` service tier `on_demand` on tokens per )
 12:38:40 all lanes blocked/pending for 14 more minutes; --once so exiting
+16:36:05 BLOCKED groq|openai/gpt-oss-120b until 17:06:05 (internal 24h token budget reached)
+16:36:05 all lanes blocked/pending for 30 more minutes; --once so exiting
