@@ -5480,3 +5480,77 @@
 06:23:51 BLOCKED groq|openai/gpt-oss-120b until 06:53:51 (internal 24h token budget reached)
 06:23:51 BLOCKED groq|openai/gpt-oss-20b until 06:53:51 (internal 24h token budget reached)
 06:23:51 all lanes blocked/pending for 4 more minutes; --once so exiting
+07:07:21 BLOCKED groq|openai/gpt-oss-120b until 07:37:21 (internal 24h token budget reached)
+07:07:21 BLOCKED groq|openai/gpt-oss-20b until 07:37:21 (internal 24h token budget reached)
+07:09:54 BLOCKED gemini|gemma-4-26b-a4b-it until 07:10:14 (transient (13): network: The read operation timed out)
+07:09:54 BLOCKED groq|openai/gpt-oss-120b until 07:39:54 (internal 24h token budget reached)
+07:09:55 BLOCKED gemini|gemma-4-31b-it until 07:10:15 (transient (1): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:09:55 BLOCKED groq|openai/gpt-oss-120b until 07:39:55 (internal 24h token budget reached)
+07:10:14 BLOCKED groq|openai/gpt-oss-120b until 07:40:14 (internal 24h token budget reached)
+07:11:54 BLOCKED gemini|gemma-4-26b-a4b-it until 07:12:14 (transient (14): network: The read operation timed out)
+07:11:54 BLOCKED groq|openai/gpt-oss-120b until 07:41:54 (internal 24h token budget reached)
+07:11:55 BLOCKED gemini|gemma-4-31b-it until 07:12:15 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:11:55 BLOCKED groq|openai/gpt-oss-120b until 07:41:55 (internal 24h token budget reached)
+07:12:14 BLOCKED groq|openai/gpt-oss-120b until 07:42:14 (internal 24h token budget reached)
+07:12:15 BLOCKED gemini|gemma-4-26b-a4b-it until 07:12:35 (transient (15): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:12:15 BLOCKED groq|openai/gpt-oss-120b until 07:42:15 (internal 24h token budget reached)
+07:14:57 BLOCKED gemini|gemma-4-26b-a4b-it until 07:15:17 (transient (16): network: The read operation timed out)
+07:14:57 progress: free/done=1004; judge/done=637; probe/done=1001; probe/failed=2; free/pending=148; judge/pending=1371; probe/pending=149
+07:15:55 BLOCKED gemini|gemma-4-31b-it until 07:16:15 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+07:17:35 BLOCKED gemini|gemma-4-26b-a4b-it until 07:17:55 (transient (17): network: The read operation timed out)
+07:17:43 BLOCKED gemini|gemma-4-31b-it until 07:18:03 (transient (2): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:19:35 BLOCKED gemini|gemma-4-26b-a4b-it until 07:19:55 (transient (18): network: The read operation timed out)
+07:19:35 BLOCKED gemini|gemma-4-31b-it until 07:19:55 (transient (3): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:21:35 BLOCKED gemini|gemma-4-26b-a4b-it until 07:21:55 (transient (19): network: The read operation timed out)
+07:21:35 progress: free/done=1004; judge/done=637; probe/done=1001; probe/failed=2; free/pending=148; judge/pending=1371; probe/pending=149
+07:23:15 BLOCKED gemini|gemma-4-31b-it until 07:23:35 (transient (4): network: The read operation timed out)
+07:24:55 BLOCKED gemini|gemma-4-26b-a4b-it until 07:25:55 (transient (20): network: The read operation timed out)
+07:26:36 BLOCKED gemini|gemma-4-31b-it until 07:26:56 (transient (5): network: The read operation timed out)
+07:28:16 BLOCKED gemini|gemma-4-26b-a4b-it until 07:29:16 (transient (21): network: The read operation timed out)
+07:28:16 progress: free/done=1004; judge/done=637; probe/done=1001; probe/failed=2; free/pending=148; judge/pending=1371; probe/pending=149
+07:28:16 BLOCKED gemini|gemma-4-31b-it until 07:28:36 (transient (6): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:30:16 BLOCKED gemini|gemma-4-31b-it until 07:30:36 (transient (7): network: The read operation timed out)
+07:31:56 BLOCKED gemini|gemma-4-26b-a4b-it until 07:32:56 (transient (22): network: The read operation timed out)
+07:31:56 BLOCKED gemini|gemma-4-31b-it until 07:32:56 (transient (8): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:34:36 BLOCKED gemini|gemma-4-26b-a4b-it until 07:35:36 (transient (23): network: The read operation timed out)
+07:34:36 progress: free/done=1004; judge/done=637; probe/done=1001; probe/failed=2; free/pending=148; judge/pending=1371; probe/pending=149
+07:36:16 BLOCKED gemini|gemma-4-31b-it until 07:37:16 (transient (9): network: The read operation timed out)
+07:37:56 BLOCKED gemini|gemma-4-26b-a4b-it until 07:38:56 (transient (24): network: The read operation timed out)
+07:39:37 BLOCKED gemini|gemma-4-31b-it until 07:40:37 (transient (10): network: The read operation timed out)
+07:41:18 BLOCKED gemini|gemma-4-26b-a4b-it until 07:42:18 (transient (25): network: The read operation timed out)
+07:41:18 progress: free/done=1005; judge/done=637; probe/done=1001; probe/failed=2; free/pending=147; judge/pending=1371; probe/pending=149
+07:41:18 BLOCKED gemini|gemma-4-31b-it until 07:42:18 (transient (11): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:43:58 BLOCKED gemini|gemma-4-26b-a4b-it until 07:44:58 (transient (26): network: The read operation timed out)
+07:44:02 BLOCKED gemini|gemma-4-31b-it until 07:45:02 (transient (12): gemini HTTP 500: {
+  "error": {
+    "code": 500,
+    "message": "Internal error )
+07:46:38 BLOCKED gemini|gemma-4-26b-a4b-it until 07:47:38 (transient (27): network: The read operation timed out)
+07:46:38 progress: free/done=1016; judge/done=637; probe/done=1011; probe/failed=3; free/pending=136; judge/pending=1395; probe/pending=138

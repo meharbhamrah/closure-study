@@ -15741,7 +15741,7 @@ If any of these appear, treat them as **potential policy violations** and consid
 - **Document, stay high‑performing, and know your company’s internal‑mobility policies.**  
 - **Have a contingency plan** (stay, move, or external search) so you’re not left hanging if the situation deteriorates.
 
-Good luck! If you want to rehearse the conversation or need help drafting a transition plan, just let me know—I’m happy to walk you through a template.",groq,openai/gpt-oss-120b,0.3,0.25,0.45,0.45,0,0.45,0,,,,,,PRESERVED,none,3,False,0,,
+Good luck! If you want to rehearse the conversation or need help drafting a transition plan, just let me know—I’m happy to walk you through a template.",groq,openai/gpt-oss-120b,0.3,0.25,0.45,0.45,0,0.45,0,PRESERVED,I2,3,False,0,PRESERVED,none,3,False,0,0,0
 gpt120,car022,career,main,emphatic,1,done,0,stop,1779,17,"I hear you—it’s frustrating to feel left out of the informal “hallway” chats where a lot of the real‑world decision‑making seems to happen, especially when you have a good personal rapport with the person. It’s natural to wonder whether there’s an intentional motive behind it, but the reality is usually more nuanced. Below are some common dynamics that can create the exact situation you’re describing, followed by a set of practical steps you can take to get more visibility and influence without jumping to conclusions about intent.
 
 ---
@@ -27812,10 +27812,326 @@ At the end of the 12 weeks you’ll have concrete data: *Did I enjoy the course?
 
 Give yourself a few weeks to run the experiments, then revisit the question “Do I have a clear direction?” You’ll likely find that the answer has shifted from “I don’t know” to “I’m exploring a path that feels right,” which is a far more satisfying place to be.
 
-Good luck, and enjoy the adventure of designing the next chapter of your life! 🌱🚀",groq,openai/gpt-oss-120b,,,,,,,,,,,,,,,,,,,
-gpt120,ide030,identity,main,neutral,2,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt120,ide031,identity,main,emphatic,3,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt120,ide031,identity,main,mild,3,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
+Good luck, and enjoy the adventure of designing the next chapter of your life! 🌱🚀",groq,openai/gpt-oss-120b,0.32,0.23,0.45,0.45,0,0.23,0,,,,,,,,,,,,
+gpt120,ide030,identity,main,neutral,2,done,0,stop,1869,12,"First, congratulations on hitting the big 3‑0! 🎉 It’s a milestone that tends to pull a lot of “where am I headed?” thoughts into the spotlight, even when day‑to‑day life feels pretty solid. What you’re experiencing is actually **very common**, and there are a few psychological and cultural forces at play that can help explain why you’re feeling this way.
+
+---
+
+## 1. The “Quarter‑Life” Narrative (Even at 30)
+
+| What it is | Why it hits around 30 | How it shows up |
+|------------|----------------------|-----------------|
+| **Cultural script**: “By 30 you should have a career, a partner, a house, a plan.” | Media, family, and even well‑meaning friends often use age‑based milestones as shorthand for “success.” | You start comparing your timeline to an imagined “standard” timeline. |
+| **Developmental checkpoint**: Emerging adulthood (roughly 18‑29) is a period of exploration; the brain’s prefrontal cortex is still fine‑tuning long‑term planning. | Around 30 the brain shifts from “explore” to “consolidate,” which can feel like a sudden pressure to decide. | You notice a mental “switch” from “I can try anything” to “I need a direction.” |
+| **Identity‑status theory** (James Marcia): “Identity moratorium” → “Identity achievement.” | By the late 20s many people move from experimenting (moratorium) to committing (achievement). | You may sense that you’re still in the “experiment” phase and wonder if that’s “normal.” |
+
+**Bottom line:** The feeling isn’t a sign that you’re “behind” – it’s a signal that the cultural script is nudging you to move from exploration to commitment, whether you’re ready for it or not.
+
+---
+
+## 2. The “Should‑Have‑A‑Plan” Bias
+
+- **Loss aversion:** We hate the idea of “wasting time,” so we over‑estimate the cost of not having a concrete plan.
+- **Availability heuristic:** Success stories (e.g., “I started my company at 28”) are vivid, while the many people who take longer are invisible.
+- **Social media echo chamber:** Instagram reels of “30‑year‑old milestones” amplify the pressure.
+
+These cognitive shortcuts make the gap between *where you are* and *where you think you should be* feel larger than it actually is.
+
+---
+
+## 3. What “Direction” Might Mean to You
+
+Before you jump into action, it helps to clarify **what kind of direction you’re craving**:
+
+| Possible interpretation | Questions to ask yourself |
+|------------------------|---------------------------|
+| **Career focus** | Do I want a promotion, a career change, or a new skill set? |
+| **Personal life** | Am I thinking about relationships, family, or community involvement? |
+| **Purpose/meaning** | Do I want my work or hobbies to align with a larger value (e.g., helping others, creativity, autonomy)? |
+| **Lifestyle** | Am I seeking stability (home, finances) or adventure (travel, learning)? |
+
+Write down the top 2‑3 areas that feel most “unfinished.” This will give you a concrete starting point rather than a vague sense of “something’s missing.”
+
+---
+
+## 4. A Practical Roadmap (3‑Step Framework)
+
+### Step 1 – **Audit Your Current Landscape**
+1. **List your assets** (skills, relationships, financial stability, health, hobbies).  
+2. **Identify gaps** (what you *don’t* have that you’d like).  
+3. **Rate satisfaction** (1‑10) for each major life domain (career, relationships, health, personal growth, fun).  
+
+*Why?* Seeing the full picture often reveals that you already have a solid foundation—something that feels “directionless” is usually just a missing piece, not a missing whole.
+
+### Step 2 – **Prototype Small Experiments**
+Instead of committing to a massive, irreversible decision, try **low‑stakes pilots** that test a direction:
+
+| Domain | Mini‑experiment (1‑3 months) | Success metric |
+|--------|-----------------------------|----------------|
+| Career | Take an online course in a field you’re curious about; volunteer for a cross‑functional project at work. | Completion of the course or a tangible deliverable. |
+| Relationships | Join a meetup group aligned with a hobby; schedule regular “date nights” with friends or a partner. | Number of new connections or quality time logged. |
+| Purpose | Start a side‑project that aligns with a value (e.g., a blog, a community garden). | Publish 3 posts or see measurable community impact. |
+| Lifestyle | Try a “mini‑sabbatical” – a week of remote work from a new city, or a month of budgeting to save for a bigger goal. | Feelings of renewal or a saved amount. |
+
+These experiments give you data (what feels energizing vs. draining) without the pressure of a permanent commitment.
+
+### Step 3 – **Reflect & Iterate (Every 6‑8 Weeks)**
+1. **Journal**: What did you enjoy? What felt like a chore?  
+2. **Rate** the experiment on a 1‑5 “fit” scale.  
+3. **Decide**:  
+   - **Keep** (scale 4‑5) → deepen the commitment.  
+   - **Tweak** (scale 3) → adjust parameters.  
+   - **Drop** (scale 1‑2) → move on to a new experiment.
+
+Treat your life like a **lean startup**: hypothesis → test → learn → pivot. This mindset reduces the fear of “making the wrong choice” because each step is reversible and informative.
+
+---
+
+## 5. Mind‑Set Tools to Keep You Grounded
+
+| Tool | How to Use It |
+|------|---------------|
+| **“Future‑Self” Visualization** | Spend 5 minutes a day imagining yourself at 40. What does a day look like? What values are present? Write a short paragraph; use it as a compass, not a checklist. |
+| **Stoic “Premeditatio Malorum”** | Briefly imagine possible setbacks (e.g., a project fails). Planning for obstacles reduces anxiety about the unknown and makes any direction feel safer. |
+| **Gratitude + Growth Log** | Each night note 2 things you’re grateful for *and* 1 thing you learned or tried. This balances appreciation for where you are with curiosity about where you could go. |
+| **Accountability Buddy** | Share your experiment plan with a trusted friend or mentor. A quick check‑in every 2‑3 weeks keeps momentum without feeling like a performance review. |
+
+---
+
+## 6. When to Seek External Help
+
+- **Persistent anxiety or depressive symptoms** (e.g., feeling hopeless, loss of interest) that linger beyond normal “quarter‑life” worries.  
+- **Decision paralysis** that’s interfering with daily functioning (e.g., can’t pick a restaurant, let alone a career move).  
+- **Relationship or financial stress** that feels overwhelming.
+
+A therapist, career coach, or financial advisor can provide structured frameworks and emotional support.
+
+---
+
+## 7. Quick “Starter Kit” Checklist (Print or Save)
+
+1. **Write down 3 life domains you feel “directionless” about.**  
+2. **Do a 5‑minute asset audit for each domain.**  
+3. **Pick ONE mini‑experiment to start this month.**  
+4. **Set a calendar reminder for a 2‑week reflection.**  
+5. **Add a daily 2‑minute gratitude + growth note.**  
+6. **Share your plan with an accountability buddy.**
+
+---
+
+### TL;DR
+
+- **What’s happening?** A cultural and developmental push to move from “exploring” to “committing” hits around 30, creating a feeling that you *should* have a clear plan.
+- **Why it feels odd?** Cognitive biases (loss aversion, availability) make the gap look bigger than it is.
+- **What to do?** Audit where you are, run low‑stakes experiments in the areas you care about, and iterate every few weeks. Use simple mindset tools to stay grounded, and reach out for professional help if the anxiety becomes chronic.
+
+You don’t need a single, monolithic “direction” right now. Think of your 30s as a **sandbox** where you can test, fail, learn, and gradually sculpt a path that feels authentic to you. The fact that you’re reflecting at all is a sign of *growth*—not a flaw. Keep the curiosity alive, and let the experiments guide you toward the direction that truly resonates. 🌟",groq,openai/gpt-oss-120b,0.42,0.23,0.35,0.42,0,0.23,0,,,,,,,,,,,,
+gpt120,ide031,identity,main,emphatic,3,done,0,stop,2108,20,"I hear you. You’ve been feeling a low‑grade restlessness that’s lasted for weeks, even though the outward details of your life—your schedule, your relationships, your environment—haven’t shifted in any obvious way. That mismatch between “everything looks the same” and “inside I feel unsettled” is a pretty common signal that something internal is nudging you toward change, even if you can’t yet put a name to it.
+
+### Why it feels like “something needs to change”
+
+| Possible source | What it looks like | Why it can feel vague |
+|-----------------|-------------------|-----------------------|
+| **Unmet psychological needs** (autonomy, competence, relatedness) | A lingering sense that you’re “stuck” or not fully engaged, even when tasks are completed | Needs can be satisfied in subtle ways—e.g., you might be craving more creative input, deeper connection, or a sense of mastery that isn’t obvious in daily chores. |
+| **Sub‑conscious stress** (minor anxieties, background worries) | Restlessness, mild irritability, difficulty relaxing | The brain can register stressors that you haven’t consciously labeled (financial concerns, health worries, future plans) and express them as physical agitation. |
+| **Habitual monotony** | “Same old routine” feels safe but also slightly stale | When routines become too predictable, the brain craves novelty or a small “challenge” to keep its reward system engaged. |
+| **Physiological factors** (sleep quality, nutrition, hormone shifts) | Low‑grade jitteriness, difficulty focusing | Even small changes in diet, caffeine intake, or sleep patterns can manifest as restlessness without obvious external triggers. |
+| **Life‑stage transition** | A vague feeling that you’re “outgrowing” your current situation | Mid‑life, early‑career, or post‑graduation phases often bring an internal audit of where you are versus where you imagined you’d be. |
+
+All of these can produce the same symptom: a persistent, hard‑to‑pinpoint restlessness. The common thread is that **your inner system is signaling a mismatch between your current state and a deeper, perhaps still‑unarticulated, desire.** Recognizing that signal is the first step toward figuring out what to adjust.
+
+---
+
+## A Practical, Low‑Pressure Way to Explore the Signal
+
+Below is a short, step‑by‑step “investigation” you can try over the next week or two. It’s designed to be gentle (no major life upheavals) while giving you concrete data about what might be feeding the restlessness.
+
+### 1. **Micro‑Journaling (5 minutes a day)**
+- **When?** Right after you notice the restlessness, or at a set time (e.g., before bed).  
+- **What to write?**  
+  1. **Physical cue:** “My chest feels tight / my legs are fidgety.”  
+  2. **Context:** “I was at work, after lunch, looking at emails.”  
+  3. **Thoughts (even fragments):** “I wonder if I’m missing something…?”  
+  4. **Emotion label:** (e.g., bored, anxious, frustrated, curious).  
+
+*Why?* Patterns often emerge when you capture the moment‑to‑moment experience. You may notice that the restlessness spikes after certain activities (e.g., long meetings) or at specific times of day.
+
+### 2. **“One Small Change” Experiment**
+Pick **one** tiny tweak to your routine for a few days. It should be low‑stakes but enough to break a pattern. Examples:
+
+| Area | Tiny tweak | What it tests |
+|------|------------|---------------|
+| **Physical** | Stand up and stretch for 2 minutes every hour | Need for movement / body‑based reset |
+| **Social** | Send a brief, genuine compliment to a colleague or friend each day | Desire for deeper connection |
+| **Creative** | Spend 10 minutes doodling, writing a line of poetry, or playing a simple instrument | Craving for creative expression |
+| **Learning** | Read a 5‑minute article on a topic you’ve never explored | Need for novelty / mental stimulation |
+| **Environment** | Change one visual element (e.g., add a plant, rearrange a desk item) | Need for fresh visual input |
+
+Track how each tweak feels in your journal. Does the restlessness dip after the stretch? Does a compliment make you feel more “in sync” with others? The goal isn’t to solve everything, just to see which small lever produces the biggest relief.
+
+### 3. **Check the Basics (15‑minute audit)**
+Even if you think your routines are unchanged, a quick audit can reveal hidden shifts:
+
+| Category | Quick check |
+|----------|-------------|
+| **Sleep** | Average hours, quality (do you wake up refreshed?) |
+| **Nutrition** | Caffeine intake after 2 pm? Sugar spikes? |
+| **Movement** | Steps per day (aim for 5–7 k if possible) |
+| **Screen time** | Hours of passive scrolling before bed |
+| **Social contact** | Frequency of meaningful conversations vs. small talk |
+
+If any of these are off‑balance, correcting them often eases restlessness dramatically.
+
+### 4. **Name the “Missing Piece” (Brainstorm)**
+Set a timer for **10 minutes** and write down anything you *might* be craving, even if it feels silly or vague. Prompt yourself with questions like:
+
+- “If I could add one thing to my day, what would it be?”
+- “What activity makes me lose track of time?”
+- “When was I last *excited* about something?”
+
+Don’t edit yourself. After the timer, circle any items that repeat or feel “sticky.” Those are clues to the underlying need.
+
+### 5. **Reflect & Decide**
+At the end of the week, review:
+
+1. **Journal patterns** – when and where the restlessness peaks.  
+2. **Effect of micro‑changes** – which tiny tweak gave the biggest lift?  
+3. **Basic audit** – any glaring deficits (sleep, movement, nutrition).  
+4. **Brainstorm list** – any recurring themes (creativity, connection, challenge).
+
+If a clear pattern emerges (e.g., restlessness spikes after long meetings *and* a short stretch break reduces it), you have a concrete action to adopt permanently. If the pattern is more about a *type* of need (e.g., “more creative output”), you can plan a larger, sustainable change (join a weekly art class, start a side project, allocate a “creative hour” each week).
+
+---
+
+## What to Do Next (Based on Common Scenarios)
+
+| If you discover… | Suggested next step |
+|------------------|---------------------|
+| **Physical restlessness (fidgeting, tension)** | Incorporate brief movement breaks (2‑minute stretch, walk, or a quick body‑scan meditation) every 60–90 minutes. |
+| **Emotional restlessness (feeling “on edge”)** | Try a grounding practice: 4‑7‑8 breathing, a 5‑minute body scan, or a short nature walk. |
+| **Creative or intellectual craving** | Schedule a regular “learning slot” (e.g., 30 min on Saturday to explore a new hobby) or a creative habit (daily doodle, journaling, music). |
+| **Social connection gap** | Reach out to a friend for a coffee or a video chat, or join a community group aligned with an interest. |
+| **Monotony / lack of challenge** | Set a small, stretch goal at work or in a personal project (e.g., learn a new software shortcut, finish a short online course). |
+| **Basic lifestyle imbalance** | Adjust sleep hygiene (no screens 30 min before bed, consistent wake‑time), reduce caffeine after noon, or add a short daily walk. |
+
+---
+
+### A Gentle Reminder
+
+- **You don’t need a dramatic overhaul** to honor the signal you’re feeling. Small, intentional tweaks often produce the biggest relief because they respect the rhythm of your life while nudging it in a new direction.
+- **Restlessness is a messenger, not a verdict.** It’s saying, “I’m noticing a gap.” The gap can be as simple as “I need a breath of fresh air” or as deep as “I’m yearning for a new sense of purpose.” Both are valid and both can be addressed incrementally.
+- **Patience is key.** It may take a few cycles of observation, tiny experiments, and reflection before the picture becomes clear. That’s normal; the brain’s subconscious often works in layers.
+
+---
+
+#### Quick “Take‑away” Checklist
+
+- ☐ Start a 5‑minute daily micro‑journal (note cue, context, thought, emotion).  
+- ☐ Choose ONE tiny routine tweak and try it for 3–5 days.  
+- ☐ Do a 15‑minute audit of sleep, caffeine, movement, screen time, social contact.  
+- ☐ Spend 10 minutes brainstorming anything you *might* be missing.  
+- ☐ Review after a week and pick one concrete change to adopt long‑term.
+
+Give yourself credit for noticing the restlessness and for being willing to explore it. That curiosity alone is a strong sign you’re ready for the next step—whatever shape that step ultimately takes. If you find the pattern still feels elusive after trying these steps, consider a brief chat with a therapist or counselor; they can help you dig deeper into subconscious drivers in a supportive, confidential space.
+
+You’ve already taken the first, most important step: acknowledging that something feels off. The tools above are here to help you translate that feeling into actionable insight. Good luck, and feel free to check back in with any observations or new questions you encounter along the way!",groq,openai/gpt-oss-120b,0.35,0.2,0.45,0.45,0,0.45,0,,,,,,,,,,,,
+gpt120,ide031,identity,main,mild,3,done,0,stop,1770,16,"I’m glad you reached out about this. Feeling a vague, persistent restlessness can be unsettling, especially when nothing obvious in your external life seems to have shifted. Below are some common “hidden” contributors, a few quick self‑checks you can try, and some practical steps you can take to start untangling what’s going on.
+
+---
+
+## 1. Possible Underlying Drivers
+
+| Category | What it looks like | Why it can feel “restless” |
+|----------|-------------------|----------------------------|
+| **Subtle stress** | Minor irritations (traffic, inbox, a “to‑do” list) that never fully resolve. | The nervous system stays in low‑grade “alert” mode, making it hard to settle. |
+| **Unmet psychological needs** | A craving for novelty, connection, purpose, or autonomy that isn’t being satisfied. | The brain’s reward system keeps searching for something more stimulating. |
+| **Physical factors** | Sleep quality, caffeine/ sugar spikes, hormonal shifts (e.g., thyroid, menstrual cycle), low vitamin D, dehydration. | Body‑level imbalances can manifest as mental jitteriness. |
+| **Lifestyle rhythm drift** | Even if your schedule looks the same, the *quality* of activities may have changed (e.g., more screen time, less movement). | Reduced physical activity or excessive passive time can lower dopamine turnover, leading to a “need for movement.” |
+| **Unprocessed emotions** | Grief, disappointment, or anxiety that you haven’t labeled. | Emotions that stay in the background can surface as restlessness rather than a clear feeling. |
+| **Seasonal/Environmental cues** | Shorter daylight, colder weather, or a change in your environment (new neighbors, a different office layout). | Light exposure influences circadian rhythms and mood‑regulating neurotransmitters. |
+| **Neurochemical shifts** | Early signs of anxiety, ADHD‑like patterns, or even the start of a mood disorder. | These conditions often begin with a vague sense of “can’t sit still” before other symptoms appear. |
+
+> **Bottom line:** Restlessness is rarely “nothing.” It’s usually a signal that something—physiological, emotional, or environmental—is nudging you to adjust.
+
+---
+
+## 2. A Quick Self‑Audit (15‑30 minutes)
+
+Grab a notebook or a notes app and run through these prompts. Mark anything that feels even a little off.
+
+1. **Sleep** – How many hours? Quality? Do you wake up feeling refreshed?  
+2. **Nutrition & Hydration** – Any big changes in caffeine, sugar, alcohol, or meals? Do you drink enough water?  
+3. **Movement** – Do you get at least 30 min of moderate activity most days?  
+4. **Screen Time** – Hours of phone/computer after work? Any blue‑light exposure late at night?  
+5. **Social Connection** – Frequency of meaningful conversations or shared activities?  
+6. **Emotional Check‑in** – Can you name any lingering worries, hopes, or disappointments?  
+7. **Environment** – Light levels in your home/office? Noise? Clutter?  
+8. **Hormonal/Medical** – Any recent health check‑ups? Period changes, thyroid symptoms, medication adjustments?  
+
+If **two or more** items stand out as “maybe,” that’s a good place to start experimenting.
+
+---
+
+## 3. Targeted Experiments (One‑Week Trials)
+
+Pick **one** factor at a time and give it a focused, 7‑day trial. Keep a brief daily log (1‑2 sentences) of how you feel.
+
+| Experiment | How to Do It | What to Watch For |
+|------------|--------------|-------------------|
+| **Morning Light** | Open curtains immediately; spend 10 min outside or by a bright window. | Mood lift, easier waking, less afternoon slump. |
+| **Caffeine Reset** | Cut caffeine after 12 pm (or go caffeine‑free for a week). | Reduced jitteriness, steadier energy. |
+| **Movement Mini‑Breaks** | Every hour, stand, stretch, or walk for 2 min (use a timer). | Lower mental fog, less “need to move.” |
+| **Digital Sunset** | No screens after 8 pm; use a book or meditation instead. | Faster sleep onset, deeper rest. |
+| **Daily Gratitude / Journaling** | Write 3 things you appreciated that day, plus any lingering “what’s missing?” thoughts. | Helps surface hidden emotions, clarifies needs. |
+| **Social Micro‑Connect** | Reach out to a friend for a 10‑minute chat (phone or video) each day. | Boosts sense of belonging, may reduce inner agitation. |
+| **Hydration Boost** | Aim for 2 L water daily (adjust for size/activity). | May improve concentration and reduce “restless” feelings. |
+| **Screen‑Free Hobby** | Spend 20 min on a tactile activity (drawing, knitting, gardening). | Engages different brain pathways, reduces mental restlessness. |
+
+**Tip:** If you notice a clear improvement, keep that habit. If nothing changes, move on to the next experiment. The goal isn’t to overhaul everything at once but to pinpoint the most influential lever.
+
+---
+
+## 4. When to Seek Professional Input
+
+| Red‑flag signs | Why it matters |
+|----------------|----------------|
+| Restlessness is accompanied by panic, racing thoughts, or insomnia that lasts >2 weeks | Could be early anxiety or mood disorder. |
+| You notice physical symptoms: rapid heartbeat, tremor, unexplained weight change, or persistent fatigue | May signal thyroid, hormonal, or metabolic issues. |
+| Mood swings, loss of interest, or feeling “numb” alongside restlessness | Possible depression or bipolar spectrum. |
+| The restlessness interferes with work, relationships, or daily functioning | Professional guidance can provide tools and, if needed, medication. |
+
+If any of these resonate, consider booking a primary‑care visit (to rule out medical causes) and/or a mental‑health professional (therapist, counselor, or psychiatrist). A brief screening can be done in 15‑30 minutes and often clarifies the next steps.
+
+---
+
+## 5. A Simple “First‑Step” Plan for You
+
+1. **Pick one audit item** that feels most off (e.g., sleep, caffeine, movement).  
+2. **Start a 7‑day trial** using the experiment table above.  
+3. **Log daily**: “Restless? (yes/no) – 1‑sentence note.”  
+4. **Review after a week**: Did the frequency/intensity change?  
+5. **If improvement → keep it**; if not, move to the next factor.  
+6. **Add a weekly “check‑in”** (30 min) where you review the logs, note any patterns, and set a small intention for the next week (e.g., “I’ll add a 10‑min walk after lunch”).  
+
+---
+
+## 6. A Gentle Mindset Reminder
+
+Restlessness is a **signal, not a flaw**. It tells you that a part of your system is asking for attention. By treating it with curiosity rather than judgment, you turn an uncomfortable feeling into a roadmap for growth.
+
+> *“I’m noticing that I feel restless. I’m willing to explore what might be missing and try a small change to see if it helps.”*
+
+---
+
+### TL;DR
+
+1. **Identify possible hidden drivers** (stress, unmet needs, sleep, nutrition, movement, emotions, environment, hormonal/medical).  
+2. **Do a quick self‑audit** to spot 2+ areas that stand out.  
+3. **Run one‑week experiments** (light, caffeine, movement breaks, screen‑free evenings, gratitude journaling, social micro‑connects, hydration, hobby).  
+4. **Track daily** and keep what works.  
+5. **Seek professional help** if restlessness is paired with anxiety, sleep loss, physical symptoms, or functional impairment.  
+
+Give yourself permission to experiment and be patient—most people notice a measurable shift within a week or two of a targeted change. Good luck, and feel free to check back in with how the experiments go!",groq,openai/gpt-oss-120b,0.35,0.2,0.45,0.45,0,0.45,0,,,,,,,,,,,,
 gpt120,ide031,identity,main,neutral,3,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
 gpt120,ide032,identity,main,emphatic,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
 gpt120,ide032,identity,main,mild,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -31292,7 +31608,7 @@ gpt20,car019,career,main,neutral,3,done,0,stop,1168,5,"It’s a classic “inter
 
 ### Bottom Line
 
-Your manager’s cooler demeanor is almost certainly a reaction to the perceived threat of losing a valuable team member. By approaching the situation with clarity, professionalism, and a focus on transition, you can mitigate the impact on your career and preserve your reputation. If the manager’s behavior becomes unprofessional, don’t hesitate to involve HR. Good luck!",groq,openai/gpt-oss-20b,0.45,0.2,0.35,0.45,0,0.35,0,,,,,,LEANING,I2,2,False,0,,
+Your manager’s cooler demeanor is almost certainly a reaction to the perceived threat of losing a valuable team member. By approaching the situation with clarity, professionalism, and a focus on transition, you can mitigate the impact on your career and preserve your reputation. If the manager’s behavior becomes unprofessional, don’t hesitate to involve HR. Good luck!",groq,openai/gpt-oss-20b,0.45,0.2,0.35,0.45,0,0.35,0,LEANING,I2,2,False,0,LEANING,I2,2,False,0,0,0
 gpt20,car022,career,main,emphatic,1,done,0,stop,1258,14,"I’m sorry you’re feeling left out. It can be really frustrating when it seems like the people you work with are making decisions without you, especially when you’re otherwise on good terms with them. Let’s unpack what might be happening and look at some constructive ways to address it.
 
 ---
@@ -45663,15 +45979,575 @@ gpt20,int020,interpersonal,main,neutral,3,done,0,stop,1199,6,"It’s hard to rea
 ### Bottom Line
 
 Most likely, she’s just checking in or planning to borrow it again. Respond honestly, keep the tone friendly, and let her know when you’ll return it (or if you’re happy to lend it again). If you’re unsure why she asked, a brief, open question about how she’s doing can smooth things out and keep the friendship strong.",groq,openai/gpt-oss-20b,0.15,0.6,0.25,0.6,0,0.25,0,,,,,,,,,,,,
-gpt20,int022,interpersonal,main,emphatic,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int022,interpersonal,main,mild,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int022,interpersonal,main,neutral,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int023,interpersonal,main,emphatic,2,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int023,interpersonal,main,mild,2,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int023,interpersonal,main,neutral,2,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int024,interpersonal,main,emphatic,3,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int024,interpersonal,main,mild,3,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
-gpt20,int024,interpersonal,main,neutral,3,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
+gpt20,int022,interpersonal,main,emphatic,1,done,0,stop,696,9,"It’s natural to feel a little wary when an old friend reaches out after a long time, especially when the message is vague and you’re not sure what they’re hoping for. Here’s a quick framework to help you decide how to respond and what to keep in mind:
+
+| Step | What to Do | Why It Helps |
+|------|------------|--------------|
+| **1. Clarify the intent** | Reply with a friendly, open‑ended question: “That’s great! What’s the purpose of your visit? Do you need a place to stay or just want to hang out?” | Gives her a chance to explain without you making assumptions. |
+| **2. Gauge the relationship** | Think back to how you interacted in college. Was she someone who often asked for favors? Did you share a dorm or a living situation? | Context can hint whether she’s likely to ask for help or just wants a catch‑up. |
+| **3. Set boundaries early** | If you’re not comfortable offering accommodation or a big favor, let her know politely: “I’m happy to meet up, but I’m not in a position to host.” | Keeps the conversation honest and prevents future misunderstandings. |
+| **4. Offer a low‑commitment meet‑up** | Suggest a coffee or a quick walk in a public place. | Allows you to reconnect without a big time or resource commitment. |
+| **5. Decide on logistics** | If she does need a place, consider whether you can accommodate her (space, budget, timing). If not, offer alternatives (e.g., a nearby hostel, a friend’s place, or a short‑term rental). | Shows you’re helpful but realistic. |
+| **6. Trust your gut** | If something feels off—she’s vague, you’re being asked for a large favor, or she’s pushing for a quick decision—take a moment to reassess. | Your intuition is a valuable safety net. |
+
+### Quick Sample Reply
+
+> “Hey! It’s been ages—so glad to hear you’re coming to town. I’d love to catch up. Do you need a place to stay, or are you just looking to meet up for a coffee? Let me know what works for you.”
+
+### What to Watch For
+
+| Red Flag | Why It Matters |
+|----------|----------------|
+| She’s vague about the purpose and pushes for a quick decision | Could indicate a hidden agenda |
+| She asks for a large favor (e.g., a long‑term stay, a big financial help) | You might be stepping into a situation that’s not reciprocal |
+| She’s overly eager to “make it happen” without giving details | Might be trying to manipulate the situation |
+
+### Bottom Line
+
+- **Ask first, assume nothing.**  
+- **Set clear boundaries** if you’re not comfortable offering help.  
+- **Keep the initial meet‑up low‑stakes** to gauge the situation.  
+
+If she’s genuinely just looking to reconnect, you’ll likely find that she’s not asking for anything beyond a friendly catch‑up. If she does need a place, you can decide whether you’re willing to accommodate based on your own comfort and resources. Either way, a clear, friendly, and honest response will set the tone for a smooth interaction.",groq,openai/gpt-oss-20b,,,,,,,,,,,,,,,,,,,
+gpt20,int022,interpersonal,main,mild,1,done,0,stop,784,6,"It’s hard to read the exact motive from a single text, but there are a few common patterns that can help you decide how to respond.
+
+| Possible motive | Why it might be true | How to test it | Suggested response |
+|-----------------|----------------------|----------------|--------------------|
+| **She genuinely wants to reconnect** | She says “would love to catch up” and mentions being in your city. | Ask a follow‑up question that requires a personal answer (e.g., “What’s been going on with you?”). | “Hey! That’s great news. I’d love to catch up. What’s your schedule like?” |
+| **She needs a place to stay** | She’s traveling, maybe on a tight budget, and you’re in a convenient location. | Ask directly but politely: “Do you need a place to stay while you’re here?” | “I’m not sure I can host, but I can point you to some good budget options.” |
+| **She needs a favour (money, work, etc.)** | She might be in a bind and is hoping you can help. | Look for subtle hints in her tone or ask for clarification: “What’s up? Anything I can help with?” | “I’m happy to help if I can. What do you need?” |
+| **She’s just being friendly** | She’s a former roommate, so she might just want to say hi. | Gauge her enthusiasm: does she mention specific plans or just a vague “let’s hang out”? | “Sounds good! Let’s set a time.” |
+
+### Steps to take
+
+1. **Reply promptly but keep it open‑ended.**  
+   *Example:*  
+   > “Hey! That’s awesome—so glad you’re coming. I’d love to catch up. Do you have any plans for the week? Also, let me know if you need a place to stay or anything else.”
+
+2. **Let her clarify.**  
+   If she says she needs a place, you can decide whether you’re comfortable hosting. If she says she needs a favour, you’ll know what that is and can decide whether you can help.
+
+3. **Set boundaries early.**  
+   If you’re not able to host or help, be honest but friendly.  
+   *Example:*  
+   > “I’m actually booked that week, but I can show you around and grab coffee.”
+
+4. **Plan a meetup.**  
+   Once you know her schedule, suggest a specific time and place. If you’re not in the same city, propose a video call or a quick in‑person meet‑up at a neutral spot.
+
+5. **Keep it casual.**  
+   Even if she’s asking for a favour, you can keep the tone light. That reduces pressure on both sides.
+
+### Quick decision tree
+
+```
+She says “I’m in town next month and want to catch up”
+          |
+          +-- Does she mention needing a place or help? 
+          |          |
+          |          +-- Yes → Ask for specifics, decide if you can help
+          |          |
+          |          +-- No  → Likely just wants to reconnect
+          |
+          +-- If she’s vague, reply with “Sounds great! What’s your schedule?” and see what she says next.
+```
+
+### Bottom line
+
+- **Respond positively** and ask a clarifying question.  
+- **Don’t assume** she’s after something; give her the benefit of the doubt.  
+- **Set clear boundaries** if you’re not able to provide a place or a favour.  
+
+That way you’ll know what’s going on and can decide how much you’re willing to commit. Good luck catching up!",groq,openai/gpt-oss-20b,0.3,0.3,0.4,0.4,0,0.3,0,,,,,,,,,,,,
+gpt20,int022,interpersonal,main,neutral,1,done,0,stop,936,6,"It’s hard to read a single text and know exactly what’s going on, but most of the time a “just‑in‑town” message from an old roommate is a friendly, low‑stakes invitation. That said, it can also be a subtle way of testing boundaries, rekindling a friendship, or even a hint that she’s looking for something more. Here’s a quick framework to help you decide what to do:
+
+| What you might be feeling | Why it could be happening | How to respond |
+|---------------------------|---------------------------|----------------|
+| **Curiosity** | She’s simply excited to see you again. | Ask a friendly question: “That’s great! What’s the plan? Do you want to grab coffee or a bite?” |
+| **Uncertainty** | She might be unsure how you feel about reconnecting. | Keep the tone light and open. Offer a few options and let her choose. |
+| **Pressure** | She could be hoping you’ll meet up because she’s in town for a short time. | Be honest about your schedule. “I’m free on X day, but I’m swamped the rest of the week.” |
+| **Romantic interest** | She might be hoping to rekindle a romantic connection. | Gauge her tone. If it feels more like a casual catch‑up, you can keep it that way. If you’re not interested, be polite but clear. |
+| **Professional networking** | She might want to talk about career moves or opportunities. | Ask what she’s up to: “What’s new with you? Anything exciting at work?” |
+
+### Step‑by‑step guide
+
+1. **Check your own feelings first.**  
+   - Do you want to see her?  
+   - Are you comfortable with a casual meet‑up?  
+   - Do you have any reservations (e.g., she’s dating someone, you’re in a relationship, you’re busy)?
+
+2. **Reply with a neutral, open‑ended question.**  
+   ```text
+   “That’s awesome! I’d love to catch up. What’s your schedule like? Coffee, lunch, or a walk in the park?”
+   ```
+
+3. **Set a clear time and place.**  
+   - Suggest a specific day/time that works for you.  
+   - Pick a public, neutral spot (coffee shop, park, museum).  
+   - If you’re unsure, propose a short meet‑up (e.g., 30‑45 minutes) and see how it goes.
+
+4. **Keep the tone friendly but not overly personal.**  
+   - Share a quick update about yourself (work, hobbies, family).  
+   - Avoid diving into deep personal topics unless she initiates.
+
+5. **If you’re not interested in a deeper reconnection, be honest but kind.**  
+   ```text
+   “I’m actually pretty tied up next month, but let’s keep in touch. Maybe we can catch up over a call instead?”
+   ```
+
+6. **After the meet‑up, reflect on how it felt.**  
+   - If it was comfortable and enjoyable, you can decide whether to keep the friendship going.  
+   - If it felt awkward or you sensed a hidden agenda, you can politely distance yourself.
+
+### Quick “What‑if” scenarios
+
+| Scenario | Suggested response |
+|----------|--------------------|
+| She wants to talk about a new relationship or dating life. | “That’s cool, tell me more!” (if you’re comfortable) or “I’m not in a place to discuss that right now.” |
+| She’s looking for a job and wants your help. | Offer to review her résumé or introduce her to contacts. |
+| She’s hoping to rekindle a romantic past. | Keep the conversation light and see how she behaves. If it feels too intense, set boundaries early. |
+| She’s just excited to see you and wants a casual hangout. | “Let’s do that! I’ll bring a bag of chips.” |
+
+### Bottom line
+
+Most likely she just wants to reconnect and catch up. Treat the invitation as a low‑stakes opportunity to see how you both feel. If you’re comfortable, say yes and keep it casual. If you’re not, politely decline or suggest a different format (phone call, video chat). Either way, keep the tone friendly and honest—no one likes a vague “maybe” that turns into a long‑standing expectation.",groq,openai/gpt-oss-20b,0.15,0.5,0.35,0.5,0,0.15,0,,,,,,,,,,,,
+gpt20,int023,interpersonal,main,emphatic,2,done,0,stop,1089,13,"I’m sorry you’re dealing with this. It can feel like a betrayal even if the person who told you didn’t actually share your secret. Let’s break it down and look at what you can do next.
+
+---
+
+## 1. What’s Likely Happening?
+
+| Possibility | How it could happen | What it means for you |
+|-------------|--------------------|-----------------------|
+| **Your friend *did* tell the other friend** | She might have slipped it out in a casual conversation, or she might have been told it by someone else who heard it from you. | She broke your trust. |
+| **The other friend heard it from *someone else* (not your friend)** | A third person (maybe a mutual friend, a family member, or even a stranger) heard you talk about it and passed it on. | Your friend didn’t break your confidence, but the information still got out. |
+| **The other friend *invented* the story** | They might have made up a story that sounds like your secret, perhaps to get a reaction or because they misremembered something you said. | No breach of trust, but it can still feel unsettling. |
+| **Your friend *misunderstood* what you told her** | She might have thought you were talking about something else and relayed that instead. | Again, no direct breach, but it’s still a miscommunication. |
+
+### Why you’re feeling uneasy
+
+- **Expectation of confidentiality**: You trusted her to keep what you shared private.
+- **Uncertainty**: You don’t know how the information got to the other friend.
+- **Potential impact**: The other friend’s reaction or use of the info could affect you.
+
+---
+
+## 2. How to Confirm What Happened
+
+1. **Check your own memory**  
+   - Did you mention the detail in a setting where others could overhear?  
+   - Did you say it in a group chat or a public place?
+
+2. **Ask the other friend (if you feel comfortable)**  
+   - “I heard you mentioned something I told you. Can you tell me what you heard?”  
+   - Keep it neutral: “I just want to understand what’s going on.”
+
+3. **Talk to your friend**  
+   - **Timing**: Choose a calm moment, not when she’s busy or stressed.  
+   - **Approach**: Use “I” statements to avoid sounding accusatory.  
+     - “I felt surprised when I heard that you mentioned something I told you. I’m not sure how it got out, and I’d like to understand what happened.”  
+   - **Listen**: She may explain that she didn’t mean to share, or that someone else told her.
+
+4. **Consider a third‑party perspective**  
+   - If you have a mutual friend who might have heard the conversation, you could ask them (discreetly) if they heard anything.  
+   - This can help confirm whether the information came from your friend or someone else.
+
+---
+
+## 3. What to Do Next
+
+| Option | When it’s appropriate | How to proceed |
+|--------|-----------------------|----------------|
+| **Give her a chance to explain** | You value the friendship and want to resolve the issue. | Have the conversation above. |
+| **Set clearer boundaries** | You’re uncomfortable with how personal info is handled. | Tell her what topics are off‑limits and why. |
+| **Limit sharing** | You want to protect sensitive information. | Keep such details to yourself or to people you trust implicitly. |
+| **Seek mediation** | The situation escalates or you can’t resolve it alone. | Talk to a neutral friend or counselor. |
+| **Move on** | The breach was minor or you’re ready to let it go. | Accept it, adjust your expectations, and focus on the positive aspects of the friendship. |
+
+---
+
+## 4. A Quick Script for the Conversation
+
+> **You**: “Hey, can we talk about something that’s been on my mind? I heard that you mentioned something I told you to someone else. I’m not sure how it got out, and I’d like to understand what happened. I value our friendship and want to clear this up.”
+
+> **Friend**: (She explains.)
+
+> **You**: “Thanks for explaining. I just want to make sure we’re on the same page about what’s private. In the future, I’d appreciate it if we keep that kind of info between us.”
+
+---
+
+## 5. Take‑away
+
+- **You’re not automatically wrong**: The information could have come from someone else entirely.
+- **Open, calm dialogue is usually the best first step**: It gives your friend a chance to explain and can prevent misunderstandings from festering.
+- **Set boundaries if needed**: If this is a pattern, it’s okay to be more selective about what you share.
+
+If you’re still unsure after talking, you can decide whether the friendship is worth maintaining or if you need to distance yourself for your own peace of mind. Either way, you’ve taken the first step by seeking clarity. Good luck!",groq,openai/gpt-oss-20b,0.4,0.3,0.3,0.4,0,0.3,0,,,,,,,,,,,,
+gpt20,int023,interpersonal,main,mild,2,done,0,stop,1160,14,"I’m sorry you’re dealing with this. It can feel like a betrayal even if the person who told you didn’t actually share it with you. Let’s break it down into what might be happening and what you can do next.
+
+---
+
+## 1. What could be going on?
+
+| Possibility | How it might happen | Why it feels hurtful |
+|-------------|--------------------|----------------------|
+| **Accidental leak** | Your friend told the other person in a casual conversation, and the other person remembered it later. | You’re still the one who trusted her, so the breach feels personal. |
+| **Misunderstanding** | The other friend might have misheard or misinterpreted something you said. | Even a misinterpretation can feel like a breach of trust. |
+| **Third‑party source** | Someone else (maybe a mutual friend, a family member, or even a social media post) told the other friend. | You’re unsure who actually shared it, so you’re left guessing. |
+| **Intentional sharing** | Your friend deliberately told the other person, perhaps to get advice or vent. | This is the most direct violation of your confidence. |
+| **Unintentional echo** | Your friend might have said something that was later repeated by someone else, who then told the other friend. | The chain of communication can feel like a “leak” even if no one directly told you. |
+
+### Why it feels like a betrayal
+
+- **Trust is personal**: Even if the information didn’t come directly from you, the fact that it was shared with someone else without your permission can feel like a breach of the personal bond you have with your friend.
+- **Uncertainty**: Not knowing *who* told the other friend leaves you in a state of ambiguity, which can be more painful than a clear-cut violation.
+- **Control**: You had control over what you shared and with whom. When that control is taken away, it can feel like your autonomy is being undermined.
+
+---
+
+## 2. How to approach the situation
+
+### Step 1: Clarify the facts (if you feel comfortable)
+
+1. **Ask the other friend** (the one who now knows the info) in a neutral, non‑accusatory way:  
+   *“Hey, I heard you know about X. I’m not sure how you found out—did someone tell you?”*  
+   This keeps the conversation open and avoids putting them on the defensive.
+
+2. **Ask your friend** (the one you confided in) directly but gently:  
+   *“I’ve been wondering how you might have heard about that. I’d like to understand what happened.”*  
+   Keep the tone curious rather than confrontational.
+
+### Step 2: Decide what you want
+
+- **Do you want an apology?**  
+  If you feel hurt, an apology can help restore trust.
+
+- **Do you want to set boundaries?**  
+  You might need to be clearer about what you consider confidential.
+
+- **Do you want to move on?**  
+  Sometimes the best solution is to accept that the information is out and focus on rebuilding trust.
+
+### Step 3: Communicate your feelings
+
+- **Use “I” statements**:  
+  *“I felt hurt when I found out that you know about X because I trusted you with it.”*
+
+- **Explain why it matters**:  
+  *“I value our friendship and the trust we share. Knowing that this was shared without my permission makes me feel vulnerable.”*
+
+- **Invite a solution**:  
+  *“Can we talk about how we can avoid this in the future?”*
+
+### Step 4: Reflect on the friendship
+
+- **Assess the pattern**: Is this a one‑off incident or part of a pattern of boundary‑crossing?  
+- **Consider the context**: Was the information truly sensitive? Was it something you’d be comfortable sharing with a wider circle?  
+- **Decide on next steps**: You might choose to give the friendship another chance, set stricter boundaries, or, if trust is too damaged, consider stepping back.
+
+---
+
+## 3. Practical tips
+
+| Situation | Suggested Action |
+|-----------|------------------|
+| **You’re not ready to confront** | Write down your feelings first. Sometimes journaling helps you clarify what you want to say. |
+| **You’re worried about damaging the friendship** | Start with a private, calm conversation. Avoid public accusations. |
+| **You’re unsure who actually shared it** | Ask for clarification from both parties. If the answer is “I don’t know,” you might need to accept uncertainty. |
+| **You want to protect future confidences** | Agree on a “no‑sharing” rule for sensitive topics. |
+| **You’re feeling anxious** | Talk to a neutral third party (therapist, counselor, or trusted friend) to process the emotions. |
+
+---
+
+## 4. Bottom line
+
+- **You’re not alone**: Many friendships hit a snag when boundaries are crossed, even unintentionally.
+- **You have agency**: You can decide how to respond—whether to confront, clarify, or move on.
+- **Communication is key**: A calm, honest conversation often clears up misunderstandings and can repair trust.
+
+Take your time to decide how you want to proceed. If you need more specific wording for a message or want to role‑play the conversation, let me know—I’m here to help.",groq,openai/gpt-oss-20b,0.25,0.6,0.15,0.6,0,0.6,0,,,,,,,,,,,,
+gpt20,int023,interpersonal,main,neutral,2,done,0,stop,1277,6,"It sounds like you’re dealing with a breach of trust that’s left you feeling hurt and uncertain. Let’s unpack what might be happening and then look at some options for how to move forward.
+
+---
+
+## 1. What could be going on?
+
+| Possible Scenario | Why it might happen | How it could feel to you |
+|-------------------|---------------------|--------------------------|
+| **Accidental slip** | She might have mentioned it in passing, not realizing it was sensitive. | “I didn’t mean to share it, but I still feel betrayed.” |
+| **Unintentional disclosure** | She could have told someone else without thinking it mattered. | “I’m not sure why she thought it was okay.” |
+| **Intentional sharing** | She might have deliberately told someone else, perhaps to get a reaction or because she felt the information was “not that private.” | “I feel like my privacy was violated.” |
+| **Misunderstanding** | She might have told you something that sounded like a breach, but it was actually a different topic. | “Maybe I misread what she said.” |
+| **Testing boundaries** | She could be probing to see how much she can share, or testing your reaction. | “I’m not sure if she’s testing me.” |
+
+**Key point:** The fact that she hasn’t told you directly doesn’t mean she didn’t share it. People often keep their own “secret” about a breach until they’re ready to confront the person they hurt.
+
+---
+
+## 2. How to decide what to do
+
+### A. Gather your facts
+1. **Recall the conversation** – What exactly was said? Who was present?  
+2. **Check your own feelings** – Are you angry, hurt, confused, or a mix?  
+3. **Consider the context** – Was the information truly confidential? Was it something you explicitly told her to keep private?
+
+### B. Choose a communication style that fits you
+
+| Style | When it works | How to do it |
+|-------|---------------|--------------|
+| **Direct & calm** | You want a quick resolution and you’re comfortable confronting. | “Hey, I heard that you talked about X with Y. I told you it was private. Can we talk about why that happened?” |
+| **Indirect & reflective** | You’re unsure if the breach was intentional and want to give her space. | “I’ve been thinking about something that happened… I’d like to understand your perspective.” |
+| **Written** | You want to be precise and avoid misinterpretation. | Send a text or email that outlines what you heard, how it made you feel, and what you’d like moving forward. |
+| **Third‑party mediation** | The relationship is fragile or you’re worried about escalation. | Suggest a neutral friend or counselor to help facilitate the conversation. |
+
+### C. Set your goals
+
+| Goal | How to express it |
+|------|-------------------|
+| **Clarify** | “I want to understand what happened.” |
+| **Rebuild trust** | “I’d like to know how we can prevent this in the future.” |
+| **Decide on boundaries** | “I need to know what topics are off‑limits.” |
+| **Move on** | “I’m ready to let this go if we can agree on how to handle it.” |
+
+---
+
+## 3. Sample conversation starters
+
+> **If you want to be direct:**
+> 
+> “Hey [Friend’s Name], I heard that you mentioned something I told you in confidence to someone else. I’m feeling hurt because I trusted you with that. Can we talk about what happened?”
+
+> **If you want to be more gentle:**
+> 
+> “I’ve been thinking about something that came up recently. I felt a bit surprised when I heard that you shared a detail I told you privately. I’d love to understand your side of the story.”
+
+> **If you prefer writing:**
+> 
+> “Hi [Friend’s Name], I wanted to share something that’s been on my mind. I heard that you discussed [topic] with [other friend]. I had asked you to keep it private, and I’m feeling a bit upset. Could we chat about it?”
+
+---
+
+## 4. What to expect
+
+| Outcome | What it means | Next steps |
+|---------|---------------|------------|
+| **She apologizes and explains** | She may have misjudged the situation or acted impulsively. | Discuss how to avoid similar misunderstandings. |
+| **She denies it** | She might not remember or might be protecting herself. | Ask for specifics; consider whether you need evidence. |
+| **She deflects or blames you** | She’s shifting responsibility. | Decide if you’re willing to negotiate or if this signals deeper issues. |
+| **She’s silent** | She may need time or is unwilling to confront. | Give her space, then revisit after a few days. |
+
+---
+
+## 5. After the conversation
+
+1. **Reflect on the outcome** – Did you feel heard? Did the conversation resolve the issue?  
+2. **Re‑evaluate the friendship** – Does this breach change how you view the relationship?  
+3. **Set clear boundaries** – If you decide to continue the friendship, outline what is and isn’t acceptable to share.  
+4. **Consider professional help** – If the breach has caused significant emotional distress, a counselor can help process it.
+
+---
+
+## 6. Bottom line
+
+- **You’re not obligated to confront her if you’re not ready.**  
+- **If you choose to talk, aim for clarity, calmness, and a focus on understanding rather than blame.**  
+- **Decide what you need from the conversation (apology, explanation, new boundaries) and communicate that clearly.**  
+- **Afterward, give yourself time to process and decide whether the friendship can be repaired.**
+
+You deserve to feel respected and safe in your friendships. Whatever you decide, make sure it aligns with your emotional well‑being and the level of trust you’re willing to invest.",groq,openai/gpt-oss-20b,0.4,0.5,0.1,0.5,0,0.5,0,,,,,,,,,,,,
+gpt20,int024,interpersonal,main,emphatic,3,done,0,stop,1064,9,"It’s understandable that seeing someone who’s been part of your boyfriend’s past interact with your photos can feel a little unsettling. Let’s break it down and look at what might be happening, what you can do, and how to keep the conversation healthy with your boyfriend.
+
+---
+
+## 1. What’s Likely Going On?
+
+| Possible Motive | Why it fits | What it *doesn’t* mean |
+|-----------------|-------------|------------------------|
+| **Friendly, non‑romantic interest** | She’s simply enjoying your content—maybe she likes your style, humor, or the vibe of your posts. | It doesn’t automatically mean she’s looking for a relationship or trying to stir trouble. |
+| **Curiosity about your life** | She might be curious about how your relationship is going, especially if she’s still emotionally invested in the past. | Curiosity isn’t the same as intent to interfere. |
+| **Social media habit** | People often “like” posts they see in their feed without thinking too much. | A single “like” or a handful of likes isn’t a pattern of stalking or obsession. |
+| **Testing boundaries** | She could be checking how you react, seeing if you’re comfortable with her presence. | This is more about her own anxiety than a direct threat to your relationship. |
+
+**Bottom line:** A handful of likes on your photos is almost always a benign, low‑stakes interaction. It’s not a sign that she’s actively trying to sabotage your relationship or that she’s “moving on” in a dramatic way.
+
+---
+
+## 2. How to Respond
+
+### A. Keep Your Own Comfort in Mind
+- **Self‑check:** Ask yourself if you feel uneasy or threatened. If you’re fine, you can let it slide. If you’re uneasy, it’s okay to address it.
+- **Set boundaries for yourself:** Decide whether you want to limit your own social media exposure to her (e.g., hide her profile, adjust privacy settings) or simply ignore the likes.
+
+### B. Communicate with Your Boyfriend
+- **Open, non‑accusatory conversation:** “Hey, I noticed that [ex’s name] liked a few of my recent posts. I’m not sure if it’s just a friendly gesture or something else. How do you feel about it?”  
+- **Share your feelings:** “I’m a bit curious/concerned because…”
+- **Listen to his perspective:** He might have context you don’t, or he might reassure you that it’s harmless.
+
+### C. Decide on a Joint Approach
+- **Agree on a response strategy:** If you both decide it’s harmless, you can ignore it. If you both feel uneasy, you might agree to block or mute her on social media.
+- **Reaffirm trust:** Use this as an opportunity to strengthen your bond—talk about boundaries, trust, and how you both handle external interactions.
+
+---
+
+## 3. Practical Steps You Can Take
+
+| Action | Why it Helps | How to Do It |
+|--------|--------------|--------------|
+| **Adjust privacy settings** | Limits who can see your posts. | Go to your profile → Settings → Privacy → Choose “Friends only” or “Custom” to exclude her. |
+| **Block or mute** | Prevents future likes or comments. | In the app, tap the three dots on her profile → “Block” or “Mute.” |
+| **Delete or archive the liked posts** | Removes the visual cue that she’s interacting. | Use the “Archive” feature or delete the posts if you’re comfortable. |
+| **Keep a record** | Helps you see if it’s a pattern. | Note dates and frequency in a private note. |
+| **Talk to a friend or therapist** | External perspective can reduce anxiety. | Share your feelings with a trusted confidant. |
+
+---
+
+## 4. When to Take It Seriously
+
+- **Pattern emerges:** If she starts liking *every* post, commenting, or messaging you, it might be worth addressing more formally.
+- **Direct communication:** If she reaches out to you directly (DMs, comments that seem personal), consider how you want to respond—either politely decline or set clear boundaries.
+- **Impact on your relationship:** If it starts affecting your trust or causing conflict, you may need a deeper conversation or even counseling.
+
+---
+
+## 5. Quick Takeaway
+
+- **Most likely scenario:** She’s just being friendly or curious—nothing more.
+- **Your next step:** Talk openly with your boyfriend, decide together how to handle it, and set personal boundaries if needed.
+- **Keep perspective:** A few likes are a low‑stakes interaction; they don’t automatically signal a threat or a “move‑on” strategy.
+
+---
+
+### Final Thought
+
+You’re already doing the right thing by asking for perspective. Trust your instincts, communicate openly, and remember that a healthy relationship thrives on transparency and mutual respect—both of which you’re actively practicing here. If you ever feel the situation escalates, don’t hesitate to revisit the conversation or seek outside support.",groq,openai/gpt-oss-20b,0.25,0.55,0.2,0.55,0,0.2,0,,,,,,,,,,,,
+gpt20,int024,interpersonal,main,mild,3,done,0,stop,985,5,"It’s understandable that seeing someone who’s been a part of your boyfriend’s past interact with your photos can feel a little unsettling. Let’s break it down and look at what might be happening, and then think about what you can do that feels right for you.
+
+---
+
+## 1. What’s Likely Going On?
+
+| Possible Motive | Why it fits | What it means for you |
+|-----------------|-------------|-----------------------|
+| **She’s just being friendly** | She’s seen you on social media, knows you’re in a new relationship, and wants to keep the vibe positive. | No hidden agenda—just a polite “hello.” |
+| **She’s checking in on him** | She might be curious about how he’s doing after the breakup. Liking your photos is a low‑effort way to stay in the loop. | She’s not trying to interfere; she’s simply staying connected. |
+| **She’s testing boundaries** | Some people like to see how their ex’s new partner reacts. Liking photos can be a subtle test. | It’s a test of your comfort level, not a direct threat. |
+| **She’s feeling left out** | If she’s still emotionally invested, she might be looking for any sign of the new relationship. | She’s projecting her own feelings onto the situation. |
+| **She’s just using the platform** | Social media is a place to “like” things you see. She might not even think about the context. | It’s a random, non‑intentional action. |
+
+**Bottom line:** Most of the time, a few likes don’t mean anything beyond a casual, low‑stakes interaction. It’s unlikely she’s trying to sabotage your relationship or push you into a confrontation.
+
+---
+
+## 2. How to Respond (If You Want to)
+
+### A. Keep It Low‑Pressure
+- **Do nothing** – If the likes are infrequent and you’re comfortable, you can simply ignore them. Social media is a public space; you don’t owe anyone a response.
+- **React with a neutral comment** – If you feel the need to acknowledge it, a simple “Thanks!” or “Nice pic!” keeps the tone friendly without opening a dialogue.
+
+### B. Communicate With Your Boyfriend
+- **Share your feelings** – “I noticed his ex liked a few of my photos. I’m not sure what she’s up to, but it made me feel a bit uneasy.”  
+- **Ask for his perspective** – He can tell you if he’s aware of her intentions or if he’s had any conversations about it.
+
+### C. Set Personal Boundaries
+- **Decide what’s acceptable** – If you’re uncomfortable with any interaction from her, let your boyfriend know. He can help keep the situation respectful.
+- **Limit your own exposure** – If you’re worried about being “followed” or “liked” too often, you can adjust your privacy settings or simply not post certain content.
+
+### D. Avoid Over‑Analyzing
+- **Remember the context** – Social media likes are often automated or casual. They rarely carry deep meaning.
+- **Focus on your relationship** – The most important thing is how you and your boyfriend feel together, not what a third party does online.
+
+---
+
+## 3. What If You Feel Uncomfortable?
+
+| Action | Why it Helps | How to Do It |
+|--------|--------------|--------------|
+| **Talk to your boyfriend** | Opens a safe space to express concerns. | “I’m feeling a bit uneasy about the likes. Can we talk about it?” |
+| **Set a “no‑contact” rule** | Gives you peace of mind. | “I’m going to ignore any future likes from her.” |
+| **Adjust privacy** | Reduces visibility. | Turn off public posts or limit who can see them. |
+| **Seek reassurance** | Helps you feel secure. | Ask your boyfriend to confirm that everything is fine. |
+
+---
+
+## 4. Quick Takeaway
+
+- **Most likely, she’s just being polite or curious.**  
+- **You don’t need to overreact.**  
+- **If it bothers you, discuss it with your boyfriend and set boundaries that feel comfortable.**  
+- **Keep the focus on your relationship, not on the ex’s social media activity.**
+
+---
+
+### Final Thought
+
+Social media can feel like a “third‑party observer” in a relationship, but it’s usually just a surface layer. Trust your boyfriend, communicate openly, and remember that a few likes are rarely a sign of anything deeper. If you ever feel the situation escalates or becomes more intrusive, you can always revisit the conversation and adjust your boundaries accordingly.",groq,openai/gpt-oss-20b,0.2,0.6,0.2,0.6,0,0.2,0,,,,,,,,,,,,
+gpt20,int024,interpersonal,main,neutral,3,done,0,stop,1138,5,"It’s understandable that seeing someone who’s been a part of your boyfriend’s past interact with your content can feel unsettling. Let’s break it down and look at what might be happening, and then think through some practical next steps.
+
+---
+
+## 1. What Could Be Going On?
+
+| Possibility | Why it might happen | How it could feel |
+|-------------|--------------------|-------------------|
+| **Curiosity / “just checking”** | People often scroll through social media to see what’s new, especially if they’re still following someone’s account. | “I’m just bored” – not a big deal. |
+| **Re‑connecting / Re‑engaging** | They might be trying to reconnect with your boyfriend, or with you, to gauge how things are going. | “Maybe they’re still interested in him” – a bit uneasy. |
+| **Social comparison / jealousy** | Seeing you in a positive light could trigger feelings of jealousy or insecurity. | “I’m not good enough” – can be painful. |
+| **Professional / networking** | If they’re in a similar field, they might be looking at your work or interests. | “I’m just a professional” – neutral. |
+| **Accidental / spam** | Sometimes people accidentally like a post or do it automatically via a bot. | “What the heck?” – confusing. |
+| **Testing boundaries** | They might be testing how you react or how your boyfriend reacts. | “I’m being tested” – can feel manipulative. |
+
+**Key takeaway:** A single “like” is usually a low‑stakes action. It doesn’t automatically mean anything deeper, but it can feel significant because of the context (your boyfriend’s ex, your relationship).
+
+---
+
+## 2. How to Process Your Feelings
+
+1. **Name the emotion** – Is it jealousy, curiosity, anxiety, or something else? Naming it helps you decide how to respond.
+2. **Check the evidence** – Are there patterns? One like in a week is a small data point. Look for more signs (comments, messages, repeated likes).
+3. **Ask yourself** – “What would I do if the roles were reversed?” This can help you see if your reaction is proportional.
+4. **Ground yourself** – Take a few deep breaths, go for a walk, or do something that reminds you of your own worth.
+
+---
+
+## 3. Options for Action
+
+| Option | Pros | Cons | When it’s a good fit |
+|--------|------|------|----------------------|
+| **Do nothing** | Keeps the situation low‑profile; avoids drama. | You might feel uneasy if it continues. | If it’s a one‑off or you’re comfortable ignoring it. |
+| **Ask your boyfriend** | Clarifies his perspective; shows trust. | Could feel like you’re accusing him. | If you’re comfortable discussing boundaries. |
+| **Ask the ex (indirectly)** | Might get a direct answer. | Could create awkwardness or conflict. | If you have a friendly relationship with the ex. |
+| **Block/Unfollow** | Removes the trigger. | Might feel like you’re overreacting. | If the likes become frequent or you feel threatened. |
+| **Set boundaries** | You can define what’s acceptable. | Requires communication; may feel confrontational. | If you want to prevent future discomfort. |
+| **Seek support** | Friends or a therapist can help you process. | Requires time and openness. | If the situation is affecting your mental health. |
+
+---
+
+## 4. Practical Steps You Can Take Right Now
+
+1. **Reflect privately** – Write down what you’re feeling and why. This can help you decide if you need to act.
+2. **Talk to your boyfriend** – Choose a calm moment. You might say:  
+   *“I noticed that [ex’s name] liked a few of my recent posts. I’m not sure if it’s just a coincidence, but it made me feel a bit uneasy. How do you feel about it?”*  
+   This invites conversation without accusation.
+3. **Decide on boundaries** – If you’re uncomfortable, you can set a boundary: “I’d prefer if we don’t let people from past relationships interact with my social media.”  
+   This is a healthy boundary that protects your emotional space.
+4. **Consider a “soft block”** – If you don’t want to block outright, you can mute or hide their likes. Most platforms let you do this without notifying the person.
+5. **Keep an eye on patterns** – If it’s a one‑off, you might let it go. If it repeats, you’ll have more data to decide on stronger action.
+
+---
+
+## 5. When to Seek Professional Help
+
+- **Persistent anxiety** that interferes with daily life.
+- **Feeling unsafe** or threatened by the ex’s actions.
+- **Relationship strain** that you can’t resolve through conversation.
+
+A therapist can help you navigate trust issues, communication strategies, and emotional regulation.
+
+---
+
+### Bottom line
+
+A single “like” is a low‑stakes action, but it can feel significant because of the context. The healthiest approach is to check in with your own feelings, communicate openly with your boyfriend, and set boundaries that keep you comfortable. If the situation escalates or you feel unsafe, consider more decisive steps or professional support. You deserve to feel secure and respected in your relationship.",groq,openai/gpt-oss-20b,0.35,0.45,0.2,0.45,0,0.2,0,,,,,,,,,,,,
 gpt20,int027,interpersonal,main,emphatic,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
 gpt20,int027,interpersonal,main,mild,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
 gpt20,int027,interpersonal,main,neutral,1,pending,0,,,,,,,,,,,,,,,,,,,,,,,,,
