@@ -5568,3 +5568,5 @@
 16:36:05 all lanes blocked/pending for 30 more minutes; --once so exiting
 21:34:31 BLOCKED groq|openai/gpt-oss-120b until 22:04:31 (internal 24h token budget reached)
 21:34:31 all lanes blocked/pending for 30 more minutes; --once so exiting
+06:18:17 BLOCKED groq|openai/gpt-oss-120b until 06:48:17 (internal 24h token budget reached)
+06:18:17 all lanes blocked/pending for 30 more minutes; --once so exiting
