@@ -1,14 +1,14 @@
 name: run-experiment
 on:
   schedule:
-    - cron: "17 1,7,13,19 * * *"   # 4 short runs a day to stay inside the 2,000 free Actions minutes
+    - cron: "17 */3 * * *"   # public repo: unlimited free minutes
   workflow_dispatch: {}
 concurrency: { group: experiment, cancel-in-progress: false }
 permissions: { contents: write }
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - name: Gate (only run once prompts are frozen)
@@ -30,7 +30,7 @@ jobs:
           S=${{ steps.gate.outputs.stage }}
           if [ "$S" = "main" ]; then S=all; fi   # after freezing: main items plus the dry-run judge re-test
           python -u run.py init --split $S
-          timeout 40m python -u run.py run --split $S --once 2>&1 | tee -a logs_$S.log || true
+          timeout 300m python -u run.py run --split $S --once 2>&1 | tee -a logs_$S.log || true
           python -u run.py status
           python run.py export --split main || true; python run.py export --split dry || true
       - name: Commit state
