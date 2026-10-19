@@ -6118,3 +6118,192 @@
 10:19:25 BLOCKED groq|openai/gpt-oss-120b until 10:49:25 (internal 24h token budget reached)
 10:19:30 BLOCKED groq|openai/gpt-oss-120b until 10:49:30 (internal 24h token budget reached)
 10:19:31 BLOCKED groq|openai/gpt-oss-120b until 10:49:31 (internal 24h token budget reached)
+13:58:44 BLOCKED gemini|gemini-3.6-flash until 13:59:04 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+13:59:05 BLOCKED gemini|gemini-3.1-flash-lite until 13:59:25 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+13:59:36 BLOCKED gemini|gemini-3.6-flash until 13:59:56 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:00:08 BLOCKED gemini|gemini-3.6-flash until 14:00:28 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:00:20 BLOCKED gemini|gemini-3.1-flash-lite until 14:00:40 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:00:38 BLOCKED gemini|gemini-3.6-flash until 14:00:58 (transient (3): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:00:45 BLOCKED gemini|gemini-3.1-flash-lite until 14:01:05 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:01:04 BLOCKED gemini|gemini-3.6-flash until 14:01:24 (transient (4): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:01:18 BLOCKED gemini|gemini-3.1-flash-lite until 14:01:38 (transient (3): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:01:29 BLOCKED gemini|gemini-3.6-flash until 14:01:49 (transient (5): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:01:43 BLOCKED gemini|gemini-3.1-flash-lite until 14:02:03 (transient (4): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:02:06 BLOCKED gemini|gemini-3.6-flash until 14:02:26 (transient (6): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:02:07 BLOCKED gemini|gemini-3.1-flash-lite until 14:02:27 (transient (5): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:02:27 BLOCKED gemini|gemini-3.6-flash until 14:02:47 (transient (7): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:02:48 BLOCKED gemini|gemini-3.6-flash until 14:03:48 (transient (8): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:02:59 BLOCKED gemini|gemini-3.1-flash-lite until 14:03:19 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:03:23 BLOCKED gemini|gemini-3.1-flash-lite until 14:03:43 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:03:55 progress: free/done=1142; judge/done=916; probe/done=1136; probe/failed=5; free/pending=10; judge/pending=2005; probe/pending=11
+14:04:18 BLOCKED gemini|gemini-3.1-flash-lite until 14:04:38 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:04:23 BLOCKED gemini|gemini-3.6-flash until 14:04:43 (transient (1): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:04:41 BLOCKED gemini|gemini-3.1-flash-lite until 14:05:01 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:04:43 BLOCKED gemini|gemini-3.6-flash until 14:05:03 (transient (2): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:05:01 BLOCKED gemini|gemini-3.1-flash-lite until 14:05:21 (transient (3): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:05:04 BLOCKED gemini|gemini-3.6-flash until 14:05:24 (transient (3): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:05:21 BLOCKED gemini|gemini-3.1-flash-lite until 14:05:41 (transient (4): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:05:26 BLOCKED gemini|gemini-3.6-flash until 14:05:46 (transient (4): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:05:42 BLOCKED gemini|gemini-3.1-flash-lite until 14:06:02 (transient (5): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:05:48 BLOCKED gemini|gemini-3.6-flash until 14:06:08 (transient (5): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:06:03 BLOCKED gemini|gemini-3.1-flash-lite until 14:06:23 (transient (6): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:06:09 BLOCKED gemini|gemini-3.6-flash until 14:06:29 (transient (6): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:06:23 BLOCKED gemini|gemini-3.1-flash-lite until 14:06:43 (transient (7): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:06:29 BLOCKED gemini|gemini-3.6-flash until 14:06:49 (transient (7): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:06:47 BLOCKED gemini|gemini-3.1-flash-lite until 14:07:47 (transient (8): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:06:49 BLOCKED gemini|gemini-3.6-flash until 14:07:49 (transient (8): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:07:47 BLOCKED gemini|gemini-3.1-flash-lite until 14:08:47 (transient (9): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:07:50 BLOCKED gemini|gemini-3.6-flash until 14:08:50 (transient (9): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:08:47 BLOCKED gemini|gemini-3.1-flash-lite until 14:09:47 (transient (10): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:08:50 BLOCKED gemini|gemini-3.6-flash until 07:05:00 (daily quota: {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,)
+14:09:48 BLOCKED gemini|gemini-3.1-flash-lite until 14:10:48 (transient (11): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:09:48 progress: free/done=1152; judge/done=917; probe/done=1147; probe/failed=5; judge/pending=2024
+14:10:48 BLOCKED gemini|gemini-3.1-flash-lite until 14:11:48 (transient (12): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:11:49 BLOCKED gemini|gemini-3.1-flash-lite until 14:12:49 (transient (13): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:13:03 BLOCKED gemini|gemini-3.1-flash-lite until 14:14:03 (transient (14): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:14:04 BLOCKED gemini|gemini-3.1-flash-lite until 14:15:04 (transient (15): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:15:04 BLOCKED gemini|gemini-3.1-flash-lite until 14:16:04 (transient (16): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:15:04 progress: free/done=1152; judge/done=917; probe/done=1147; probe/failed=5; judge/pending=2024
+14:16:13 BLOCKED gemini|gemini-3.1-flash-lite until 14:17:13 (transient (17): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:17:13 BLOCKED gemini|gemini-3.1-flash-lite until 14:18:13 (transient (18): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:18:14 BLOCKED gemini|gemini-3.1-flash-lite until 14:19:14 (transient (19): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:19:21 BLOCKED gemini|gemini-3.1-flash-lite until 14:23:20 (transient (20): gemini HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is c)
+14:19:21 all lanes blocked/pending for 4 more minutes; --once so exiting
