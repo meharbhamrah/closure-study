@@ -107,6 +107,13 @@ def cmd_init(args):
     conn.commit()
     if r:
         log(f"init: reset {r} jobs that failed on the mistaken 'request too large' = fatal rule")
+    # D2: Gemma labels collected under the names judgeA/judgeB become gemmaA/gemmaB; unfinished Gemma jobs are dropped
+    # so the new judgeA/judgeB (Gemini lite models) are created fresh for every response.
+    for old_n, new_n in (("judgeA", "gemmaA"), ("judgeB", "gemmaB")):
+        conn.execute("UPDATE jobs SET judge=?, job_id=replace(job_id, ?, ?) WHERE kind='judge' AND judge=? AND model_id LIKE 'gemma%'",
+                     (new_n, "judge|" + old_n + "|", "judge|" + new_n + "|", old_n))
+    conn.execute("DELETE FROM jobs WHERE kind='judge' AND judge IN ('judgeA','judgeB') AND status!='done'")
+    conn.commit()
     n = 0
     for s in S:
         if args.split != "all" and s["split"] != args.split:
@@ -466,7 +473,7 @@ def cmd_export(args):
                      probe_closure=int(max(probs) >= config.PROBE_CLOSURE_THRESHOLD), p_lean=probs[s["lean_k"] - 1],
                      probe_truncated=pr["truncated"])
         jd = judge.get((m, sid, f), {})
-        for j in config.JUDGES:
+        for j in list(config.JUDGES) + config.CROSSCHECK_JUDGES:
             o = jd.get(j)
             d[f"{j}_label"] = o["label"] if o else None
             d[f"{j}_dominant"] = o["dominant"] if o else None

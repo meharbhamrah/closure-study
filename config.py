@@ -34,9 +34,13 @@ MODELS = {
 # judgeA: open-weight Gemma model line (not an evaluated model). judgeB: a larger Gemini model (not the evaluated
 # flash-lite, but same lab as one evaluated model -> disclosed, with a sensitivity analysis).
 JUDGES = {
-    "judgeA": {"provider": "gemini", "model_id": "gemma-4-31b-it",   "family": "gemma",  "reasoning": False},
-    "judgeB": {"provider": "gemini", "model_id": "gemma-4-26b-a4b-it", "family": "gemma",  "reasoning": False},
+    # 2026-10-19 (DEVIATIONS.md D2): the Gemma endpoints failed on ~95% of calls, so the panel is now two stable
+    # (non-preview) Gemini lite models. Same lab as one evaluated model: disclosed, sensitivity analysis excluding it.
+    "judgeA": {"provider": "gemini", "model_id": "gemini-2.5-flash-lite", "family": "gemini", "reasoning": False},
+    "judgeB": {"provider": "gemini", "model_id": "gemini-3.1-flash-lite", "family": "gemini", "reasoning": False},
 }
+# The first Gemma labels (partial) are kept in the database under these names and used only as an agreement cross-check.
+CROSSCHECK_JUDGES = ["gemmaA", "gemmaB"]
 # Prespecified replacements, used only if a judge fails the reliability checks BEFORE the main run.
 JUDGE_FALLBACKS = ["gemini-3.6-flash"]
 
