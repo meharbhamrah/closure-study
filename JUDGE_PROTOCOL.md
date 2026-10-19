@@ -49,4 +49,4 @@ models whose versions can drift (we log the model string and date of every call)
   judged dominant reading in 4% of neutral vs about 48% of lean-framed responses. Closure is therefore rare in full-length answers, so the ordinal label
   and the lean-following outcome carry the main inferential weight; closure remains an outcome with wide intervals.
 
-- 2026-10-19: judges replaced by gemini-2.5-flash-lite (A) and gemini-3.1-flash-lite (B) because the Gemma endpoints failed on most calls; Gemma labels kept as a cross-check. See DEVIATIONS.md D2.
+- 2026-10-19: judges replaced by gemini-3.6-flash (A; first choice gemini-2.5-flash-lite was retired) and gemini-3.1-flash-lite (B) because the Gemma endpoints failed on most calls; Gemma labels kept as a cross-check. See DEVIATIONS.md D2.
