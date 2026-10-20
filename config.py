@@ -36,7 +36,7 @@ MODELS = {
 JUDGES = {
     # 2026-10-19 (DEVIATIONS.md D2): the Gemma endpoints failed on ~95% of calls, so the panel is now two stable
     # (non-preview) Gemini lite models. Same lab as one evaluated model: disclosed, sensitivity analysis excluding it.
-    "judgeA": {"provider": "gemini", "model_id": "gemini-3.6-flash", "family": "gemini", "reasoning": False},
+    "judgeA": {"provider": "gemini", "model_id": "gemini-3.5-flash-lite", "family": "gemini", "reasoning": False},
     "judgeB": {"provider": "gemini", "model_id": "gemini-3.1-flash-lite", "family": "gemini", "reasoning": False},
 }
 # The first Gemma labels (partial) are kept in the database under these names and used only as an agreement cross-check.
@@ -52,7 +52,7 @@ STIM_CHAIN = [
 ]
 # Extra candidate routes tested in `probe`.
 PROBE_EXTRA = [
-    {"provider": "gemini", "model_id": "gemini-3.6-flash", "family": "gemini"},
+    {"provider": "gemini", "model_id": "gemini-3.5-flash-lite", "family": "gemini"},
 ]
 
 DOMAINS = ["career", "interpersonal", "identity"]

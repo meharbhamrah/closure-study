@@ -113,6 +113,7 @@ def cmd_init(args):
         conn.execute("UPDATE jobs SET judge=?, job_id=replace(job_id, ?, ?) WHERE kind='judge' AND judge=? AND model_id LIKE 'gemma%'",
                      (new_n, "judge|" + old_n + "|", "judge|" + new_n + "|", old_n))
     conn.execute("DELETE FROM jobs WHERE kind='judge' AND judge IN ('judgeA','judgeB') AND status!='done'")
+    conn.execute("DELETE FROM jobs WHERE kind='judge' AND judge='judgeA' AND model_id='gemini-3.6-flash'")  # D2b: 2 stray labels from the abandoned judgeA model
     conn.commit()
     n = 0
     for s in S:
